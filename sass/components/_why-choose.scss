@@ -1,0 +1,90 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+.why--choose--us {
+  padding-top: 80px;
+
+  .why--choose--us--bg {
+    background-color: #f2f2f2;
+    padding: 80px 0;
+    position: relative;
+
+    .why--choose--text--slider {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      width: 100%;
+      transform: translateY(-50%);
+      flex-direction: row;
+      white-space: nowrap;
+
+
+      .why--choose--text--slider--title {
+        @include font(156px, 700);
+        color: #ddd;
+        overflow: hidden;
+      }
+    }
+
+    .why--choose--main--content {
+      position: relative;
+      z-index: 99;
+    }
+
+    .services--title {
+      position: sticky;
+      top: 80px;
+      bottom: 0;
+    }
+
+    .choose--item {
+      transition: all 0.4s ease 0s;
+      padding: 30px 30px;
+      background-color: $white;
+      border-radius: 10px;
+
+      .choose--title--box {
+        margin-bottom: 40px;
+        padding-left: 90px;
+
+        .choose--item--icon {
+          top: 0;
+          left: 0;
+          width: 70px;
+          height: 70px;
+          border-radius: 50%;
+          background-color: $themeColor;
+          padding: 18px
+        }
+
+        .choose--item--title {
+          @include font(22px, 700);
+          color: $black;
+          padding-top: 22px;
+        }
+      }
+
+      .choose--des {
+        color: $black;
+      }
+    }
+
+    .choose--list+.choose--list {
+      margin-top: 24px;
+    }
+
+    .active--list {
+      .choose--item {
+        background-color: $black;
+
+        .choose--item--title {
+          color: $white;
+        }
+
+        .choose--des {
+          color: $white;
+        }
+      }
+    }
+  }
+}

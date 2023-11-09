@@ -1,0 +1,127 @@
+@import "../variable/variable";
+@import "../mixin/font";
+@import "../mixin/line-limit";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  @include font(16px, 400);
+  line-height: 28px;
+  color: $para;
+}
+
+span {
+  display: inline-block;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+  @include font(15px, 400);
+  color: $black;
+  position: relative;
+  font-family: 'Arimo', sans-serif;
+}
+
+.common--subtitle {
+  @include font(15px, 500);
+  border-radius: 8px;
+  background-color: $themeColor;
+  padding: 5px 15px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.common--title {
+  @include font(48px, 700);
+  line-height: 56px;
+}
+
+.common--button {
+  @include font(16px, 600);
+  background-color: $themeColor;
+  padding: 13px 36px;
+  color: $black;
+  border-radius: 50px;
+  transition: all 0.3s ease 0s;
+  margin-top: 30px;
+
+  &:hover {
+    background-color: $black;
+    color: $white;
+  }
+}
+
+
+// line limit part
+.line_limit_1 {
+  @include line_limit(1)
+}
+
+.line_limit_2 {
+  @include line_limit(2)
+}
+
+.line_limit_3 {
+  @include line_limit(3)
+}
+
+.line_limit_4 {
+  @include line_limit(4)
+}
+
+.line_limit_5 {
+  @include line_limit(5)
+}
+
+.line_limit_6 {
+  @include line_limit(6)
+}
+
+.line_limit_7 {
+  @include line_limit(7)
+}
+
+.line_limit_8 {
+  @include line_limit(8)
+}
+
+.line_limit_9 {
+  @include line_limit(9)
+}
+
+.line_limit_10 {
+  @include line_limit(10)
+}
+
+
+::selection {
+  background-color: $themeColor;
+  color: $black;
+}

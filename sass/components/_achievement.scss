@@ -1,0 +1,33 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+.achievement {
+  padding-top: 80px;
+
+  .achievement--main {
+    margin-top: 60px;
+
+    .achievement--item {
+      border-radius: 50%;
+      width: 340px;
+      height: 340px;
+      border: 1px solid #ddd;
+      margin: 0 -21px;
+      padding: 105px;
+
+      h3 {
+        @include font(62px, 700);
+        line-height: 80px;
+      }
+
+      p {
+        @include font(16px, 500);
+        line-height: 24px;
+      }
+    }
+
+    .achievement--item--2 {
+      border-color: $themeColor;
+    }
+  }
+}

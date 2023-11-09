@@ -1,0 +1,1333 @@
+@media (min-width:1800px){}
+
+@media (min-width:1600px) and (max-width:1799.98px){}
+
+@media (min-width:1400px) and (max-width:1599.98px){
+
+  .common--title {
+    font-size: 45px;
+    line-height: 50px;
+  }
+  // end of common
+
+  .banner .banner--item .banner--overlay .banner--content {
+    padding: 280px 0 0 90px;
+
+    .banner--title {
+      font-size: 65px;
+    }
+  }
+  // end of banner
+
+  .tab-content, .services--list{
+    padding-left: 40px;
+  }
+  // end of service
+
+  .projects .projects--main {
+    margin: 60px 40px 0;
+  }
+  // end of project
+
+  .why--choose--us--bg .why--choose--text--slider .why--choose--text--slider--title,
+  .pricing--plan .pricing--plan--text--slider .pricing--plan--text--slider--title {
+    font-size: 140px !important;
+  }
+  // end of why us
+
+  .awards .awards--main .awards--item{
+    .awards--title h3 {
+      font-size: 25px;
+    }
+    .awards--date h4 {
+      font-size: 22px;
+    }
+  } 
+  // end of award
+
+  .achievement .achievement--main {
+    margin: 60px 40px 0;
+
+    .achievement--item {
+      width: 300px;
+      height: 300px;
+      padding: 100px;
+
+      h3 {
+        font-size: 50px;
+      }
+    }
+  }
+  // end of achieved
+
+  .pricing--plan .pricing--plan--main .pricing--plan--item .prices .total--price {
+    font-size: 45px;
+  }
+  // end of pricing
+
+  footer .footer--bg .footer--main--content{
+    .footer--title {
+      font-size: 24px;
+    }
+    .footer--about h4 {
+      font-size: 38px;
+    }
+
+  }
+}
+
+@media (min-width:1200px) and (max-width:1399.98px){
+  .common--title {
+    font-size: 40px;
+    line-height: 45px;
+  }
+  .common--button {
+    font-size: 15px;
+    padding: 12px 30px;
+    margin-top: 30px;
+  }
+
+  .testimonial, .achievement, .experiance--banner, .awards, .why--choose--us, .services, .services .services--bg, .projects, .about, .news, footer {
+    padding-top: 65px;
+  }
+
+  .pricing--plan .pricing--plan--bg, .experiance--banner .experiance--banner--bg, .why--choose--us .why--choose--us--bg, footer .footer--bg .footer--main--content .footer--about {
+    padding: 65px 0;
+  }
+
+  .awards .awards--main, .news .news--main {
+    margin-top: 50px;
+  }
+
+  // end of common
+
+  .banner .banner--item .banner--overlay .banner--content {
+    padding: 260px 0 0 90px;
+
+    .banner--title {
+      font-size: 60px;
+      line-height: 60px;
+    }
+  }
+  // end of banner
+
+  .tab-content{
+    padding-left: 40px;
+  }
+  .services .services--bg .services--main .nav-pills .nav-link .service--item .service--title {
+    font-size: 24px;
+  }
+  // end of service
+
+  .why--choose--us--bg .why--choose--text--slider .why--choose--text--slider--title,
+  .pricing--plan .pricing--plan--text--slider .pricing--plan--text--slider--title {
+    font-size: 130px !important;
+  }
+  // end of why us
+
+  .awards .awards--main .awards--item {
+    .awards--title h3 {
+      font-size: 24px;
+    }
+    .awards--date h4 {
+      font-size: 20px;
+    }
+    .awards--logo img {
+      width: 140px;
+    }
+  } 
+  // end of award
+
+  .achievement .achievement--main {
+    margin: 60px 65px 0;
+
+    .achievement--item {
+      width: 280px;
+      height: 280px;
+      padding: 70px;
+
+      h3 {
+        font-size: 45px;
+      }
+    }
+  }
+  // end of achieved
+
+  .testimonial .testimonial--bg {
+    padding: 65px 0;
+    padding-bottom: 140px;
+
+    .testimonial--main{
+      margin-top: 50px;
+
+      .testimonial--text{
+        p {
+          font-size: 18px;
+          line-height: 30px;
+          margin-bottom: 20px;
+        }
+    
+        h4 {
+          font-size: 22px;
+        }
+      }
+
+      .testimonial--image {
+        width: 180px;
+        height: 180px;
+
+        &::before{
+          height: 180px;
+        }
+      }
+    }  
+  }
+  // end of testimonial
+
+  .pricing--plan .pricing--plan--main .pricing--plan--item {
+    padding: 45px;
+    min-height: 260px;
+
+    .prices .total--price {
+      font-size: 40px;
+    }
+  }
+  // end of pricing
+
+  .news--item .news--text {
+    margin-top: 20px;
+
+    .news--title {
+      font-size: 20px;
+      margin-top: 10px;
+      margin-bottom: 15px;
+    }
+  }
+  // end of news
+
+
+  footer .footer--bg{
+    padding: 50px 0 0px 0;
+
+    .footer--main--content{
+      .footer--title {
+        font-size: 22px;
+      }
+      .footer--about h4 {
+        font-size: 32px;
+      }
+    }
+  } 
+}
+
+@media (min-width:992px) and (max-width:1199.98px){
+
+  .common--title {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .common--button {
+    font-size: 15px;
+    padding: 12px 30px;
+    margin-top: 20px;
+  }
+  .testimonial, .achievement, .experiance--banner, .awards, .why--choose--us, .services, .services .services--bg, .projects, .about, .news, footer {
+    padding-top: 60px;
+  }
+
+  .pricing--plan .pricing--plan--bg, .experiance--banner .experiance--banner--bg, .why--choose--us .why--choose--us--bg, footer .footer--bg .footer--main--content .footer--about {
+    padding: 60px 0;
+  }
+
+  .awards .awards--main, .news .news--main {
+    margin-top: 45px;
+  }
+  // end of common
+
+  .mobile-menu {
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .mobile-topbar {
+    background-color: transparent;
+  }
+
+  // menu part end
+
+  .banner .banner--item .banner--overlay .banner--content {
+    padding: 260px 0 0 100px;
+
+    .banner--title {
+      font-size: 50px;
+      line-height: 55px;
+    }
+  }
+  .banner {
+    .slick-dots {
+      display: block !important;
+    }
+
+    .icon {
+      display: none !important;
+    }
+  }
+  // end of banner
+
+  .tab-content{
+    padding-left: 40px;
+  }
+
+  .services .services--bg .services--main .nav-pills .nav-link .service--item{
+    .service--arrow {
+      right: -45px;
+    }
+    .service--title {
+      font-size: 22px;
+    }
+  } 
+
+  .service--image {
+    width: 300px;
+  }
+  // end of service
+
+  .why--choose--us .why--choose--us--bg .choose--item .choose--title--box {
+    .choose--item--icon {
+      width: 60px;
+      height: 60px;
+      padding: 15px;
+    }
+    .choose--item--title {
+      font-size: 20px;
+      padding-top: 15px;
+    }
+  }
+
+  .why--choose--us--bg .why--choose--text--slider .why--choose--text--slider--title,
+  .pricing--plan .pricing--plan--text--slider .pricing--plan--text--slider--title {
+    font-size: 120px !important;
+  }
+  // end of why us
+
+  .awards .awards--main .awards--item {
+    .awards--title h3 {
+      font-size: 22px;
+    }
+    .awards--date h4 {
+      font-size: 18px;
+    }
+    .awards--logo img {
+      width: 130px;
+    }
+  } 
+  // end of award
+
+  .achievement .achievement--main {
+    margin: 60px 50px 0;
+
+    .achievement--item {
+      width: 240px;
+      height: 240px;
+      padding: 70px;
+
+      h3 {
+        font-size: 45px;
+      }
+    }
+  }
+  // end of achieved
+
+  .testimonial .testimonial--bg {
+    padding: 65px 0;
+    padding-bottom: 140px;
+
+    .testimonial--main{
+      margin-top: 40px;
+
+      .testimonial--text{
+        p {
+          font-size: 17px;
+          line-height: 25px;
+          margin-bottom: 15px;
+        }
+    
+        h4 {
+          font-size: 22px;
+        }
+      }
+
+      .testimonial--image {
+        width: 170px;
+        height: 170px;
+
+        &::before{
+          height: 170px;
+          right: -30px;
+        }
+      }
+    }  
+  }
+  // end of testimonial
+
+  .pricing--plan .pricing--plan--main .pricing--plan--item {
+    padding: 30px;
+    min-height: 260px;
+
+    .prices .total--price {
+      font-size: 40px;
+    }
+
+    .prices {
+      margin-left: 0;
+      margin-top: 35px;
+    }
+  }
+  // end of pricing
+
+  .news--item .news--text {
+    margin-top: 15px;
+
+    .news--title {
+      font-size: 20px;
+      margin-top: 10px;
+      margin-bottom: 15px;
+    }
+    .learn--more {
+      padding-top: 15px;
+    }
+    
+  }
+  // end of news
+
+  footer .footer--bg{
+    padding: 40px 0 0px 0;
+
+    .footer--main--content{
+      .footer--title {
+        font-size: 22px;
+      }
+      .footer--about h4 {
+        font-size: 32px;
+      }
+    }
+  } 
+}
+
+@media (min-width:768px) and (max-width:991.98px){
+  .common--title {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .common--button {
+    font-size: 15px;
+    padding: 12px 30px;
+    margin: 20px 0;
+  }
+  .testimonial, .achievement, .experiance--banner, .awards, .why--choose--us, .services, .services .services--bg, .projects, .about, .news, footer {
+    padding-top: 70px;
+  }
+
+  .pricing--plan .pricing--plan--bg, .experiance--banner .experiance--banner--bg, .why--choose--us .why--choose--us--bg, footer .footer--bg .footer--main--content .footer--about {
+    padding: 70px 0;
+  }
+
+  .awards .awards--main, .news .news--main {
+    margin-top: 50px;
+  }
+  // end of common
+
+  .mobile-menu {
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .mobile-topbar {
+    background-color: transparent;
+  }
+
+  // menu part end
+
+  .about .about--image{
+
+    .about--image--big {
+      max-width: 100%;
+    }
+    .about--image--sm {
+      margin-right: 0;
+      margin-top: -200px;
+    }
+
+  }
+
+  // end of about
+  
+  
+  .banner .banner--item .banner--overlay .banner--content {
+    padding: 260px 0 0 0;
+
+    .banner--title {
+      font-size: 45px;
+      line-height: 55px;
+    }
+  }
+
+  .banner {
+    .slick-dots {
+      display: block !important;
+    }
+
+    .icon {
+      display: none !important;
+    }
+  }
+  // end of banner
+
+  .services .services--bg .services--main .nav-pills .nav-link .service--item{
+    .service--title {
+      font-size: 24px;
+    }
+    .service--title, .service--descriptoin {
+      // font-size: 22px;
+      max-width: 90%;
+    }
+  }
+
+  .service--image {
+    margin-bottom: 40px;
+    width: 100%;
+    transform: rotate(30deg);
+    transition: all 0.5s ease;
+
+    &::before{
+      content: none !important;
+    }
+  }
+
+  .tab-pane.show {
+    .service--image {
+      transform: rotate(0deg) !important;
+    }
+  }
+  // end of servive
+
+  .why--choose--us--bg{
+    padding-top: 90px !important;
+  }
+  .why--choose--us--bg .why--choose--text--slider{
+    top: 4% !important;
+
+    .why--choose--text--slider--title{
+      font-size: 100px !important;
+    }
+  } 
+  // end of why us
+
+  .awards .awards--main .awards--item {
+    .awards--title h3 {
+      font-size: 26px;
+    }
+    .awards--date h4 {
+      font-size: 22px;
+    }
+    .awards--logo img {
+      width: 130px;
+    }
+  } 
+  // end of award
+
+  
+  .achievement .achievement--main {
+    margin: 60px 0 0;
+
+    .achievement--item {
+      width: 320px;
+      height: 240px;
+      padding: 70px;
+      border-radius: 5%;
+      margin: 0 auto;
+
+      h3 {
+        font-size: 45px;
+      }
+    }
+  }
+  // end of achieved
+
+  .testimonial .testimonial--bg {
+    padding: 70px 0;
+    // padding-bottom: 0px;
+
+    .testimonial--main{
+      margin-top: 40px;
+
+      .testimonial--text{
+        text-align: center;
+
+        p {
+          font-size: 18px;
+          line-height: 26px;
+          margin: 20px 0;
+        }
+    
+        h4 {
+          font-size: 24px;
+        }
+      }
+
+      .testimonial--image {
+        width: 180px;
+        height: 180px;
+        margin: 0 auto;
+
+        &::before{
+         content: none !important;
+        }
+      }
+    }  
+  }
+// end of testimonial
+
+  .pricing--plan{
+    .pricing--plan--bg{
+      padding-top: 90px !important;
+    }
+
+    .pricing--plan--text--slider{
+      top: 4% !important;
+  
+      .pricing--plan--text--slider--title {
+        font-size: 100px !important;
+      }
+    }
+
+    .pricing--plan--main .pricing--plan--item {
+      padding: 40px;
+      min-height: 250px;
+  
+      .prices .total--price {
+        font-size: 42px;
+      }
+  
+      .prices {
+        margin-left: 0;
+      }
+
+      .best--price {
+        font-size: 15px;
+        top: 35px;
+        right: -45px;
+        left: unset;
+        transform: rotate(409deg);
+      }
+    }
+
+  } 
+  // end of pricing
+  footer .footer--bg{
+    padding: 40px 0 0px 0;
+
+    .footer--main--content{
+      .footer--title {
+        font-size: 22px;
+      }
+
+      .footer--about {
+        border-right: none;
+
+        h4 {
+          font-size: 35px;
+        }
+      }
+    }
+  } 
+}
+
+@media (min-width:576px) and (max-width:767.98px) {
+  .common--button {
+    font-size: 15px;
+    padding: 12px 30px;
+    margin: 20px 0;
+  }
+
+  p {
+    font-size: 15px;
+    line-height: 26px;
+  }
+
+  // menu part start
+  .mobile-menu {
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .mobile-topbar {
+    background-color: transparent;
+  }
+
+  // menu part end
+  // banner part start
+  .banner .banner--item {
+    height: 55vh;
+  }
+
+  .banner .banner--item .banner--overlay .banner--content {
+    padding: 125px 0;
+  }
+
+  .common--subtitle {
+    font-size: 14px;
+  }
+
+  .banner .banner--item .banner--overlay .banner--content .banner--title {
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 38px;
+    margin-top: 10px;
+    color: #ffffff;
+    text-transform: capitalize;
+  }
+
+  .banner {
+    .slick-dots {
+      display: block !important;
+    }
+
+    .icon {
+      display: none !important;
+    }
+  }
+
+  // banner part end
+
+  // about part start
+  .about {
+    padding-top: 60px;
+
+    .about--text {
+      margin-bottom: 30px;
+    }
+  }
+
+  .common--title {
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  .about .about--image .about--image--big {
+    max-width: unset;
+  }
+
+  .about .about--image .about--image--sm {
+    display: none;
+  }
+
+  // about part end
+  
+  .services .services--bg .services--main .nav-pills .nav-link .service--item{
+    .service--title {
+      font-size: 24px;
+    }
+    .service--title, .service--descriptoin {
+      // font-size: 22px;
+      max-width: 90%;
+    }
+  }
+
+  .service--image {
+    margin-bottom: 40px;
+    width: 100%;
+    transform: rotate(30deg);
+    transition: all 0.5s ease;
+
+    &::before{
+      content: none !important;
+    }
+  }
+
+  .tab-pane.show {
+    .service--image {
+      transform: rotate(0deg) !important;
+    }
+  }
+  // end of servive
+
+
+  // projects part start
+  .projects {
+    padding-top: 60px;
+  }
+
+  .projects .projects--main {
+    margin-top: 30px;
+  }
+
+  .projects .projects--main .project--sorting:nth-child(2n) {
+    margin-top: 0;
+  }
+
+  .projects .projects--main .project--sorting+.project--sorting {
+    margin-top: 24px;
+  }
+
+  .projects .projects--main .projects--item .projects--image .projects--text .projects--title {
+    font-size: 18px;
+  }
+
+  .projects .projects--main .projects--item .projects--image .projects--text .projects--tagline {
+    font-size: 14px;
+  }
+
+  .projects .projects--main .projects--item .projects--image .projects--text {
+    padding: 20px;
+    padding-bottom: 20px;
+  }
+
+  // projects part end
+  // why choose us part start
+  .why--choose--us {
+    padding-top: 60px;
+  }
+
+  .why--choose--us .why--choose--us--bg {
+    padding: 60px 0;
+  }
+
+  .why--choose--us .why--choose--us--bg .services--title {
+    position: static;
+    margin-bottom: 30px;
+  }
+
+  .why--choose--us .why--choose--us--bg .choose--item .choose--title--box .choose--item--title {
+    padding-top: 0;
+    font-size: 22px;
+  }
+
+  .why--choose--us .why--choose--us--bg .choose--item .choose--title--box {
+    margin-bottom: 20px;
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+  }
+
+  // why choose us part end
+  // awards part start
+  .awards {
+    padding-top: 60px;
+
+    .awards--logo {
+      text-align: left !important;
+      margin: 10px 0;
+    }
+  }
+
+  .awards .awards--main {
+    margin-top: 30px;
+  }
+
+  .awards .awards--main .awards--item .awards--title h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .awards .awards--main .awards--item .awards--date h4 {
+    font-size: 20px;
+  }
+
+  .awards .awards--main .awards--item+.awards--item {
+    margin-top: 0px;
+  }
+  .pricing--plan .pricing--plan--main .pricing--plan--item .best--price {
+    top: 30px;
+    transform: rotate(-317deg);
+    right: -30px;
+  }
+  // awards part end
+  // experiance banner part start
+  .experiance--banner {
+    padding-top: 60px;
+  }
+
+  .experiance--banner .experiance--banner--bg {
+    padding: 60px 0;
+  }
+
+  // experiance banner part end
+  // achievement part start
+  .achievement {
+    padding-top: 60px;
+  }
+
+  .achievement .achievement--main {
+    margin-top: 30px;
+  }
+
+  .achievement .achievement--main .achievement--item {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    margin: 0 0;
+    padding: 60px;
+    margin-bottom: 24px;
+  }
+
+  // achievement part end
+
+  // testimonial part start
+  .testimonial {
+    padding-top: 36px;
+  }
+
+  .testimonial .testimonial--bg .testimonial--main {
+    margin-top: 30px;
+  }
+
+  .testimonial .testimonial--bg {
+    padding: 60px 0;
+    padding-bottom: 160px;
+  }
+
+  .testimonial .testimonial--bg .testimonial--main .testimonial--image::before {
+    display: none;
+  }
+
+  .testimonial .testimonial--bg .testimonial--main .testimonial--image {
+    width: 170px;
+    height: 170px;
+    margin: 0 auto;
+  }
+
+  .testimonial .testimonial--text {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .testimonial .testimonial--bg .testimonial--main .testimonial--text p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 24px;
+  }
+
+  .testimonial .arrow.left {
+    left: calc(50% - 30px);
+    transform: translateX(-50%);
+  }
+
+  .testimonial .arrow.right {
+    left: calc(50% - -30px);
+    transform: translateX(-50%);
+  }
+
+  // testimonial part end
+  // pricing plan part start
+  .pricing--plan .pricing--plan--bg {
+    padding: 60px 0;
+  }
+
+  .pricing--plan .pricing--plan--main .pricing--plan--title {
+    position: static;
+    margin-bottom: 24px;
+  }
+
+  .pricing--plan .pricing--plan--main .pricing--plan--item {
+    padding: 26px;
+  }
+
+  .pricing--plan .pricing--plan--main .pricing--plan--item .prices {
+    margin-left: 0;
+    margin-bottom: 24px;
+  }
+
+  .pricing--plan .pricing--plan--main .pricing--plan--item .best--price {
+    left: unset;
+    transform: rotate(-311deg);
+    right: -44px;
+  }
+
+  // pricing plan part end
+  // news part start
+  .news {
+    padding-top: 60px;
+  }
+
+  .news .news--main {
+    margin-top: 30px;
+  }
+
+  // news part end
+  // footer part start
+  footer {
+    padding-top: 60px;
+
+    .social--links {
+      text-align: left !important;
+    }
+  }
+
+  footer .footer--bg .footer--top .social--links ul li {
+    margin-left: 0;
+    margin-right: 16px;
+    margin-bottom: 5px;
+  }
+
+  footer .footer--bg .footer--main--content .footer--about {
+    padding: 40px 0;
+  }
+
+  footer .footer--bg .footer--main--content .footer--links {
+    padding-top: 0px;
+  }
+
+  .footer--btm .text {
+    text-align: left !important;
+  }
+
+  // footer part end
+}
+
+@media (max-width:575.98px) {
+
+  p {
+    font-size: 15px;
+    line-height: 26px;
+  }
+
+  // menu part start
+  .mobile-menu {
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .mobile-topbar {
+    background-color: transparent;
+  }
+
+  // menu part end
+  // banner part start
+  .banner .banner--item {
+    height: 55vh;
+  }
+
+  .banner .banner--item .banner--overlay .banner--content {
+    padding: 134px 0;
+    text-align: center;
+  }
+
+  .common--subtitle {
+    font-size: 14px;
+  }
+
+  .banner .banner--item .banner--overlay .banner--content .banner--title {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-top: 10px;
+    color: #ffffff;
+    text-transform: capitalize;
+  }
+
+  .banner {
+    .slick-dots {
+      display: block !important;
+    }
+
+    .icon {
+      display: none !important;
+    }
+  }
+
+  // banner part end
+
+  // about part start
+  .about {
+    padding-top: 60px;
+
+    .about--text {
+      margin-bottom: 30px;
+    }
+  }
+
+  .common--title {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .about .about--image .about--image--big {
+    max-width: unset;
+  }
+
+  .about .about--image .about--image--sm {
+    display: none;
+  }
+
+  // about part end
+  // services part start
+  .services .services--bg .services--main .nav-pills .nav-link .service--item{
+    .service--title {
+      font-size: 24px;
+    }
+    .service--title, .service--descriptoin {
+      // font-size: 22px;
+      max-width: 90%;
+    }
+  }
+
+  .service--image {
+    margin-bottom: 40px;
+    width: 100%;
+    transform: rotate(30deg);
+    transition: all 0.5s ease;
+
+    &::before{
+      content: none !important;
+    }
+  }
+
+  .tab-pane.show {
+    .service--image {
+      transform: rotate(0deg) !important;
+    }
+  }
+  
+
+  // services part end
+
+  // projects part start
+  .projects {
+    padding-top: 60px;
+  }
+
+  .projects .projects--main {
+    margin-top: 30px;
+  }
+
+  .projects .projects--main .project--sorting:nth-child(2n) {
+    margin-top: 0;
+  }
+
+  .projects .projects--main .project--sorting+.project--sorting {
+    margin-top: 24px;
+  }
+
+  .projects .projects--main .projects--item .projects--image .projects--text .projects--title {
+    font-size: 18px;
+  }
+
+  .projects .projects--main .projects--item .projects--image .projects--text .projects--tagline {
+    font-size: 14px;
+  }
+
+  .projects .projects--main .projects--item .projects--image .projects--text {
+    padding: 20px;
+    padding-bottom: 20px;
+  }
+
+  // projects part end
+  // why choose us part start
+  .why--choose--us {
+    padding-top: 60px;
+  }
+
+  .why--choose--us .why--choose--us--bg {
+    padding: 60px 0;
+  }
+
+  .why--choose--us .why--choose--us--bg .services--title {
+    position: static;
+    margin-bottom: 30px;
+  }
+
+  .why--choose--us .why--choose--us--bg .choose--item .choose--title--box .choose--item--title {
+    padding-top: 0;
+    font-size: 22px;
+  }
+
+  .why--choose--us .why--choose--us--bg .choose--item .choose--title--box {
+    margin-bottom: 20px;
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+  }
+
+  // why choose us part end
+  // awards part start
+  .awards {
+    padding-top: 60px;
+
+    .awards--logo {
+      text-align: left !important;
+      margin: 10px 0;
+    }
+  }
+
+  .awards .awards--main {
+    margin-top: 30px;
+  }
+
+  .awards .awards--main .awards--item .awards--title h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .awards .awards--main .awards--item .awards--date h4 {
+    font-size: 20px;
+  }
+
+  .awards .awards--main .awards--item+.awards--item {
+    margin-top: 0px;
+  }
+
+  // awards part end
+  // experiance banner part start
+  .experiance--banner {
+    padding-top: 60px;
+  }
+
+  .experiance--banner .experiance--banner--bg {
+    padding: 60px 0;
+  }
+
+  // experiance banner part end
+  // achievement part start
+  .achievement {
+    padding-top: 60px;
+  }
+
+  .achievement .achievement--main {
+    margin-top: 30px;
+  }
+
+  .achievement .achievement--main .achievement--item {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    margin: 0 0;
+    padding: 60px;
+    margin-bottom: 24px;
+  }
+
+  // achievement part end
+
+  // testimonial part start
+  .testimonial {
+    padding-top: 36px;
+  }
+
+  .testimonial .testimonial--bg .testimonial--main {
+    margin-top: 30px;
+  }
+
+  .testimonial .testimonial--bg {
+    padding: 60px 0;
+    padding-bottom: 160px;
+  }
+
+  .testimonial .testimonial--bg .testimonial--main .testimonial--image::before {
+    display: none;
+  }
+
+  .testimonial .testimonial--bg .testimonial--main .testimonial--image {
+    width: 170px;
+    height: 170px;
+    margin: 0 auto;
+  }
+
+  .testimonial .testimonial--text {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .testimonial .testimonial--bg .testimonial--main .testimonial--text p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 24px;
+  }
+
+  .testimonial .arrow.left {
+    left: calc(50% - 30px);
+    transform: translateX(-50%);
+  }
+
+  .testimonial .arrow.right {
+    left: calc(50% - -30px);
+    transform: translateX(-50%);
+  }
+
+  // testimonial part end
+  // pricing plan part start
+  .pricing--plan .pricing--plan--bg {
+    padding: 60px 0;
+  }
+
+  .pricing--plan .pricing--plan--main .pricing--plan--title {
+    position: static;
+    margin-bottom: 24px;
+  }
+
+  .pricing--plan .pricing--plan--main .pricing--plan--item {
+    padding: 26px;
+  }
+
+  .pricing--plan .pricing--plan--main .pricing--plan--item .prices {
+    margin-left: 0;
+    margin-bottom: 24px;
+  }
+
+  .pricing--plan .pricing--plan--main .pricing--plan--item .best--price {
+    left: unset;
+    transform: rotate(-311deg);
+    right: -44px;
+  }
+
+  // pricing plan part end
+  // news part start
+  .news {
+    padding-top: 60px;
+  }
+
+  .news .news--main {
+    margin-top: 30px;
+  }
+
+  // news part end
+  // footer part start
+  footer {
+    padding-top: 60px;
+
+    .social--links {
+      text-align: left !important;
+    }
+  }
+
+  footer .footer--bg .footer--top .social--links ul li {
+    margin-left: 0;
+    margin-right: 16px;
+    margin-bottom: 5px;
+  }
+
+  footer .footer--bg .footer--main--content .footer--about {
+    padding: 40px 0;
+  }
+
+  footer .footer--bg .footer--main--content .footer--links {
+    padding-top: 0px;
+  }
+
+  .footer--btm .text {
+    text-align: left !important;
+  }
+
+  // footer part end
+}
+
+// @media (max-width:480.98px) {
+  
+// }

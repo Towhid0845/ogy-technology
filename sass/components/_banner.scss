@@ -1,0 +1,96 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+.banner {
+
+  .banner--item {
+    height: 91vh;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+
+    .banner--overlay {
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+
+      .banner--content {
+        padding: 250px 0;
+
+        .banner--title {
+          @include font(72px, 700);
+          line-height: 70px;
+          margin-top: 10px;
+          color: $white;
+          text-transform: capitalize;
+        }
+      }
+    }
+  }
+
+  &:hover {
+    .icon {
+      opacity: 1 !important;
+    }
+  }
+
+
+  .icon {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    color: $white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 18px;
+    transition: all linear .2s;
+    background-color: rgba(0, 0, 0, 0.3);
+    opacity: 0;
+  }
+
+  .left {
+    left: 60px;
+    z-index: 9;
+  }
+
+  .right {
+    right: 60px;
+  }
+
+  .icon:hover {
+    opacity: 1;
+  }
+
+  .slick-dots {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none !important;
+
+    li {
+      list-style: none;
+      display: inline-block;
+      margin: 0 3px;
+
+      button {
+        font-size: 0;
+        border-radius: 50%;
+        border: 0;
+        width: 12px;
+        height: 12px;
+        background-color: #BABABB;
+      }
+
+      &.slick-active {
+        button {
+          background-color: $themeColor;
+        }
+      }
+    }
+  }
+}

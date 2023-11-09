@@ -1,0 +1,156 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+
+.about--page {
+  padding-top: 80px;
+
+  .about--company {
+    .image {
+      overflow: hidden;
+      border-radius: 10px;
+    }
+
+    .show--two--service {
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 30px;
+      margin-top: 40px;
+
+      .service--item {
+        .service--icon {
+          margin-bottom: 16px;
+
+          i {
+            width: 65px;
+            height: 60px;
+            background-color: $themeColor;
+            border-radius: 5px;
+            text-align: center;
+            line-height: 60px;
+            font-size: 28px;
+          }
+        }
+
+        .service--info {
+          h4 {
+            @include font(20px, 600);
+            margin-bottom: 10px;
+          }
+        }
+      }
+    }
+
+    .call--use {
+      position: relative;
+      margin-top: 40px;
+      padding-left: 60px;
+
+      .icon {
+        position: absolute;
+        top: 10px;
+        left: 0;
+
+        i {
+          font-size: 32px
+        }
+      }
+
+      .info {
+        h4 {
+          @include font(24px, 600);
+
+          a {
+            color: $black;
+          }
+        }
+      }
+    }
+
+  }
+
+  .our--services {
+    padding-top: 80px;
+
+    .services--bg {
+      background-color: #F2F2F2;
+      padding: 80px 0;
+
+      .services--main {
+        margin-top: 60px;
+
+        .service--item {
+          background-color: $white;
+          border-radius: 10px;
+          padding: 40px 30px;
+          transition: all linear .2s;
+
+          h4 {
+            @include font(24px, 600);
+            margin-bottom: 8px;
+          }
+
+          a {
+            margin-top: 30px;
+            width: 50px;
+            height: 50px;
+            background-color: $themeColor;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 50px;
+            color: $black;
+            font-size: 16px;
+            transition: all linear .2s;
+
+            &:hover {
+              background-color: $black;
+              color: $white;
+            }
+          }
+
+          &:hover {
+            margin-top: -10px;
+          }
+        }
+      }
+    }
+  }
+
+  .award {
+    background-color: $black;
+
+    .award--bg {
+      padding: 80px 0;
+      background-repeat: no-repeat !important;
+      background-size: cover !important;
+      background-position: center !important;
+    }
+
+    .award--main {
+      padding-top: 60px;
+
+      .award--item {
+        width: 280px;
+        height: 280px;
+        border-radius: 50%;
+        border: 1px solid rgba(221, 221, 221, 0.2);
+        padding: 40px;
+
+        .icon {
+          filter: brightness(0) invert(1);
+        }
+
+        .text {
+          h3 {
+            @include font(42px, 700);
+            color: $white;
+            margin: 15px 0;
+          }
+
+          p {
+            color: rgba(255, 255, 255, 0.7);
+          }
+        }
+      }
+    }
+  }
+}
