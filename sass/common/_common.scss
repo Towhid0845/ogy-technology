@@ -50,10 +50,10 @@ body {
 }
 
 .common--subtitle {
-  @include font(15px, 500);
-  border-radius: 8px;
+  @include font(32px, 500);
+    border-radius: 70px 0px;
   background-color: $themeColor;
-  padding: 5px 15px;
+  padding: 10px 40px;
   text-transform: uppercase;
   margin-bottom: 10px;
 }

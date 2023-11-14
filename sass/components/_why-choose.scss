@@ -42,10 +42,24 @@
       padding: 30px 30px;
       background-color: $white;
       border-radius: 10px;
+      .choose--img {
+          width: 35%;
+          height: 170px;
+      
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+          }
+        }
+      
+        .choose--desc {
+          width: 65%;
+          padding-left: 20px;
 
       .choose--title--box {
-        margin-bottom: 40px;
-        padding-left: 90px;
+        margin-bottom: 30px;
+          // padding-left: 90px;
 
         .choose--item--icon {
           top: 0;
@@ -60,13 +74,17 @@
         .choose--item--title {
           @include font(22px, 700);
           color: $black;
-          padding-top: 22px;
-        }
-      }
-
+          height: 55px;
+          
+            // padding-top: 22px;
+          
+          }
+          }
       .choose--des {
         color: $black;
-      }
+        // padding-top: 40px;
+        }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                }
     }
 
     .choose--list+.choose--list {
@@ -77,13 +95,15 @@
       .choose--item {
         background-color: $black;
 
-        .choose--item--title {
-          color: $white;
-        }
+.choose--desc {
+.choose--item--title {
+    color: $white;
+  }
 
-        .choose--des {
-          color: $white;
-        }
+.choose--des {
+  color: $white;
+}
+}
       }
     }
   }

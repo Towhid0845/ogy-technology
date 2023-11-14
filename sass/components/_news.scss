@@ -16,6 +16,8 @@
 
     img {
       transition: all 0.3s ease 0s;
+      object-fit: cover;
+        height: 100%;
     }
   }
 
@@ -28,7 +30,7 @@
   }
 
   .news--text {
-    margin-top: 24px;
+    margin-top: 18px;
 
     .dates {
       ul {

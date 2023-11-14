@@ -39,25 +39,26 @@
             margin-bottom: 10px;
             display: inline-block;
             padding: 5px 12px;
-            position: relative;
+            // position: relative;
             z-index: 9;
-            opacity: 0;
+            // opacity: 0;
             transition: all 0.3s ease 0s;
-
-
-            &::before {
-              width: 0%;
-              height: 100%;
-              position: absolute;
-              top: 0;
-              left: 0;
+            opacity: 1;
               background-color: $white;
-              content: "";
-              z-index: -1;
-              border-radius: 5px;
-              transition: all 0.6s ease 0s;
-              opacity: 0;
-            }
+            border-radius: 5px;
+// &::before {
+  //   width: 0%;
+  //   height: 100%;
+  //   position: absolute;
+  //   top: 0;
+  //   left: 0;
+  //   background-color: $white;
+  //   content: "";
+  //   z-index: -1;
+  //   border-radius: 5px;
+  //   transition: all 0.6s ease 0s;
+  //   opacity: 1;
+  // }
           }
 
           .projects--tagline {
@@ -65,50 +66,53 @@
             text-transform: uppercase;
             color: $black;
             display: inline-block;
-            position: relative;
+            // position: relative;
             padding: 3px 12px;
             z-index: 9;
-            opacity: 0;
+            // opacity: 0;
             transition: all 0.3s ease 0s;
-
-
-            &::before {
-              position: absolute;
-              top: 0;
-              left: 0;
-              width: 0%;
-              height: 100%;
-              background-color: $themeColor;
-              content: "";
-              z-index: -1;
+            opacity: 1;
               border-radius: 5px;
-              transition: all 0.6s ease 0s;
-              opacity: 0;
-            }
+              background-color: $themeColor;
+
+
+            // &::before {
+              //   position: absolute;
+              //   top: 0;
+              //   left: 0;
+              //   width: 0%;
+              //   height: 100%;
+              //   background-color: $themeColor;
+              //   content: "";
+              //   z-index: -1;
+              //   border-radius: 5px;
+              //   transition: all 0.6s ease 0s;
+              //   opacity: 1;
+              // }
           }
         }
       }
 
-      &:hover {
+                                                                                                                                                                                                                                                                                                                                                                                                // &:hover {
 
-        .projects--title {
-          opacity: 1 !important;
+      //   .projects--title {
+        //     opacity: 1 !important;
 
-          &::before {
-            width: 100% !important;
-            opacity: 1 !important;
-          }
-        }
+      //     &::before {
+        //       width: 100% !important;
+        //       opacity: 1 !important;
+        //     }
+        //   }
 
-        .projects--tagline {
-          opacity: 1 !important;
+                                                                                                                                                                                                                                                                                                                                                                                                //   .projects--tagline {
+                                                                                                                                                                                                                                                                                                                                                                                                //     opacity: 1 !important;
 
-          &::before {
-            width: 100% !important;
-            opacity: 1 !important;
-          }
-        }
-      }
+      //     &::before {
+        //       width: 100% !important;
+        //       opacity: 1 !important;
+        //     }
+        //   }
+        // }
     }
 
     .project--sorting:nth-child(even) {

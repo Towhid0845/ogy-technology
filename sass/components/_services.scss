@@ -3,7 +3,7 @@
 
 // @media (min-width:992px) {
   .service--image {
-    width: 367px;
+    width: 500px;
     transform: rotate(6deg);
     transition: all 0.5s ease;
   }
@@ -80,35 +80,44 @@
             color: $white;
           }
 
-          .service--line {
-            width: 100%;
-            height: 5px;
-            border-radius: 10px;
-            background-color: #f2f2f2;
-            visibility: hidden;
-            opacity: 0;
-            transition: all linear .3s;
+                                                                                                                                                                // .service--line {
+                                                                                                                                                                //   width: 100%;
+                                                                                                                                                                //   height: 5px;
+                                                                                                                                                                //   border-radius: 10px;
+                                                                                                                                                                //   background-color: #f2f2f2;
+                                                                                                                                                                //   visibility: hidden;
+                                                                                                                                                                //   opacity: 0;
+                                                                                                                                                                //   transition: all linear .3s;
 
-            .service--progress {
-              width: 45%;
-              height: 5px;
-              border-radius: 10px;
-              background-color: $themeColor;
-              position: relative;
+          //   .service--progress {
+            //     width: 45%;
+            //     height: 5px;
+            //     border-radius: 10px;
+            //     background-color: $themeColor;
+            //     position: relative;
+          
+            //     span {
+            //       @include font(14px, 700);
+            //       color: $black;
+            //       padding: 5px 10px;
+            //       border-radius: 10px;
+            //       background-color: $themeColor;
+            //       position: absolute;
+            //       top: 50%;
+            //       right: 0;
+            //       transform: translateY(-50%);
+            //     }
+            //   }
+            // }
+            .common--button {
+              margin-top: 10px;
+              margin-bottom: 20px;
 
-              span {
-                @include font(14px, 700);
-                color: $black;
-                padding: 5px 10px;
-                border-radius: 10px;
-                background-color: $themeColor;
-                position: absolute;
-                top: 50%;
-                right: 0;
-                transform: translateY(-50%);
-              }
-            }
-          }
+&:hover {
+    background-color: $white;
+    color: $black;
+}
+}
 
           .service--arrow {
             position: absolute;
