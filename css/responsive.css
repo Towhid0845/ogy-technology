@@ -70,13 +70,16 @@
   .projects,
   .about,
   .news,
-  footer {
+  footer,
+  .portfolio-single {
     padding-top: 65px;
   }
   .pricing--plan .pricing--plan--bg,
   .experiance--banner .experiance--banner--bg,
   .why--choose--us .why--choose--us--bg,
-  footer .footer--bg .footer--main--content .footer--about {
+  footer .footer--bg .footer--main--content .footer--about,
+  .portfolio-single .project-detail,
+  .testimonial .testimonial--bg {
     padding: 65px 0;
   }
   .awards .awards--main,
@@ -90,6 +93,17 @@
     font-size: 60px;
     line-height: 60px;
   }
+  .about--page .award .award--main .award--item {
+    width: 250px;
+    height: 250px;
+    padding: 30px;
+  }
+  .about--page .award .award--main .award--item .icon img {
+    width: 50px;
+  }
+  .about--page .award .award--main .award--item .text h3 {
+    font-size: 36px;
+  }
   .tab-content {
     padding-left: 40px;
   }
@@ -99,18 +113,18 @@
   .service--image {
     width: 430px;
   }
+  .service-single .project-detail {
+    margin-bottom: -65px !important;
+  }
+  .rl-service .text {
+    width: 240px;
+  }
   .why--choose--us--bg .why--choose--text--slider .why--choose--text--slider--title,
   .pricing--plan .pricing--plan--text--slider .pricing--plan--text--slider--title {
     font-size: 130px !important;
   }
-  .awards .awards--main .awards--item .awards--title h3 {
-    font-size: 24px;
-  }
-  .awards .awards--main .awards--item .awards--date h4 {
-    font-size: 20px;
-  }
-  .awards .awards--main .awards--item .awards--logo img {
-    width: 140px;
+  .news-details-page .news-left .image {
+    height: 500px;
   }
   .achievement .achievement--main {
     margin: 60px 65px 0;
@@ -124,7 +138,6 @@
     font-size: 45px;
   }
   .testimonial .testimonial--bg {
-    padding: 65px 0;
     padding-bottom: 140px;
   }
   .testimonial .testimonial--bg .testimonial--main {
@@ -196,13 +209,20 @@
   .projects,
   .about,
   .news,
-  footer {
+  footer,
+  .about--page,
+  .portfolio-single,
+  .about--page .our--services {
     padding-top: 60px;
   }
   .pricing--plan .pricing--plan--bg,
   .experiance--banner .experiance--banner--bg,
   .why--choose--us .why--choose--us--bg,
-  footer .footer--bg .footer--main--content .footer--about {
+  footer .footer--bg .footer--main--content .footer--about,
+  .about--page .our--services .services--bg,
+  .about--page .award .award--bg,
+  .portfolio-single .project-detail,
+  .testimonial .testimonial--bg {
     padding: 60px 0;
   }
   .awards .awards--main,
@@ -231,6 +251,17 @@
   .banner .icon {
     display: none !important;
   }
+  .about--page .award .award--main .award--item {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+  }
+  .about--page .award .award--main .award--item .icon img {
+    width: 50px;
+  }
+  .about--page .award .award--main .award--item .text h3 {
+    font-size: 36px;
+  }
   .tab-content {
     padding-left: 40px;
   }
@@ -242,6 +273,29 @@
   }
   .service--image {
     width: 300px;
+  }
+  .about--page .our--services .services--bg .services--main .service--item h4 {
+    font-size: 22px;
+  }
+  .call-expert a .call {
+    width: 200px;
+    padding: 15px 20px;
+  }
+  .call-expert a .text {
+    font-size: 35px;
+  }
+  .rl-service .image {
+    width: 80px;
+  }
+  .rl-service .image i {
+    padding: 18px;
+    font-size: 35px;
+  }
+  .rl-service .text {
+    width: 210px;
+  }
+  .rl-service .text h4 {
+    padding-bottom: 5px;
   }
   .why--choose--us .why--choose--us--bg .choose--item .choose--title--box .choose--item--icon {
     width: 60px;
@@ -262,7 +316,6 @@
     font-size: 22px;
   }
   .testimonial .testimonial--bg {
-    padding: 65px 0;
     padding-bottom: 140px;
   }
   .testimonial .testimonial--bg .testimonial--main {
@@ -317,14 +370,18 @@
   .projects,
   .about,
   .news,
-  footer {
-    padding-top: 70px;
+  footer,
+  .about--page,
+  .about--page .our--services,
+  .portfolio-single {
+    padding-top: 65px;
   }
   .pricing--plan .pricing--plan--bg,
   .experiance--banner .experiance--banner--bg,
   .why--choose--us .why--choose--us--bg,
-  footer .footer--bg .footer--main--content .footer--about {
-    padding: 70px 0;
+  footer .footer--bg .footer--main--content .footer--about,
+  .about--page .our--services .services--bg {
+    padding: 65px 0;
   }
   .awards .awards--main,
   .news .news--main {
@@ -345,6 +402,17 @@
   .about .about--image .about--image--sm {
     margin-right: 0;
     margin-top: -200px;
+  }
+  .about--page .award .award--main .award--item {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+  }
+  .about--page .award .award--main .award--item .icon img {
+    width: 50px;
+  }
+  .about--page .award .award--main .award--item .text h3 {
+    font-size: 36px;
   }
   .banner .banner--item .banner--overlay .banner--content {
     padding: 260px 0 0 0;
@@ -479,6 +547,9 @@
   footer .footer--bg {
     padding: 40px 0 0px 0;
   }
+  footer .footer--bg .footer--main--content .footer--links {
+    padding-top: 0px;
+  }
   footer .footer--bg .footer--main--content .footer--title {
     font-size: 22px;
   }
@@ -490,6 +561,9 @@
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
+  .service-single .project-banner {
+    height: 350px !important;
+  }
   .common--button {
     font-size: 15px;
     padding: 12px 30px;
@@ -498,6 +572,28 @@
   p {
     font-size: 15px;
     line-height: 26px;
+  }
+  .testimonial,
+  .achievement,
+  .experiance--banner,
+  .awards,
+  .why--choose--us,
+  .services,
+  .services .services--bg,
+  .projects,
+  .about,
+  .news,
+  footer,
+  .about--page,
+  .about--page .our--services {
+    padding-top: 65px;
+  }
+  .pricing--plan .pricing--plan--bg,
+  .experiance--banner .experiance--banner--bg,
+  .why--choose--us .why--choose--us--bg,
+  footer .footer--bg .footer--main--content .footer--about,
+  .about--page .our--services .services--bg {
+    padding: 65px 0;
   }
   .mobile-menu {
     background-color: transparent;
@@ -531,9 +627,6 @@
   .banner .icon {
     display: none !important;
   }
-  .about {
-    padding-top: 60px;
-  }
   .about .about--text {
     margin-bottom: 30px;
   }
@@ -547,129 +640,116 @@
   .about .about--image .about--image--sm {
     display: none;
   }
-  .services .services--bg .services--main .nav-pills .nav-link .service--item .service--title {
+  .about--page .award .award--main .award--item {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+  }
+  .about--page .award .award--main .award--item .icon img {
+    width: 50px;
+  }
+  .about--page .award .award--main .award--item .services .services--bg .services--main .nav-pills .nav-link .service--item .service--title {
     font-size: 24px;
   }
-  .services .services--bg .services--main .nav-pills .nav-link .service--item .service--title,
-  .services .services--bg .services--main .nav-pills .nav-link .service--item .service--descriptoin {
+  .about--page .award .award--main .award--item .services .services--bg .services--main .nav-pills .nav-link .service--item .service--title,
+  .about--page .award .award--main .award--item .services .services--bg .services--main .nav-pills .nav-link .service--item .service--descriptoin {
     max-width: 90%;
   }
-  .service--image {
+  .about--page .award .award--main .award--item .service--image {
     margin-bottom: 40px;
     width: 100%;
     transform: rotate(30deg);
     transition: all 0.5s ease;
   }
-  .service--image::before {
+  .about--page .award .award--main .award--item .service--image::before {
     content: none !important;
   }
-  .tab-pane.show .service--image {
+  .about--page .award .award--main .award--item .tab-pane.show .service--image {
     transform: rotate(0deg) !important;
   }
-  .projects {
-    padding-top: 60px;
-  }
-  .projects .projects--main {
+  .about--page .award .award--main .award--item .projects .projects--main {
     margin-top: 30px;
   }
-  .projects .projects--main .project--sorting:nth-child(2n) {
+  .about--page .award .award--main .award--item .projects .projects--main .project--sorting:nth-child(2n) {
     margin-top: 0;
   }
-  .projects .projects--main .project--sorting + .project--sorting {
+  .about--page .award .award--main .award--item .projects .projects--main .project--sorting + .project--sorting {
     margin-top: 24px;
   }
-  .projects .projects--main .projects--item .projects--image .projects--text .projects--title {
+  .about--page .award .award--main .award--item .projects .projects--main .projects--item .projects--image .projects--text .projects--title {
     font-size: 18px;
   }
-  .projects .projects--main .projects--item .projects--image .projects--text .projects--tagline {
+  .about--page .award .award--main .award--item .projects .projects--main .projects--item .projects--image .projects--text .projects--tagline {
     font-size: 14px;
   }
-  .projects .projects--main .projects--item .projects--image .projects--text {
+  .about--page .award .award--main .award--item .projects .projects--main .projects--item .projects--image .projects--text {
     padding: 20px;
     padding-bottom: 20px;
   }
-  .portfolio-single .project-banner {
+  .about--page .award .award--main .award--item .portfolio-single .project-banner {
     height: 350px;
   }
-  .portfolio-single {
+  .about--page .award .award--main .award--item .portfolio-single {
     padding-top: 60px;
   }
-  .portfolio-single .project-detail {
+  .about--page .award .award--main .award--item .portfolio-single .project-detail {
     padding: 40px 0;
   }
-  .portfolio-single .project-detail .project-info-box .info .list li h5 {
+  .about--page .award .award--main .award--item .portfolio-single .project-detail .project-info-box .info .list li h5 {
     font-size: 22px;
   }
-  .why--choose--us {
-    padding-top: 60px;
-  }
-  .why--choose--us .why--choose--us--bg {
-    padding: 60px 0;
-  }
-  .why--choose--us .why--choose--us--bg .services--title {
+  .about--page .award .award--main .award--item .why--choose--us .why--choose--us--bg .services--title {
     position: static;
     margin-bottom: 30px;
   }
-  .why--choose--us .why--choose--us--bg .choose--item .choose--title--box .choose--item--title {
+  .about--page .award .award--main .award--item .why--choose--us .why--choose--us--bg .choose--item .choose--title--box .choose--item--title {
     padding-top: 0;
     font-size: 22px;
   }
-  .why--choose--us .why--choose--us--bg .choose--item .choose--title--box {
+  .about--page .award .award--main .award--item .why--choose--us .why--choose--us--bg .choose--item .choose--title--box {
     margin-bottom: 20px;
     min-height: 70px;
     display: flex;
     align-items: center;
   }
-  .why--choose--us .why--choose--us--bg .choose--item .choose--img {
+  .about--page .award .award--main .award--item .why--choose--us .why--choose--us--bg .choose--item .choose--img {
     width: 100%;
     height: auto;
   }
-  .why--choose--us .why--choose--us--bg .choose--item .choose--desc {
+  .about--page .award .award--main .award--item .why--choose--us .why--choose--us--bg .choose--item .choose--desc {
     width: 100%;
     padding-left: 0;
   }
-  .why--choose--us .why--choose--us--bg .choose--item .choose--desc .choose--title--box {
+  .about--page .award .award--main .award--item .why--choose--us .why--choose--us--bg .choose--item .choose--desc .choose--title--box {
     margin-top: 10px;
     margin-bottom: 20px;
   }
-  .awards {
-    padding-top: 60px;
-  }
-  .awards .awards--logo {
+  .about--page .award .award--main .award--item .awards .awards--logo {
     text-align: left !important;
     margin: 10px 0;
   }
-  .awards .awards--main {
+  .about--page .award .award--main .award--item .awards .awards--main {
     margin-top: 30px;
   }
-  .awards .awards--main .awards--item .awards--title h3 {
+  .about--page .award .award--main .award--item .awards .awards--main .awards--item .awards--title h3 {
     font-size: 24px;
     margin-bottom: 10px;
   }
-  .awards .awards--main .awards--item .awards--date h4 {
+  .about--page .award .award--main .award--item .awards .awards--main .awards--item .awards--date h4 {
     font-size: 20px;
   }
-  .awards .awards--main .awards--item + .awards--item {
+  .about--page .award .award--main .award--item .awards .awards--main .awards--item + .awards--item {
     margin-top: 0px;
   }
-  .pricing--plan .pricing--plan--main .pricing--plan--item .best--price {
+  .about--page .award .award--main .award--item .pricing--plan .pricing--plan--main .pricing--plan--item .best--price {
     top: 30px;
     transform: rotate(-317deg);
     right: -30px;
   }
-  .experiance--banner {
-    padding-top: 60px;
-  }
-  .experiance--banner .experiance--banner--bg {
-    padding: 60px 0;
-  }
-  .achievement {
-    padding-top: 60px;
-  }
-  .achievement .achievement--main {
+  .about--page .award .award--main .award--item .achievement .achievement--main {
     margin-top: 30px;
   }
-  .achievement .achievement--main .achievement--item {
+  .about--page .award .award--main .award--item .achievement .achievement--main .achievement--item {
     border-radius: 10px;
     width: 100%;
     height: auto;
@@ -677,94 +757,88 @@
     padding: 60px;
     margin-bottom: 24px;
   }
-  .testimonial {
+  .about--page .award .award--main .award--item .testimonial {
     padding-top: 36px;
   }
-  .testimonial .testimonial--bg .testimonial--main {
+  .about--page .award .award--main .award--item .testimonial .testimonial--bg .testimonial--main {
     margin-top: 30px;
   }
-  .testimonial .testimonial--bg {
+  .about--page .award .award--main .award--item .testimonial .testimonial--bg {
     padding: 60px 0;
     padding-bottom: 160px;
   }
-  .testimonial .testimonial--bg .testimonial--main .testimonial--image::before {
+  .about--page .award .award--main .award--item .testimonial .testimonial--bg .testimonial--main .testimonial--image::before {
     display: none;
   }
-  .testimonial .testimonial--bg .testimonial--main .testimonial--image {
+  .about--page .award .award--main .award--item .testimonial .testimonial--bg .testimonial--main .testimonial--image {
     width: 170px;
     height: 170px;
     margin: 0 auto;
   }
-  .testimonial .testimonial--text {
+  .about--page .award .award--main .award--item .testimonial .testimonial--text {
     text-align: center;
     margin-top: 30px;
   }
-  .testimonial .testimonial--bg .testimonial--main .testimonial--text p {
+  .about--page .award .award--main .award--item .testimonial .testimonial--bg .testimonial--main .testimonial--text p {
     font-size: 16px;
     line-height: 26px;
     margin-bottom: 24px;
   }
-  .testimonial .arrow.left {
+  .about--page .award .award--main .award--item .testimonial .arrow.left {
     left: calc(50% - 30px);
     transform: translateX(-50%);
   }
-  .testimonial .arrow.right {
+  .about--page .award .award--main .award--item .testimonial .arrow.right {
     left: calc(50% + 30px);
     transform: translateX(-50%);
   }
-  .pricing--plan .pricing--plan--bg {
-    padding: 60px 0;
-  }
-  .pricing--plan .pricing--plan--main .pricing--plan--title {
+  .about--page .award .award--main .award--item .pricing--plan .pricing--plan--main .pricing--plan--title {
     position: static;
     margin-bottom: 24px;
   }
-  .pricing--plan .pricing--plan--main .pricing--plan--item {
+  .about--page .award .award--main .award--item .pricing--plan .pricing--plan--main .pricing--plan--item {
     padding: 26px;
   }
-  .pricing--plan .pricing--plan--main .pricing--plan--item .prices {
+  .about--page .award .award--main .award--item .pricing--plan .pricing--plan--main .pricing--plan--item .prices {
     margin-left: 0;
     margin-bottom: 24px;
   }
-  .pricing--plan .pricing--plan--main .pricing--plan--item .best--price {
+  .about--page .award .award--main .award--item .pricing--plan .pricing--plan--main .pricing--plan--item .best--price {
     left: unset;
     transform: rotate(-311deg);
     right: -44px;
   }
-  .news {
-    padding-top: 60px;
-  }
-  .news .news--main {
+  .about--page .award .award--main .award--item .news .news--main {
     margin-top: 30px;
   }
-  .news-list .news--item .news--image {
+  .about--page .award .award--main .award--item .news-list .news--item .news--image {
     height: 169px;
   }
-  .news-list .news--item .news--text {
+  .about--page .award .award--main .award--item .news-list .news--item .news--text {
     padding: 20px;
   }
-  .news-details-page .news-right .info-block .small-news-item .recent-news .image {
+  .about--page .award .award--main .award--item .news-details-page .news-right .info-block .small-news-item .recent-news .image {
     width: 100px;
     height: 69px;
   }
-  footer {
-    padding-top: 60px;
-  }
-  footer .social--links {
+  .about--page .award .award--main .award--item footer .social--links {
     text-align: left !important;
   }
-  footer .footer--bg .footer--top .social--links ul li {
+  .about--page .award .award--main .award--item footer .footer--bg .footer--main--content .footer--about {
+    border-right: none;
+  }
+  .about--page .award .award--main .award--item footer .footer--bg .footer--top .social--links ul li {
     margin-left: 0;
     margin-right: 16px;
     margin-bottom: 5px;
   }
-  footer .footer--bg .footer--main--content .footer--about {
+  .about--page .award .award--main .award--item footer .footer--bg .footer--main--content .footer--about {
     padding: 40px 0;
   }
-  footer .footer--bg .footer--main--content .footer--links {
+  .about--page .award .award--main .award--item footer .footer--bg .footer--main--content .footer--links {
     padding-top: 0px;
   }
-  .footer--btm .text {
+  .about--page .award .award--main .award--item .footer--btm .text {
     text-align: left !important;
   }
 }
@@ -772,6 +846,30 @@
   p {
     font-size: 15px;
     line-height: 26px;
+  }
+  .testimonial,
+  .achievement,
+  .experiance--banner,
+  .awards,
+  .why--choose--us,
+  .services,
+  .services .services--bg,
+  .projects,
+  .about,
+  .news,
+  footer,
+  .about--page,
+  .about--page .our--services,
+  .portfolio-single {
+    padding-top: 60px;
+  }
+  .pricing--plan .pricing--plan--bg,
+  .experiance--banner .experiance--banner--bg,
+  .why--choose--us .why--choose--us--bg,
+  footer .footer--bg .footer--main--content .footer--about,
+  .about--page .our--services .services--bg,
+  .about--page .award .award--bg {
+    padding: 60px 0;
   }
   .mobile-menu {
     background-color: transparent;
@@ -806,9 +904,6 @@
   .banner .icon {
     display: none !important;
   }
-  .about {
-    padding-top: 60px;
-  }
   .about .about--text {
     margin-bottom: 30px;
   }
@@ -821,6 +916,17 @@
   }
   .about .about--image .about--image--sm {
     display: none;
+  }
+  .about--page .award .award--main .award--item {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+  }
+  .about--page .award .award--main .award--item .icon img {
+    width: 50px;
+  }
+  .about--page .award .award--main .award--item .text h3 {
+    font-size: 36px;
   }
   .services .services--bg .services--main .nav-pills .nav-link .service--item .service--title {
     font-size: 24px;
@@ -840,9 +946,6 @@
   }
   .tab-pane.show .service--image {
     transform: rotate(0deg) !important;
-  }
-  .projects {
-    padding-top: 60px;
   }
   .projects .projects--main {
     margin-top: 30px;
@@ -866,20 +969,11 @@
   .portfolio-single .project-banner {
     height: 300px;
   }
-  .portfolio-single {
-    padding-top: 40px;
-  }
   .portfolio-single .project-detail {
     padding: 30px 0;
   }
   .portfolio-single .project-detail .project-info-box .info .list li h5 {
     font-size: 20px;
-  }
-  .why--choose--us {
-    padding-top: 60px;
-  }
-  .why--choose--us .why--choose--us--bg {
-    padding: 60px 0;
   }
   .why--choose--us .why--choose--us--bg .services--title {
     position: static;
@@ -903,9 +997,6 @@
     width: 100%;
     padding-left: 0;
   }
-  .awards {
-    padding-top: 60px;
-  }
   .awards .awards--logo {
     text-align: left !important;
     margin: 10px 0;
@@ -922,15 +1013,6 @@
   }
   .awards .awards--main .awards--item + .awards--item {
     margin-top: 0px;
-  }
-  .experiance--banner {
-    padding-top: 60px;
-  }
-  .experiance--banner .experiance--banner--bg {
-    padding: 60px 0;
-  }
-  .achievement {
-    padding-top: 60px;
   }
   .achievement .achievement--main {
     margin-top: 30px;
@@ -978,9 +1060,6 @@
     left: calc(50% + 30px);
     transform: translateX(-50%);
   }
-  .pricing--plan .pricing--plan--bg {
-    padding: 60px 0;
-  }
   .pricing--plan .pricing--plan--main .pricing--plan--title {
     position: static;
     margin-bottom: 24px;
@@ -997,9 +1076,6 @@
     transform: rotate(-311deg);
     right: -44px;
   }
-  .news {
-    padding-top: 60px;
-  }
   .news .news--main {
     margin-top: 30px;
   }
@@ -1009,9 +1085,6 @@
   .news-details-page .news-right .info-block .small-news-item .recent-news .image {
     width: 100px;
     height: 69px;
-  }
-  footer {
-    padding-top: 60px;
   }
   footer .social--links {
     text-align: left !important;
