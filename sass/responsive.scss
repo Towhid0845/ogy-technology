@@ -112,7 +112,7 @@ font-size: 15px;
 .about,
 .news,
 footer,
-.portfolio-single {
+.contact-page {
   padding-top: 65px;
 }
 
@@ -121,7 +121,8 @@ footer,
 .why--choose--us .why--choose--us--bg,
 footer .footer--bg .footer--main--content .footer--about,
 .portfolio-single .project-detail,
-.testimonial .testimonial--bg {
+.testimonial .testimonial--bg,
+.contact-form {
   padding: 65px 0;
 }
 
@@ -132,6 +133,11 @@ margin-top: 50px;
 
 // end of common
 
+.bread-crumb .overlay {
+  padding: 110px 0;
+}
+
+// end of breadcrumb
 .banner .banner--item .banner--overlay .banner--content {
 padding: 260px 0 0 90px;
 
@@ -317,8 +323,8 @@ font-size: 15px;
 .news,
 footer,
 .about--page,
-.portfolio-single,
-.about--page .our--services {
+.about--page .our--services,
+.contact-page {
   padding-top: 60px;
 }
 
@@ -329,7 +335,8 @@ footer .footer--bg .footer--main--content .footer--about,
 .about--page .our--services .services--bg,
 .about--page .award .award--bg,
 .portfolio-single .project-detail,
-.testimonial .testimonial--bg {
+.testimonial .testimonial--bg,
+.contact-form {
   padding: 60px 0;
 }
 
@@ -351,6 +358,16 @@ background-color: transparent;
 }
 
 // menu part end
+
+
+.bread-crumb .overlay {
+  padding: 100px 0;
+}
+.bread-crumb .overlay .text h3 {
+	font-size: 42px;
+	line-height: 50px;
+}
+// end of breadcrumb
 
 .banner .banner--item .banner--overlay .banner--content {
 padding: 260px 0 0 100px;
@@ -388,9 +405,6 @@ display: none !important;
 }
 
 // end of about
-.tab-content {
-padding-left: 40px;
-}
 
 .services .services--bg .services--main .nav-pills .nav-link .service--item {
 .service--arrow {
@@ -453,6 +467,9 @@ font-size: 20px;
 .why--choose--us--bg .why--choose--text--slider .why--choose--text--slider--title,
 .pricing--plan .pricing--plan--text--slider .pricing--plan--text--slider--title {
 font-size: 120px !important;
+}
+.news-details-page .news-left .image {
+	height: 400px;
 }
 
 // end of why us
@@ -603,7 +620,7 @@ font-size: 15px;
 footer,
 .about--page,
 .about--page .our--services,
-.portfolio-single {
+.contact-page {
   padding-top: 65px;
 }
 
@@ -611,7 +628,8 @@ footer,
 .experiance--banner .experiance--banner--bg,
 .why--choose--us .why--choose--us--bg,
 footer .footer--bg .footer--main--content .footer--about,
-.about--page .our--services .services--bg {
+.about--page .our--services .services--bg,
+.contact-form {
   padding: 65px 0;
 }
 
@@ -633,6 +651,14 @@ background-color: transparent;
 background-color: transparent;
 }
 
+.bread-crumb .overlay {
+  padding: 100px 0;
+}
+.bread-crumb .overlay .text h3 {
+	font-size: 42px;
+	line-height: 50px;
+}
+// end of breadcrumb
 // menu part end
 
 .about .about--image {
@@ -725,7 +751,9 @@ top: 4% !important;
 font-size: 100px !important;
 }
 }
-
+.news-details-page .news-left .image {
+	height: 470px;
+}
 // end of why us
 
 .projects .projects--main .projects--item .projects--image .projects--text .projects--title {
@@ -879,6 +907,13 @@ font-size: 35px;
 }
 }
 }
+// end of footer
+
+.contact-page .contact-box .contact-box-content .contact-box-title {
+  font-size: 25px;
+}
+
+// end of contact us
 }
 
 @media (min-width:576px) and (max-width:767.98px) {
@@ -908,7 +943,8 @@ font-size: 15px;
 .news,
 footer,
 .about--page,
-.about--page .our--services {
+.about--page .our--services,
+.contact-page {
   padding-top: 65px;
 }
 
@@ -916,7 +952,8 @@ footer,
 .experiance--banner .experiance--banner--bg,
 .why--choose--us .why--choose--us--bg,
 footer .footer--bg .footer--main--content .footer--about,
-.about--page .our--services .services--bg {
+.about--page .our--services .services--bg,
+.contact-form {
   padding: 65px 0;
 }
 // menu part start
@@ -932,6 +969,16 @@ background-color: transparent;
 }
 
 // menu part end
+
+.bread-crumb .overlay {
+  padding: 90px 0;
+}
+.bread-crumb .overlay .text h3 {
+	font-size: 34px;
+	line-height: 42px;
+}
+// end of breadcrumb
+
 // banner part start
 .banner .banner--item {
 height: 55vh;
@@ -989,7 +1036,7 @@ display: none;
   width: 250px;
   height: 250px;
   margin: 0 auto;
-
+}
 .icon img {
     width: 50px;
   }
@@ -1060,7 +1107,7 @@ padding-top: 60px;
 }
 
 .portfolio-single .project-detail {
-padding: 40px 0;
+padding: 0 0;
 }
 
 .portfolio-single .project-detail .project-info-box .info .list li h5 {
@@ -1099,7 +1146,9 @@ width: 100%;
 margin-top: 10px;
   margin-bottom: 20px;
 }
-
+.news-details-page .news-left .image {
+	height: 380px;
+}
 // why choose us part end
 // awards part start
 .awards {
@@ -1272,7 +1321,10 @@ text-align: left !important;
 }
 
 // footer part end
+.contact-page .contact-box .contact-box-content .contact-box-title {
+  font-size: 25px;
 }
+// end of contact us
 }
 
 @media (max-width:575.98px) {
@@ -1295,7 +1347,8 @@ font-size: 15px;
 footer,
 .about--page,
 .about--page .our--services,
-.portfolio-single {
+.portfolio-single,
+.contact-page {
   padding-top: 60px;
 }
 
@@ -1304,7 +1357,8 @@ footer,
 .why--choose--us .why--choose--us--bg,
 footer .footer--bg .footer--main--content .footer--about,
 .about--page .our--services .services--bg,
-.about--page .award .award--bg {
+.about--page .award .award--bg,
+.contact-form {
   padding: 60px 0;
 }
 
@@ -1322,6 +1376,17 @@ background-color: transparent;
 }
 
 // menu part end
+
+.bread-crumb .overlay {
+  padding: 90px 0;
+}
+.bread-crumb .overlay .text h3 {
+	font-size: 34px;
+	line-height: 42px;
+}
+// end of breadcrumb
+
+
 // banner part start
 .banner .banner--item {
 height: 55vh;
@@ -1455,7 +1520,7 @@ height: 300px;
 
 
 .portfolio-single .project-detail {
-padding: 30px 0;
+padding: 0 0;
 }
 
 .portfolio-single .project-detail .project-info-box .info .list li h5 {
@@ -1490,7 +1555,9 @@ width: 100%;
 width: 100%;
   padding-left: 0;
 }
-
+.news-details-page .news-left .image {
+	height: 300px;
+}
 // why choose us part end
 // awards part start
 .awards {
@@ -1649,6 +1716,9 @@ text-align: left !important;
 }
 
 // footer part end
+.contact-page .contact-box .contact-box-content .contact-box-title {
+  font-size: 25px;
+}
 }
 
 // @media (max-width:480.98px) {

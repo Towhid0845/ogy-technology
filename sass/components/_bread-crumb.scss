@@ -8,7 +8,7 @@
 
   .overlay {
     background-color: rgba(10, 11, 15, 0.6);
-    padding: 136px 0;
+    padding: 120px 0;
 
     .text {
       h3 {
@@ -23,8 +23,7 @@
           color: $themeColor;
           font-weight: 500;
           position: relative;
-          padding-right: 20px;
-          margin-right: 20px;
+          padding: 0 20px;
 
           a {
             color: $white;
