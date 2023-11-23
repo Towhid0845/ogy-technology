@@ -13,6 +13,12 @@
   .services--list {
     padding-left: 40px;
   }
+  .service-box h3,
+  .product-box h3,
+  .project-box h3 {
+    font-size: 45px;
+    line-height: 50px;
+  }
   .projects .projects--main {
     margin: 60px 40px 0;
   }
@@ -123,11 +129,20 @@
   .rl-service .text {
     width: 240px;
   }
+  .service-box .small-image {
+    width: 385px;
+  }
+  .service-box h3,
+  .product-box h3,
+  .project-box h3 {
+    font-size: 40px;
+    line-height: 45px;
+  }
   .why--choose--us--bg .why--choose--text--slider .why--choose--text--slider--title,
   .pricing--plan .pricing--plan--text--slider .pricing--plan--text--slider--title {
     font-size: 130px !important;
   }
-  .news-details-page .news-left .image {
+  .news-details-page .product-box .image {
     height: 500px;
   }
   .achievement .achievement--main {
@@ -295,6 +310,7 @@
   }
   .rl-service .image {
     width: 80px;
+    margin-bottom: 10px;
   }
   .rl-service .image i {
     padding: 18px;
@@ -305,6 +321,15 @@
   }
   .rl-service .text h4 {
     padding-bottom: 5px;
+  }
+  .service-box .small-image {
+    width: 290px;
+  }
+  .service-box h3,
+  .product-box h3,
+  .project-box h3 {
+    font-size: 35px;
+    line-height: 40px;
   }
   .why--choose--us .why--choose--us--bg .choose--item .choose--title--box .choose--item--icon {
     width: 60px;
@@ -318,7 +343,7 @@
   .pricing--plan .pricing--plan--text--slider .pricing--plan--text--slider--title {
     font-size: 120px !important;
   }
-  .news-details-page .news-left .image {
+  .news-details-page .product-box .image {
     height: 400px;
   }
   .portfolio-single .project-banner {
@@ -326,6 +351,12 @@
   }
   .portfolio-single .project-detail .project-info-box .info .list li h5 {
     font-size: 22px;
+  }
+  .project-box ul {
+    display: inline-block;
+  }
+  .project-box .small-image {
+    width: 100%;
   }
   .testimonial .testimonial--bg {
     padding-bottom: 140px;
@@ -466,6 +497,16 @@
   .tab-pane.show .service--image {
     transform: rotate(0deg) !important;
   }
+  .service-box .small-image {
+    margin-bottom: 70px;
+    width: 350px;
+  }
+  .service-box h3,
+  .product-box h3,
+  .project-box h3 {
+    font-size: 35px;
+    line-height: 40px;
+  }
   .why--choose--us--bg {
     padding-top: 90px !important;
   }
@@ -475,7 +516,7 @@
   .why--choose--us--bg .why--choose--text--slider .why--choose--text--slider--title {
     font-size: 100px !important;
   }
-  .news-details-page .news-left .image {
+  .news-details-page .product-box .image {
     height: 470px;
   }
   .projects .projects--main .projects--item .projects--image .projects--text .projects--title {
@@ -702,6 +743,23 @@
   .tab-pane.show .service--image {
     transform: rotate(0deg) !important;
   }
+  .service-box .small-image {
+    margin-right: 0;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  .service-box h3,
+  .product-box h3,
+  .project-box h3 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .service-box .text {
+    margin-bottom: 30px;
+  }
+  .rl-service {
+    padding-bottom: 0;
+  }
   .projects .projects--main {
     margin-top: 30px;
   }
@@ -733,6 +791,16 @@
   .portfolio-single .project-detail .project-info-box .info .list li h5 {
     font-size: 22px;
   }
+  .project-box ul {
+    display: inline-block;
+  }
+  .project-box .small-image {
+    margin: 20px 0;
+    width: 100%;
+  }
+  .project-box p:last-child {
+    padding-top: 20px;
+  }
   .why--choose--us .why--choose--us--bg .services--title {
     position: static;
     margin-bottom: 30px;
@@ -759,7 +827,7 @@
     margin-top: 10px;
     margin-bottom: 20px;
   }
-  .news-details-page .news-left .image {
+  .news-details-page .product-box .image {
     height: 380px;
   }
   .awards .awards--logo {
@@ -997,6 +1065,26 @@
   .tab-pane.show .service--image {
     transform: rotate(0deg) !important;
   }
+  .rl-service {
+    padding-bottom: 0;
+  }
+  .rl-service .image {
+    margin-bottom: 10px;
+  }
+  .service-box .small-image {
+    margin-right: 0;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  .service-box h3,
+  .product-box h3,
+  .project-box h3 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .service-box .text {
+    margin-bottom: 30px;
+  }
   .projects .projects--main {
     margin-top: 30px;
   }
@@ -1025,6 +1113,16 @@
   .portfolio-single .project-detail .project-info-box .info .list li h5 {
     font-size: 20px;
   }
+  .project-box ul {
+    display: inline-block;
+  }
+  .project-box .small-image {
+    margin: 20px 0;
+    width: 100%;
+  }
+  .project-box p:last-child {
+    padding-top: 20px;
+  }
   .why--choose--us .why--choose--us--bg .services--title {
     position: static;
     margin-bottom: 30px;
@@ -1047,8 +1145,11 @@
     width: 100%;
     padding-left: 0;
   }
-  .news-details-page .news-left .image {
+  .news-details-page .product-box .image {
     height: 300px;
+  }
+  .product-box .image img {
+    object-fit: contain;
   }
   .awards .awards--logo {
     text-align: left !important;

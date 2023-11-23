@@ -2,7 +2,7 @@
 @import "../mixin/font";
 
 .news-list {
-  padding: 60px 0;
+  padding-top: 60px;
   background-color: #f2f2f2;
 
   .news--item {
@@ -39,5 +39,62 @@
     }
 
 
+  }
+}
+.project-info {
+  padding-top: 18px;
+
+  h5 {
+    padding: 5px 0;
+    font-size: 20px;
+    font-weight: 600;
+
+    span {
+      font-weight: 400;
+    }
+  }
+}
+
+.partner-item {
+  background-color: #000;
+  padding: 30px;
+  border-radius: 50px;
+
+  .testimonial--image {
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+    img {
+      height: 100%;
+      border-radius: 50%;
+    }
+  }
+
+  .testimonial--text {
+    width: 400px;
+    // text-align: center;
+    margin: 0 auto;
+
+    p {
+      @include font(20px, 500);
+      color: $white;
+      font-style: italic;
+      line-height: 34px;
+      margin: 24px 0;
+    }
+
+    h4 {
+      @include font(24px, 700);
+      color: $white;
+      margin-bottom: 5px;
+    }
+
+    span {
+      @include font(14px, 700);
+      text-transform: uppercase;
+      color: $themeColor;
+    }
   }
 }

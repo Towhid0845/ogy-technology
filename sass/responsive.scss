@@ -26,6 +26,14 @@ font-size: 65px;
 padding-left: 40px;
 }
 
+.service-box,
+.product-box,
+.project-box {
+  h3 {
+    font-size: 45px;
+    line-height: 50px;
+  }
+}
 // end of service
 
 .projects .projects--main {
@@ -181,6 +189,18 @@ width: 430px;
 .rl-service .text {
   width: 240px;
 }
+.service-box .small-image {
+  width: 385px;
+}
+
+.service-box,
+.product-box,
+.project-box {
+  h3 {
+    font-size: 40px;
+    line-height: 45px;
+  }
+}
 // end of service
 
 .why--choose--us--bg .why--choose--text--slider .why--choose--text--slider--title,
@@ -188,7 +208,7 @@ width: 430px;
 font-size: 130px !important;
 }
 
-.news-details-page .news-left .image {
+.news-details-page .product-box .image {
   height: 500px;
 }
 // end of why us
@@ -435,6 +455,7 @@ width: 300px;
 
 .rl-service .image {
   width: 80px;
+  margin-bottom: 10px;
 
   i {
     padding: 18px;
@@ -447,6 +468,18 @@ width: 300px;
 
   h4 {
     padding-bottom: 5px;
+  }
+}
+.service-box .small-image {
+  width: 290px;
+}
+
+.service-box,
+.product-box,
+.project-box {
+  h3 {
+    font-size: 35px;
+    line-height: 40px;
   }
 }
 // end of service
@@ -468,7 +501,7 @@ font-size: 20px;
 .pricing--plan .pricing--plan--text--slider .pricing--plan--text--slider--title {
 font-size: 120px !important;
 }
-.news-details-page .news-left .image {
+.news-details-page .product-box .image {
 	height: 400px;
 }
 
@@ -480,6 +513,13 @@ height: 550px;
 
 .portfolio-single .project-detail .project-info-box .info .list li h5 {
 font-size: 22px;
+}
+.project-box ul {
+  display: inline-block;
+}
+
+.project-box .small-image {
+  width: 100%;
 }
 // end of project
 
@@ -738,7 +778,19 @@ content: none !important;
     transform: rotate(0deg) !important;
   }
 }
+.service-box .small-image {
+  margin-bottom: 70px;
+  width: 350px;
+}
 
+.service-box,
+.product-box,
+.project-box {
+  h3 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+}
 // end of servive
 
 .why--choose--us--bg {
@@ -751,7 +803,7 @@ top: 4% !important;
 font-size: 100px !important;
 }
 }
-.news-details-page .news-left .image {
+.news-details-page .product-box .image {
 	height: 470px;
 }
 // end of why us
@@ -1068,7 +1120,30 @@ content: none !important;
   }
 }
 
+.service-box .small-image {
+  margin-right: 0;
+  margin-bottom: 30px;
+  width: 100%;
+}
 
+.service-box,
+.product-box,
+.project-box {
+  h3 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+}
+
+.service-box {
+  .text {
+    margin-bottom: 30px;
+  }
+}
+
+.rl-service {
+  padding-bottom: 0;
+}
 // end of servive
 
 
@@ -1113,6 +1188,18 @@ padding: 0 0;
 .portfolio-single .project-detail .project-info-box .info .list li h5 {
 font-size: 22px;
 }
+.project-box ul {
+  display: inline-block;
+}
+
+.project-box .small-image {
+  margin: 20px 0;
+  width: 100%;
+}
+
+.project-box p:last-child {
+  padding-top: 20px;
+}
 // projects part end
 // why choose us part start
 
@@ -1146,7 +1233,7 @@ width: 100%;
 margin-top: 10px;
   margin-bottom: 20px;
 }
-.news-details-page .news-left .image {
+.news-details-page .product-box .image {
 	height: 380px;
 }
 // why choose us part end
@@ -1484,7 +1571,34 @@ content: none !important;
     transform: rotate(0deg) !important;
   }
 }
+.rl-service {
+  padding-bottom: 0;
+}
 
+.rl-service .image {
+  margin-bottom: 10px;
+}
+
+.service-box .small-image {
+  margin-right: 0;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.service-box,
+.product-box,
+.project-box {
+  h3 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+}
+
+.service-box {
+  .text {
+    margin-bottom: 30px;
+  }
+}
 // services part end
 
 // projects part start
@@ -1526,6 +1640,18 @@ padding: 0 0;
 .portfolio-single .project-detail .project-info-box .info .list li h5 {
 font-size: 20px;
 }
+.project-box ul {
+  display: inline-block;
+}
+
+.project-box .small-image {
+  margin: 20px 0;
+  width: 100%;
+}
+
+.project-box p:last-child {
+  padding-top: 20px;
+}
 // projects part end
 
 
@@ -1555,8 +1681,11 @@ width: 100%;
 width: 100%;
   padding-left: 0;
 }
-.news-details-page .news-left .image {
+.news-details-page .product-box .image {
 	height: 300px;
+}
+.product-box .image img {
+  object-fit: contain;
 }
 // why choose us part end
 // awards part start

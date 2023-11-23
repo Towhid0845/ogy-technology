@@ -84,7 +84,7 @@
         color: $black;
         // padding-top: 40px;
         }
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                }
+}
     }
 
     .choose--list+.choose--list {
@@ -107,4 +107,12 @@
       }
     }
   }
+.view-all-btn {
+  background-color: $themeColor;
+
+  &:hover {
+    background-color: #000000;
+    color: #ffffff;
+  }
+}
 }

@@ -70,4 +70,12 @@ transition: all 0.3s ease 0s;
   margin-top: 48px;
 }
 }
+.view-all-btn {
+  background-color: $themeColor;
+
+  &:hover {
+    background-color: #000000;
+    color: #ffffff;
+  }
+}
 }

@@ -88,6 +88,7 @@ $(function () {
 				settings: {
 					slidesToShow: 1,
           slidesToScroll: 1,
+          arrows: false,
          
 				},
 			},
@@ -95,7 +96,8 @@ $(function () {
 				breakpoint: 576,
 				settings: {
 					slidesToShow: 1,
-					slidesToScroll: 1,
+          slidesToScroll: 1,
+          arrows: false,
 				},
 			},
 		],

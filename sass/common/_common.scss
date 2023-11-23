@@ -125,3 +125,18 @@ body {
   background-color: $themeColor;
   color: $black;
 }
+.view-all-btn {
+  font-size: 20px;
+  font-weight: 600;
+  background-color: $themeColor;
+  padding: 10px 30px;
+  color: #0A0B0F;
+  border-radius: 10px;
+  transition: all 0.3s ease 0s;
+  margin-top: 30px;
+  width: fit-content;
+
+  &:hover {
+    background-color: #ffffff;
+  }
+}

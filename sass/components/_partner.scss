@@ -7,6 +7,14 @@
 
 .clients .clients-bg {
   padding-top: 80px;
+.view-all-btn {
+    background-color: $themeColor;
+
+    &:hover {
+      background-color: #000000;
+      color: #ffffff;
+    }
+  }
 }
 
 .clients .clients-bg .client-slider a {

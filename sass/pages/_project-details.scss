@@ -1,6 +1,68 @@
 @import "../variable/variable";
 @import "../mixin/font";
 
+.project-box {
+  // background-color: #f2f2f2;
+
+  p:last-child {
+    display: inline-block;
+  }
+
+  p+p {
+    padding: 24px 0;
+  }
+
+  h3 {
+    @include font(48px, 700);
+    line-height: 56px;
+    margin-bottom: 20px;
+  }
+
+  h5 {
+    margin-top: 25px;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+  }
+
+  .small-image {
+    float: left;
+    margin: 20px 20px 20px 0;
+    width: 400px;
+  }
+
+  .small-image img {
+    border-radius: 10px;
+    width: 100%;
+  }
+
+
+  .text {
+    padding: 30px;
+  }
+
+  ul {
+    margin-top: 20px;
+
+    li {
+      list-style: none;
+      margin-left: 30px;
+      display: flex;
+      margin-bottom: 8px;
+
+      &::before {
+        font-family: "Font Awesome 5 Free";
+        content: "\f058";
+        color: #787878;
+        display: inline-block;
+        padding-right: 15px;
+        vertical-align: middle;
+        font-weight: 900;
+        font-size: 20px;
+      }
+    }
+  }
+}
 .portfolio-single {
 // padding-top: 80px;
 
