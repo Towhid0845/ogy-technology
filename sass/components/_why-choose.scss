@@ -107,12 +107,13 @@
       }
     }
   }
-.view-all-btn {
-  background-color: $themeColor;
-
-  &:hover {
-    background-color: #000000;
-    color: #ffffff;
-  }
-}
+    .view-all-btn {
+    background-color: $black;
+      color: $white;
+    
+      &:hover {
+      background-color: $themeColor;
+        color: $black;
+      }
+      }
 }

@@ -195,6 +195,13 @@
   .news-list .news--item .news--image {
     height: 244px;
   }
+  .partner-list .news--item .news--image {
+    height: 135px;
+    width: 135px;
+  }
+  .project-list .news--item .news--image {
+    height: 190px;
+  }
   footer .footer--bg {
     padding: 50px 0 0px 0;
   }
@@ -248,6 +255,9 @@
   .awards .awards--main,
   .news .news--main {
     margin-top: 45px;
+  }
+  .news--item .news--image {
+    height: 224px !important;
   }
   .mobile-menu {
     background-color: transparent;
@@ -379,6 +389,17 @@
   .testimonial .testimonial--bg .testimonial--main .testimonial--image::before {
     height: 170px;
     right: -30px;
+  }
+  .partner-list .news--item .news--image {
+    height: 135px !important;
+    width: 135px;
+  }
+  .project-list .news--item .news--image {
+    width: 40%;
+    height: 125px !important;
+  }
+  .project-list .news--item .news--text {
+    width: 60%;
   }
   footer .footer--bg {
     padding: 40px 0 0px 0;
@@ -608,6 +629,18 @@
     width: 100px;
     height: 69px;
   }
+  .client-item .testimonial--image {
+    width: 160px;
+    height: 160px;
+  }
+  .client-item .testimonial--text p {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .partner-list .news--item .news--image {
+    height: 135px !important;
+    width: 135px;
+  }
   footer .footer--bg {
     padding: 40px 0 0px 0;
   }
@@ -684,7 +717,7 @@
     height: 55vh;
   }
   .banner .banner--item .banner--overlay .banner--content {
-    padding: 125px 0;
+    padding: 170px 0;
   }
   .common--subtitle {
     font-size: 22px;
@@ -800,6 +833,9 @@
   }
   .project-box p:last-child {
     padding-top: 20px;
+  }
+  .project-info h5 {
+    font-size: 18px;
   }
   .why--choose--us .why--choose--us--bg .services--title {
     position: static;
@@ -927,6 +963,29 @@
     width: 100px;
     height: 69px;
   }
+  .client-item {
+    min-height: 575px;
+  }
+  .client-item .testimonial--image {
+    width: 130px;
+    height: 130px;
+  }
+  .client-item .testimonial--text p {
+    font-size: 17px;
+    line-height: 28px;
+  }
+  .partner-list .news--item .news--image {
+    height: 125px !important;
+    width: 125px;
+  }
+  .project-list .news--item .news--image {
+    width: 40%;
+    height: 125px !important;
+  }
+  .project-list .news--item .news--text {
+    width: 60%;
+    padding: 0 0 0 25px;
+  }
   footer .social--links {
     text-align: left !important;
   }
@@ -981,6 +1040,9 @@
   .about--page .award .award--bg,
   .contact-form {
     padding: 60px 0;
+  }
+  .view-all-btn {
+    font-size: 18px;
   }
   .mobile-menu {
     background-color: transparent;
@@ -1239,6 +1301,17 @@
   .news-details-page .news-right .info-block .small-news-item .recent-news .image {
     width: 100px;
     height: 69px;
+  }
+  .partner-list .news--item .news--image {
+    height: 135px !important;
+    width: 135px;
+  }
+  .project-list .news--item .news--image {
+    width: 100%;
+  }
+  .project-list .news--item .news--text {
+    width: 100%;
+    padding: 25px 25px 0 25px;
   }
   footer .social--links {
     text-align: left !important;

@@ -156,7 +156,7 @@ body {
 .view-all-btn {
   font-size: 20px;
   font-weight: 600;
-  background-color: #D8FE35;
+  background-color: #ffffff;
   padding: 10px 30px;
   color: #0A0B0F;
   border-radius: 10px;
@@ -165,7 +165,11 @@ body {
   width: fit-content;
 }
 .view-all-btn:hover {
-  background-color: #ffffff;
+  background-color: #D8FE35;
+}
+
+.view-all-bg-dark {
+  background-color: #0A0B0F;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -803,11 +807,12 @@ nav .container .search .show-search-field {
   margin-top: 48px;
 }
 .projects .view-all-btn {
-  background-color: #D8FE35;
+  background-color: #0A0B0F;
+  color: #ffffff;
 }
 .projects .view-all-btn:hover {
-  background-color: #000000;
-  color: #ffffff;
+  background-color: #D8FE35;
+  color: #0A0B0F;
 }
 
 .why--choose--us {
@@ -895,11 +900,12 @@ nav .container .search .show-search-field {
   color: #ffffff;
 }
 .why--choose--us .view-all-btn {
-  background-color: #D8FE35;
+  background-color: #0A0B0F;
+  color: #ffffff;
 }
 .why--choose--us .view-all-btn:hover {
-  background-color: #000000;
-  color: #ffffff;
+  background-color: #D8FE35;
+  color: #0A0B0F;
 }
 
 .testimonial {
@@ -1067,11 +1073,12 @@ nav .container .search .show-search-field {
   padding-top: 80px;
 }
 .clients .clients-bg .view-all-btn {
-  background-color: #D8FE35;
+  background-color: #0A0B0F;
+  color: #ffffff;
 }
 .clients .clients-bg .view-all-btn:hover {
-  background-color: #000000;
-  color: #ffffff;
+  background-color: #D8FE35;
+  color: #0A0B0F;
 }
 
 .clients .clients-bg .client-slider a {
@@ -1115,8 +1122,8 @@ nav .container .search .show-search-field {
 }
 
 .pagination ul li.arrow a:hover {
-  background-color: #E55604;
-  color: #ffffff;
+  background-color: #D8FE35;
+  color: #0A0B0F;
 }
 
 .pagination ul li.arrow:last-child {
@@ -1139,12 +1146,12 @@ nav .container .search .show-search-field {
 .pagination ul li.mid-pagi a.active {
   width: 25px;
   height: 25px;
-  background-color: #E55604;
+  background-color: #D8FE35;
   border-radius: 50%;
   text-align: center;
   line-height: 25px;
   display: inline-block;
-  color: #ffffff;
+  color: #0A0B0F;
   box-shadow: 0 0px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -1471,6 +1478,12 @@ footer .footer--bg .footer--btm .text a {
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
 }
+.news-list .news--item .news--text .common--button {
+  font-size: 15px;
+  padding: 8px 20px;
+  margin: 20px 0 0 0;
+  border-radius: 7px;
+}
 
 .project-info {
   padding-top: 18px;
@@ -1484,26 +1497,27 @@ footer .footer--bg .footer--btm .text a {
   font-weight: 400;
 }
 
-.partner-item {
+.client-item {
   background-color: #000;
   padding: 30px;
   border-radius: 50px;
+  min-height: 535px;
 }
-.partner-item .testimonial--image {
+.client-item .testimonial--image {
   margin: 0 auto;
   width: 200px;
   height: 200px;
   border-radius: 50%;
 }
-.partner-item .testimonial--image img {
+.client-item .testimonial--image img {
   height: 100%;
   border-radius: 50%;
 }
-.partner-item .testimonial--text {
-  width: 400px;
+.client-item .testimonial--text {
+  width: 100%;
   margin: 0 auto;
 }
-.partner-item .testimonial--text p {
+.client-item .testimonial--text p {
   font-size: 20px;
   font-weight: 500;
   color: #ffffff;
@@ -1511,17 +1525,66 @@ footer .footer--bg .footer--btm .text a {
   line-height: 34px;
   margin: 24px 0;
 }
-.partner-item .testimonial--text h4 {
+.client-item .testimonial--text h4 {
   font-size: 24px;
   font-weight: 700;
   color: #ffffff;
   margin-bottom: 5px;
 }
-.partner-item .testimonial--text span {
+.client-item .testimonial--text span {
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
   color: #D8FE35;
+}
+
+.partner-list .news--item {
+  padding-top: 20px;
+  border-radius: 10px;
+}
+.partner-list .news--item .news--image {
+  height: 150px;
+  width: 150px;
+  margin: 0 auto;
+}
+.partner-list .news--item .news--image img {
+  height: 100%;
+  border-radius: 50%;
+  transition: unset;
+  transform: scale(1);
+}
+.partner-list .news--item .news--text {
+  margin-top: 0;
+  padding: 20px 30px 10px 30px;
+}
+.partner-list .news--item .news--title {
+  margin-bottom: 0 !important;
+}
+
+.project-list .news--item {
+  padding: 25px;
+  border-radius: 10px;
+}
+.project-list .news--item .news--image {
+  width: 50%;
+  border-radius: 10px;
+  height: 217px;
+}
+.project-list .news--item .news--text {
+  width: 50%;
+  padding: 0 0 0 25px;
+}
+.project-list .news--item .news--text .info p {
+  margin-top: 10px;
+}
+.project-list .news--item .news--text .project-info {
+  padding-top: 10px;
+}
+.project-list .news--item .news--text .project-info h5 {
+  font-size: 18px;
+}
+.project-list .news--item .news--text .common--button {
+  margin: 10px 0 0 0;
 }
 
 .content-page {
@@ -2229,6 +2292,7 @@ footer .footer--bg .footer--btm .text a {
 .service-box ul li {
   list-style: none;
   margin-left: 40px;
+  display: flex;
 }
 .service-box ul li::before {
   font-family: "Font Awesome 5 Free";

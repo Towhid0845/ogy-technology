@@ -71,11 +71,12 @@ transition: all 0.3s ease 0s;
 }
 }
 .view-all-btn {
-  background-color: $themeColor;
+  background-color: $black;
+    color: $white;
 
   &:hover {
-    background-color: #000000;
-    color: #ffffff;
+    background-color: $themeColor;
+      color: $black;
   }
 }
 }

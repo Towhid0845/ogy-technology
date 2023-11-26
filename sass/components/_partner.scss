@@ -7,12 +7,13 @@
 
 .clients .clients-bg {
   padding-top: 80px;
-.view-all-btn {
-    background-color: $themeColor;
-
+  
+  .view-all-btn {
+    background-color: $black;
+      color: $white;
     &:hover {
-      background-color: #000000;
-      color: #ffffff;
+      background-color: $themeColor;
+        color: $black;
     }
   }
 }
