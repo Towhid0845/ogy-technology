@@ -11,7 +11,7 @@ $(function () {
 
   });
 
-  $(".banner").slick({
+  $("#banner").slick({
     dots: true,
     infinite: true,
     speed: 800,
@@ -20,8 +20,22 @@ $(function () {
     fade: false,
     autoplay: false,
     slidesToScroll: 1,
+    // arrows: false,
     prevArrow: '<i class="fas left icon fa-chevron-left"></i>',
     nextArrow: '<i class="fas right icon fa-chevron-right"></i>',
+  }).slickAnimation();
+
+  $(".wwd").slick({
+    dots: false,
+    infinite: true,
+    speed: 800,
+    autoplaySpeed: 5000,
+    slidesToShow: 4,
+    fade: false,
+    autoplay: true,
+    slidesToScroll: 1,
+    prevArrow: false,
+    nextArrow: false,
   }).slickAnimation();
 
   // profile slider js
@@ -136,7 +150,7 @@ $(function () {
   // });
 
   // clients slider js
-  $(".client-slider").slick({
+  $(".partner_slider").slick({
     dots: false,
     infinite: true,
     autoplaySpeed: 0,

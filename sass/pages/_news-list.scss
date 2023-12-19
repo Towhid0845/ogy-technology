@@ -101,7 +101,7 @@
     span {
       @include font(14px, 700);
       text-transform: uppercase;
-      color: $themeColor;
+      color: $theme;
     }
   }
 }

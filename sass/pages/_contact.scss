@@ -20,7 +20,7 @@ padding-top: 80px;
 
 i {
 font-size: 40px;
-  color: $themeColor;
+  color: $theme;
   background-color: $black;
   display: inline-block;
   text-align: center;
@@ -31,7 +31,7 @@ line-height: 80px;
 transition: all 0.3s ease-in-out;
 
   &:hover {
-    background-color: $themeColor;
+    background-color: $theme;
     color: $black;
   }
 }
@@ -134,7 +134,7 @@ input:hover,
 textarea:focus,
 textarea:hover,
 .form-control:focus {
-  border-color: $themeColor;
+  border-color: $theme;
   outline: none;
   box-shadow: none;
 }

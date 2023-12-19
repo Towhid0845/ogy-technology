@@ -109,7 +109,7 @@
     }
 
     .call {
-      background-color: $themeColor;
+      background-color: $theme;
       color: $black;
       width: 228px;
       padding: 20px 30px;
@@ -127,7 +127,7 @@
     width: 98px;
 
     i {
-      background-color: $themeColor;
+      background-color: $theme;
       margin-right: 20px;
       border-radius: 10px;
       padding: 20px;

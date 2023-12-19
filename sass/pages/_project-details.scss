@@ -152,7 +152,7 @@ h5 {
   transition: all 0.3s ease-in-out;
 
 &:hover {
-    background-color: $themeColor;
+    background-color: $theme;
     color: $black;
   }
 }
@@ -213,7 +213,7 @@ padding: 3px 12px;
 transition: all 0.3s ease 0s;
 opacity: 1;
   border-radius: 5px;
-  background-color: $themeColor;
+  background-color: $theme;
 }
 }
 

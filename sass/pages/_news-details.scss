@@ -13,7 +13,7 @@ padding-top: 60px;
     .nav-pills .nav-link.active,
     .nav-pills .show>.nav-link {
       color: $black;
-      background-color: $themeColor;
+      background-color: $theme;
     }
 
     .nav-pills .nav-link {
@@ -40,7 +40,7 @@ padding-top: 60px;
       }
 
       &:hover {
-        background-color: $themeColor;
+        background-color: $theme;
       }
     }
   }
@@ -77,7 +77,7 @@ ul {
 padding: 5px 20px;
   border-radius: 5px;
   display: inline-block;
-  background-color: $themeColor;
+  background-color: $theme;
   color: $black;
 
 li {
@@ -254,7 +254,7 @@ i {
 //             transition: all linear .2s;
 
 //             &:hover {
-  //               color: $themeColor;
+  //               color: $theme;
   //             }
   //           }
 

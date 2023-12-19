@@ -1,96 +1,182 @@
 @import "../variable/variable";
 @import "../mixin/font";
 
-.banner {
+#banner {
+  .banner-img {
+    padding: 60px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
 
-  .banner--item {
-    height: 91vh;
-    background-position: center !important;
-    background-size: cover !important;
-    background-repeat: no-repeat !important;
+.image {
+    position: relative;
+    text-align: right;
+    width: 620px;
+    height: 685px;
 
-    .banner--overlay {
-      width: 100%;
-      height: 100%;
-      background-color: rgba(0, 0, 0, 0.5);
+&>img {
+    width: 100%;
+    height: 100%;
+object-fit: cover;
+}
 
-      .banner--content {
-        padding: 250px 0;
+.banner_element img {
+  position: absolute;
+  box-shadow: 10px 12px 30px rgba(0, 0, 0, 0.1);
+}
 
-        .banner--title {
-          @include font(72px, 700);
-          line-height: 70px;
-          margin-top: 10px;
-          color: $white;
-          text-transform: capitalize;
-        }
-      }
-    }
+.element_1 {
+  top: 44%;
+  left: 64px;
+}
+
+.element_2 {
+  top: 23%;
+  right: -14%;
+}
+
+.element_3 {
+  bottom: 0;
+  left: 67%;
+}
+
+.shape-1 {
+  -webkit-animation: left1right 5s linear 0s infinite;
+  animation: left1right 5s linear 0s infinite;
+}
+
+@keyframes left1right {
+  50% {
+    -ms-transform: translateY(20px);
+    /* IE 9 */
+    -webkit-transform: translateY(20px);
+    /* Chrome, Safari, Opera */
+    transform: translateY(20px);
   }
+}
 
-  &:hover {
-    .icon {
-      opacity: 1 !important;
-    }
+.shape-2 {
+  -webkit-animation: left2right 3s linear 0s infinite;
+  animation: left2right 3s linear 0s infinite;
+}
+
+@keyframes left2right {
+  50% {
+    -ms-transform: translateY(20px);
+    /* IE 9 */
+    -webkit-transform: translateY(20px);
+    /* Chrome, Safari, Opera */
+    transform: translateY(20px);
   }
+}
 
+.shape-3 {
+  -webkit-animation: left13right 9s linear 0s infinite;
+  animation: left3right 9s linear 0s infinite;
+}
 
-  .icon {
-    width: 60px;
-    height: 60px;
-    text-align: center;
-    line-height: 60px;
-    color: $white;
-    border-radius: 50%;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    cursor: pointer;
+@keyframes left3right {
+  50% {
+    -ms-transform: translateY(20px);
+    /* IE 9 */
+    -webkit-transform: translateY(20px);
+    /* Chrome, Safari, Opera */
+    transform: translateY(20px);
+  }
+}
+}
+
+.banner_text {
+  p {
+    padding-top: 20px;
     font-size: 18px;
-    transition: all linear .2s;
-    background-color: rgba(0, 0, 0, 0.3);
-    opacity: 0;
+    line-height: 30px;
   }
 
-  .left {
-    left: 60px;
-    z-index: 9;
-  }
+h1 {
+  text-transform: uppercase;
 
-  .right {
-    right: 60px;
-  }
+&>span {
+    font-weight: 700;
+    text-transform: capitalize;
+padding-bottom: 30px;
+}
+}
+.color_big {
+  position: relative;
+  z-index: 999;
 
-  .icon:hover {
-    opacity: 1;
-  }
-
-  .slick-dots {
+  &::after {
+    content: "";
     position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    display: none !important;
+    width: 100%;
+    height: 20px;
+    background: #fdc221;
+    bottom: 21px;
+    left: 0;
+    z-index: -1;
+}
+}
 
-    li {
-      list-style: none;
-      display: inline-block;
-      margin: 0 3px;
+}
 
-      button {
-        font-size: 0;
-        border-radius: 50%;
-        border: 0;
-        width: 12px;
-        height: 12px;
-        background-color: #BABABB;
-      }
+}
 
-      &.slick-active {
-        button {
-          background-color: $theme;
-        }
-      }
-    }
+.icon {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  color: $white;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 18px;
+  transition: all linear .2s;
+  background-color: rgba(0, 0, 0, 0.3);
+opacity: 1;
+}
+
+.left {
+  left: 60px;
+  z-index: 9;
+}
+
+.right {
+  right: 60px;
+}
+
+.icon:hover {
+  opacity: 1;
+}
+
+.slick-dots {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: none !important;
+
+li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 3px;
+
+button {
+    font-size: 0;
+    border-radius: 50%;
+    border: 0;
+    width: 12px;
+    height: 12px;
+    background-color: #BABABB;
   }
+
+&.slick-active {
+  button {
+    background-color: $theme;
+  }
+}
+}
+}
 }

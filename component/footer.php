@@ -1,14 +1,14 @@
 <button class="scroll-to-top">
   <i class="fas fa-angle-up"></i>
 </button>
-<footer class="website_footer">
+<footer class="footer">
   <div class="container">
     <div class="row">
       <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
         <div class="widget">
           <img class="mb-4" src="images/logo.webp" alt="logo" width="220">
           <p class="mb-4">
-            Lorem ipsum dolor sit amet consecteturicing elit. Deserunt, quisquam!
+            Lorem ipsum dolor sit amet elit. Deserunt, quisquam! Lorem ipsum dolor sit amet consecteturicing elit. Deserunt, quisquam!
           </p>
           <div class="nav social">
             <a href="#"><i class="fab fa-twitter"></i></a>
@@ -20,10 +20,20 @@
         </div>
       </div>
       <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
-        <div class="widget">
+        <div class="widget amp">
           <h4 class="widget-title  mb-3">Get in Touch</h4>
-          <address>Moonshine St. 14/05 Light City, London, United Kingdom</address>
-          <a href="mailto:#">info@email.com</a><br> <a href="tel:00(123)4567890">00 (123) 456 78 90</a>
+          <address class="d-flex align-items-center">
+            <img src="images/icon/location-pin.png" alt="loaction" class="me-3">
+            <span>334, Sher-A-Bangla Road (1st floor), Khulna-9100, Bangladesh.</span>
+          </address>
+          <a href="mailto:#" class="d-flex align-items-center">
+            <img src="images/icon/email.png" alt="email" class="me-3">
+            <span>aosed_khulna@yahoo.com</span>
+          </a><br>
+          <a href="tel:+880244110711">
+            <img src="images/icon/call.png" alt="email" class="me-3">
+            <span>+880244110711</span>
+          </a>
         </div>
       </div>
       <div class="col-lg-3 col-md-6 mb-4 mb-lg-0 ps-lg-5">
@@ -55,7 +65,7 @@
       <div class="row">
         <div class="col-md-12">
           <div class="text text-center">
-            <p>&copy; All right reserved by: <a href="">Nogor solutions limited</a></p>
+            <p>&copy; 2024 AOSED | <a href="">Developed by Nogor Solutions Limited</a></p>
           </div>
         </div>
       </div>

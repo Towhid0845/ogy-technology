@@ -1,0 +1,143 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+#events {
+  background-color: #eef4f8;
+}
+
+.event_left_side_wrapper {
+  background: #ffffff;
+  box-shadow: -4px 6px 24px rgba(0, 0, 0, 0.08),
+    6px 12px 24px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+}
+
+.event_big_img {
+  position: relative;
+  overflow: hidden;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.event_big_img a img {
+  width: 100%;
+  transition: $transition;
+}
+
+.event_left_side_wrapper:hover .event_big_img a img {
+  transform: scale(1.2) rotate(3deg);
+}
+
+.event_content_area {
+  position: relative;
+}
+
+.big_content_padding {
+  padding: 15px 18px;
+}
+
+.small_content_padding {
+  padding: 15px 18px;
+  margin-bottom: 20px;
+}
+
+.small_content_padding .event_heading_area {
+  padding-top: 7px;
+}
+
+.small_content_padding .event_para {
+  padding-top: 8px;
+  padding-right: 90px;
+}
+
+.event_tag_area a {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.event_heading_area {
+  padding-top: 15px;
+}
+
+.event_heading {
+  padding-right: 90px;
+}
+
+.event_heading h3 {
+  line-height: 34px;
+}
+
+.event_heading h3 a {
+  color: $black;
+}
+
+.event_heading h3 a:hover {
+  color: $theme;
+}
+
+.event_date {
+  position: absolute;
+  width: 85px;
+  height: 83px;
+  text-align: center;
+  right: 32px;
+  top: 31px;
+}
+
+.event_date h6 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 18px;
+  color: #fff;
+  transform: translate(-50%, -58%);
+}
+
+.event_date h6 span {
+  display: block;
+}
+
+.event_para {
+  padding-top: 18px;
+  padding-right: 90px;
+}
+
+.event_boxed_bottom_wrapper {
+  border-top: 1px solid #c4c4c440;
+  border-bottom: 1px solid #c4c4c440;
+  padding-top: 15px;
+  margin-top: 17px;
+  padding-bottom: 15px;
+}
+
+.event_boxed_bottom_wrapper .row .col-lg-6:last-child .event_bottom_boxed {
+  border-right: none;
+}
+
+.event_bottom_boxed {
+  display: flex;
+  align-items: center;
+  border-right: 1px solid #e6e6e6;
+}
+
+.event_bottom_content {
+  padding-left: 8px;
+}
+
+.event_bottom_content h5 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.event_bottom_content p {
+  padding-top: 0;
+  font-size: 14px;
+}
+
+.event_button {
+  margin-top: 30px;
+}
+
+.event_button a {
+  width: 100%;
+}
