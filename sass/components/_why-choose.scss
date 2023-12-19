@@ -67,7 +67,7 @@
           width: 70px;
           height: 70px;
           border-radius: 50%;
-          background-color: $themeColor;
+          background-color: $theme;
           padding: 18px
         }
 
@@ -112,7 +112,7 @@
       color: $white;
     
       &:hover {
-      background-color: $themeColor;
+      background-color: $theme;
         color: $black;
       }
       }

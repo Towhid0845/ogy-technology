@@ -51,7 +51,7 @@
         span {
           @include font(14px, 700);
           text-transform: uppercase;
-          color: $themeColor;
+          color: $theme;
         }
       }
     }
@@ -72,7 +72,7 @@
     transition: all linear .2s;
 
     &:hover {
-      background-color: $themeColor;
+      background-color: $theme;
       color: $black;
     }
   }

@@ -64,7 +64,7 @@ nav {
 
             &:hover> {
               a {
-                background-color: $themeColor;
+                background-color: $theme;
                 color: $black !important;
               }
             }
@@ -160,7 +160,7 @@ nav {
           transition: all 0.3s ease 0s;
 
           &:hover {
-            background-color: $themeColor;
+            background-color: $theme;
             color: $black;
           }
         }
@@ -194,7 +194,7 @@ nav {
       transition: all linear .2s;
 
       &:hover {
-        background-color: $themeColor;
+        background-color: $theme;
         color: $black;
       }
     }
@@ -224,9 +224,9 @@ nav {
         box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
 
         &:hover {
-          background-color: $themeColor;
+          background-color: $theme;
           color: $white;
-          border-color: $themeColor
+          border-color: $theme
         }
       }
     }
@@ -266,7 +266,7 @@ nav {
         transition: all linear .2s;
 
         &:hover {
-          background-color: $themeColor;
+          background-color: $theme;
         }
       }
     }
@@ -297,7 +297,7 @@ nav {
             sup {
               width: 25px;
               height: 25px;
-              background-color: $themeColor;
+              background-color: $theme;
               border-radius: 50%;
               text-align: center;
               line-height: 25px;
@@ -327,7 +327,7 @@ nav {
           transition: all linear .2s;
 
           &:focus {
-            border-color: $themeColor;
+            border-color: $theme;
           }
         }
 
@@ -356,7 +356,7 @@ nav {
               transition: all linear .2s;
 
               &:hover {
-                color: $themeColor;
+                color: $theme;
               }
 
               i {
@@ -370,7 +370,7 @@ nav {
 
               &:hover {
                 i {
-                  background-color: $themeColor;
+                  background-color: $theme;
                   color: $white;
                 }
               }
