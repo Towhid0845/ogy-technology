@@ -1,0 +1,28 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+.subscribe_wrapper {
+  background: $white;
+  box-shadow: -4px -6px 24px rgba(0, 0, 0, 0.08), 8px 12px 24px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  padding: 40px 85px 40px 85px;
+
+  .subscribe_text h3 {
+    font-size: 30px;
+    padding-top: 10px;
+    line-height: 40px;
+  }
+}
+
+
+
+#subscribe_form .form-control {
+  border: 1px solid $theme;
+  height: 60px;
+  background: $white;
+}
+
+#subscribe_form .btn_md {
+  padding: 16px 35px;
+  font-size: 18px;
+}

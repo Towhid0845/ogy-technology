@@ -1,10 +1,24 @@
 @import "../variable/variable";
 @import "../mixin/font";
 
-#partner_area {
+#partner {
   padding: 100px 0 200px 0;
+  .partner_logo {
+      background-color: transparent;
+    }
 }
 
-#partner_area .owl-carousel .owl-item img {
-  width: auto !important;
+// #partner .owl-carousel a {
+//   margin: 0 auto;
+// }
+
+#partner .owl-carousel .owl-item img {
+  // width: auto !important;
+  width: 200px;
+  margin: 0 auto;
+
+}
+
+.owl-theme .owl-nav {
+  display: none;
 }

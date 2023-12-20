@@ -1,0 +1,35 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+/* --Counter Area-- */
+#counter {
+  z-index: 9;
+}
+
+.counter_area_wrapper {
+  background: $white;
+  box-shadow: -4px -6px 24px rgba(0, 0, 0, 0.08),
+    8px 12px 24px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  padding: 30px 20px;
+  margin-top: -100px;
+}
+
+.counter_item {
+  text-align: center;
+  border-right: 1px solid #eeeeee;
+}
+
+.row .col-lg-3:last-child .counter_item {
+  border-right: none;
+}
+
+.counter_item h2 {
+  line-height: 50px;
+  padding-top: 10px;
+}
+
+.counter_item p {
+  font-size: 18px;
+  padding-top: 10px;
+}

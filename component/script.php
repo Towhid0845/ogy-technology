@@ -2,6 +2,7 @@
   <script src="js/jquery-1.12.4.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/slick.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
   <script src="js/aos.js"></script>
   <script src="js/slick-animation.min.js"></script>
   <script src="js/jquery.counterup.min.js"></script>

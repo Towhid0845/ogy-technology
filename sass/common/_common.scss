@@ -252,8 +252,11 @@ body {
 
 
 ::selection {
-  background-color: $theme;
+  background-color: #FDC221;
   color: $black;
+}
+section {
+  position: relative;
 }
 .view-all-btn {
   font-size: 20px;

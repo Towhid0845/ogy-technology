@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="fontawsome/css/all.min.css">
   <link rel="stylesheet" href="fontawsome/css/fontawesome.min.css">
   <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
   <link rel="stylesheet" href="css/animate.min.css">
   <link rel="stylesheet" href="css/fonts.css">
   <link rel="stylesheet" href="css/aos.css">

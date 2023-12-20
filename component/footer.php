@@ -1,7 +1,7 @@
 <button class="scroll-to-top">
   <i class="fas fa-angle-up"></i>
 </button>
-<footer class="footer">
+<footer id="footer">
   <div class="container">
     <div class="row">
       <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
@@ -48,8 +48,10 @@
       </div>
       <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
         <div class="widget">
-          <h4 class="widget-title mb-3">Our Newsletter</h4>
-          <p class="mb-3">Subscribe to our newsletter to get our news &amp; deals delivered to you.</p>
+          <h4 class="widget-title mb-3">Map</h4>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d117687.71976105255!2d89.556547!3d22.81205!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ff900276034217%3A0x5e6a8b064727e128!2sAOSED-An%20Organization%20for%20Socio-Economic%20Development!5e0!3m2!1sen!2sus!4v1703064631502!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+          <!-- <p class="mb-3">Subscribe to our newsletter to get our news &amp; deals delivered to you.</p>
           <div class="subscribe">
             <form>
               <div class="input_groups">
@@ -57,7 +59,7 @@
                 <button type="submit"><i class="fas fa-paper-plane"></i></button>
               </div>
             </form>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
