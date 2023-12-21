@@ -1,6 +1,8 @@
+@import "./variable/variable";
+@import "./mixin/font";
 @media (min-width:1800px) {
 
-  .container,
+.container,
   .container-lg,
   .container-md,
   .container-sm,
@@ -12,7 +14,7 @@
 
 @media (min-width:1600px) and (max-width:1799.98px) {
 
-  .container,
+.container,
   .container-lg,
   .container-md,
   .container-sm,
@@ -24,22 +26,427 @@
 
 @media (min-width:1400px) and (max-width:1599.98px) {
 
-  .container,
-  .container-lg,
-  .container-md,
-  .container-sm,
-  .container-xl,
-  .container-xxl {
-    max-width: 1440px;
-}
 }
 
-@media (min-width:1200px) and (max-width:1399.98px) {}
+@media (min-width:1200px) and (max-width:1399.98px) {
+  #what_we_do {
+    padding: 50px 0;
+  }
 
-@media (min-width:992px) and (max-width:1199.98px) {}
+  #about {
+    padding: 30px 0 40px;
+  }
 
-@media (min-width:768px) and (max-width:991.98px) {}
+  #events,
+  #counter,
+  #news {
+    padding: 40px 0 40px;
+  }
 
-@media (min-width:576px) and (max-width:767.98px) {}
+  #partner {
+    padding: 40px 0 80px 0;
+  }
 
-@media (max-width:575.98px) {}
+  #footer {
+    padding: 40px 0 30px 0;
+  }
+
+  .navbar-brand img {
+    width: 120px !important;
+  }
+
+  nav .container .navbar-nav li {
+    margin: 0 10px;
+  }
+
+  nav .container .search {
+    margin-right: 15px;
+  }
+
+  .btn_navber {
+    padding: 7px 15px;
+  }
+
+  nav .container .navbar-nav li a {
+    font-size: 16px;
+  }
+
+  .event_big_img {
+    height: 395px;
+  }
+
+  .about_top_boxed_icon img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .about_top_boxed_text h3 {
+    font-size: 25px;
+  }
+
+  .about_top_boxed_vector img {
+    width: 70px;
+  }
+
+  .about_top_boxed {
+    height: 250px;
+  }
+
+  .blog_card_img {
+    height: 237px;
+  }
+
+  .blog_card_heading h3 a {
+    font-size: 22px;
+  }
+}
+
+@media (min-width:992px) and (max-width:1199.98px) {
+  #what_we_do {
+    padding: 50px 0;
+  }
+
+  #about {
+    padding: 30px 0 40px;
+  }
+
+  #events,
+  #counter,
+  #news {
+    padding: 40px 0 40px;
+  }
+
+  #partner {
+    padding: 40px 0 80px 0;
+  }
+
+  #footer {
+    padding: 40px 0 30px 0;
+  }
+
+  #banner .right {
+    left: 31%;
+  }
+
+  .about_top_boxed_icon img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .about_top_boxed_text h3 {
+    font-size: 25px;
+  }
+
+  .about_top_boxed_vector img {
+    width: 70px;
+  }
+
+  .about_top_boxed {
+    height: 250px;
+  }
+
+  .event_big_img {
+    height: 395px;
+  }
+
+  .blog_card_heading h3 a {
+    font-size: 25px;
+  }
+
+  .blog_card_img {
+    height: 197px;
+  }
+}
+
+@media (min-width:768px) and (max-width:991.98px) {
+  #what_we_do {
+    padding: 40px 0;
+  }
+
+  #about {
+    padding: 30px 0 40px;
+  }
+
+  #events,
+  #counter,
+  #news {
+    padding: 40px 0 40px;
+  }
+
+  #partner {
+    padding: 40px 0 80px 0;
+  }
+
+  #footer {
+    padding: 40px 0 30px 0;
+  }
+
+  #banner .banner-img {
+    padding: 0;
+    height: 70vh;
+  }
+
+  #banner .banner-img .banner_text a {
+    padding-left: 50px;
+    color: $white;
+  }
+
+  #banner .right {
+    right: 6% !important;
+    left: unset;
+  }
+
+  #banner .icon {
+    background-color: rgba(224, 60, 51, 0.62);
+  }
+
+  .blog_card_wrapper {
+    margin-bottom: 24px;
+  }
+
+  .blog_card_img {
+    width: 100%;
+    height: 420px;
+  }
+
+  .blog_card_img a {
+    height: 100%;
+    width: 100%;
+  }
+
+  .event_date {
+    right: 20px;
+  }
+
+  .event_para {
+    padding-right: 0px;
+  }
+}
+
+@media (min-width:576px) and (max-width:767.98px) {
+  #what_we_do {
+    padding: 40px 0;
+  }
+
+  #about {
+    padding: 30px 0 40px;
+  }
+
+  #events,
+  #counter,
+  #news {
+    padding: 40px 0 40px;
+  }
+
+  #partner {
+    padding: 40px 0 80px 0;
+  }
+
+  #footer {
+    padding: 40px 0 30px 0;
+  }
+
+  #banner .banner-img {
+    padding: 0;
+    height: 66vh;
+  }
+
+  #banner .banner-img .banner_text a {
+    padding-left: 50px;
+    color: $white;
+  }
+
+  #banner .right {
+    right: 6% !important;
+    left: unset;
+  }
+
+  #banner .icon {
+    background-color: rgba(224, 60, 51, 0.62);
+  }
+
+  .blog_card_wrapper {
+    margin-bottom: 24px;
+  }
+
+  .blog_card_img {
+    width: 100%;
+    height: 420px;
+  }
+
+  .blog_card_img a {
+    height: 100%;
+    width: 100%;
+  }
+
+  #banner .banner-img .image {
+    height: 576px;
+  }
+
+  #banner .banner-img .banner_text a>span {
+    text-align: start;
+  }
+
+  .about_top_boxed_icon img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .about_top_boxed_text h3 {
+    font-size: 25px;
+  }
+
+  .about_top_boxed_vector img {
+    width: 70px;
+  }
+
+  .about_top_boxed {
+    height: 250px;
+  }
+
+  .event_date {
+    right: 20px;
+  }
+
+  .event_para {
+    padding-right: 0px;
+  }
+
+  .blog_card_img {
+    height: 340px;
+  }
+
+  .blog_card_heading h3 a {
+    font-size: 22px;
+  }
+}
+
+@media (max-width:575.98px) {
+  #what_we_do {
+    padding: 40px 0;
+  }
+
+  #about {
+    padding: 30px 0 40px;
+  }
+
+  #events,
+  #counter,
+  #news {
+    padding: 40px 0 40px;
+  }
+
+  #partner {
+    padding: 40px 0 80px 0;
+  }
+
+  #footer {
+    padding: 40px 0 30px 0;
+  }
+
+  #banner .banner-img {
+    padding: 0;
+    height: 66vh;
+  }
+
+  #banner .banner-img .banner_text a {
+    padding-left: 50px;
+    color: $white;
+  }
+
+  #banner .right {
+    right: 6% !important;
+    left: unset;
+  }
+
+  #banner .icon {
+    background-color: rgba(224, 60, 51, 0.62);
+  }
+
+  .blog_card_wrapper {
+    margin-bottom: 24px;
+  }
+
+  .blog_card_img {
+    width: 100%;
+    height: 420px;
+  }
+
+  .blog_card_img a {
+    height: 100%;
+    width: 100%;
+  }
+
+  #banner .banner-img .image {
+    height: 576px;
+  }
+
+  #banner .banner-img .banner_text a>span {
+    text-align: start;
+  }
+
+  .about_top_boxed_icon img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .about_top_boxed_text h3 {
+    font-size: 25px;
+  }
+
+  .about_top_boxed_vector img {
+    width: 70px;
+  }
+
+  .about_top_boxed {
+    height: 250px;
+  }
+
+  .event_date {
+    right: 20px;
+  }
+
+  .event_para {
+    padding-right: 0px;
+  }
+
+  .blog_card_img {
+    height: 240px;
+  }
+
+  .blog_card_heading h3 a {
+    font-size: 22px;
+  }
+
+  #banner .icon {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+}
+.mobile-topbar .bars i {
+  width: 40px;
+  height: 40px;
+  font-size: 17px;
+  line-height: 40px;
+}
+
+.btn_md {
+  padding: 9px 25px;
+}
+
+.vedio_btn {
+  margin-left: 15px;
+}
+
+.vedio_btn i {
+  margin-right: 5px;
+}
+
+.event_big_img {
+  height: 285px;
+}
+
+#partner .owl-carousel .owl-item img {
+  margin-left: 55px;
+}
+}

@@ -2,7 +2,7 @@
 <div class="topbar">
   <div class="container">
     <div class="row align-items-center">
-      <div class="col-lg-6 col-md-6">
+      <div class="col-lg-6 col-8">
         <ul class="topbar-list">
           <li><a href="#!"><i class="fa fa-envelope"></i><span>aosed_khulna@yahoo.com</span></a>
           </li>
@@ -10,7 +10,7 @@
           <li><a href="#!"><span>Faqs</span></a></li>
         </ul>
       </div>
-      <div class="col-lg-6 col-md-6">
+      <div class="col-lg-6 col-4">
         <ul class="topbar-list-right">
           <li>
             <a href="#!"><i class="fab fa-facebook"></i></a>
@@ -32,92 +32,94 @@
 <!-- Top Bar end-->
 
 <!-- nav Bar start-->
-<nav class="navbar navbar-expand-lg d-none d-xl-block">
-  <div class="container">
-    <a class="navbar-brand" href="index.html">
-      <img src="images/logo.webp" alt="logo" width="140">
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-4">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="about.html">who we are <i class="fas fa-angle-down"></i></a>
-          <ul class="list-unstyled sub-dropdown-menu">
-            <li><a href="">Background</a></li>
-            <li><a href="">board & governance</a></li>
-            <li><a href="">our team</a></li>
-            <li><a href="">partners</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="service-list.html">what we do <i class="fas fa-angle-down"></i></a>
-          <ul class="list-unstyled sub-dropdown-menu">
-            <li><a href="">water justice</a></li>
-            <li><a href="">food security & agriculture</a></li>
-            <li><a href="">environment & climate change</a></li>
-            <li><a href="">sanitation & hygiene</a></li>
-            <li><a href="">disaster management</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="project-list.html">Gallery <i class="fas fa-angle-down"></i>
-          </a>
-          <ul class="list-unstyled sub-dropdown-menu">
-            <li><a href="">Photos</a></li>
-            <li><a href="">Videos</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="client-list.html">Publication <i class="fas fa-angle-down"></i>
-          </a>
-          <ul class="list-unstyled sub-dropdown-menu">
-            <li><a href="">Newsletter</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="partner-list.html">Project & program <i class="fas fa-angle-down"></i>
-          </a>
-          <ul class="list-unstyled sub-dropdown-menu">
-            <li><a href="">Ongoing Projects</a></li>
-            <li><a href="">Recent Past Projects</a></li>
-            <li><a href="">Success Stories</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact-us.html">Contact Us</a>
-        </li>
-      </ul>
-      <div class="right-info d-flex align-items-center">
-        <div class="search">
-          <i class="fas fa-search main-icon"></i>
-          <div class="search-field">
-            <div class="container position-relative">
-              <form action="#">
-                <div class="input-groups">
-                  <input type="text" placeholder="Search...">
-                  <button type="submit" class="submit-btn">
-                    <i class="fas fa-search sub-icon"></i>
-                  </button>
-                </div>
-              </form>
-              <button type="button" class="close-btn">
-                <i class="fas fa-times"></i>
-              </button>
+<div class="sticky-top">
+  <nav class="navbar navbar-expand-lg d-none d-xl-block">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="images/logo.webp" alt="logo" width="140">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-4">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="about.html">who we are <i class="fas fa-angle-down"></i></a>
+            <ul class="list-unstyled sub-dropdown-menu">
+              <li><a href="">Background</a></li>
+              <li><a href="">board & governance</a></li>
+              <li><a href="">our team</a></li>
+              <li><a href="">partners</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="service-list.html">what we do <i class="fas fa-angle-down"></i></a>
+            <ul class="list-unstyled sub-dropdown-menu">
+              <li><a href="">water justice</a></li>
+              <li><a href="">food security & agriculture</a></li>
+              <li><a href="">environment & climate change</a></li>
+              <li><a href="">sanitation & hygiene</a></li>
+              <li><a href="">disaster management</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="project-list.html">Gallery <i class="fas fa-angle-down"></i>
+            </a>
+            <ul class="list-unstyled sub-dropdown-menu">
+              <li><a href="">Photos</a></li>
+              <li><a href="">Videos</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="client-list.html">Publication <i class="fas fa-angle-down"></i>
+            </a>
+            <ul class="list-unstyled sub-dropdown-menu">
+              <li><a href="">Newsletter</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="partner-list.html">Project & program <i class="fas fa-angle-down"></i>
+            </a>
+            <ul class="list-unstyled sub-dropdown-menu">
+              <li><a href="">Ongoing Projects</a></li>
+              <li><a href="">Recent Past Projects</a></li>
+              <li><a href="">Success Stories</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact-us.html">Contact Us</a>
+          </li>
+        </ul>
+        <div class="right-info d-flex align-items-center">
+          <div class="search">
+            <i class="fas fa-search main-icon"></i>
+            <div class="search-field">
+              <div class="container position-relative">
+                <form action="#">
+                  <div class="input-groups">
+                    <input type="text" placeholder="Search...">
+                    <button type="submit" class="submit-btn">
+                      <i class="fas fa-search sub-icon"></i>
+                    </button>
+                  </div>
+                </form>
+                <button type="button" class="close-btn">
+                  <i class="fas fa-times"></i>
+                </button>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="donate-div">
-          <a href="make-donation.html" class="btn btn_navber">Donate now</a>
+          <div class="donate-div">
+            <a href="make-donation.html" class="btn btn_navber">Donate now</a>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</nav>
+  </nav>
+</div>
 <!-- nav Bar end-->
 
 <!-- mobile navbar part start -->
@@ -126,7 +128,7 @@
     <div class="container">
       <div class="d-flex justify-content-between align-items-center">
         <div class="logo">
-          <img src="images/logo.png" alt="logo" width="100">
+          <img src="images/logo.webp" alt="logo" width="100">
         </div>
         <div class="bars">
           <i class="fas fa-bars"></i>

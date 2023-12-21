@@ -2,8 +2,70 @@
 @import "../mixin/font";
 
 /* --Counter Area-- */
+.notice {
+  box-shadow: 0 0 25px rgba(33, 37, 41, 0.3);
+  padding: 30px 30px 10px;
+
+}
+
+.notice ul {
+  background-color: #f2f2f2;
+  margin-bottom: 14px;
+  position: relative;
+  height: 65px;
+}
+
+.notice ul li.date {
+  background-color: #9F89C0;
+  color: #ffffff;
+  width: 80px;
+  padding: 10px 0;
+  font-weight: 600;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.notice ul li.info {
+  padding: 14px;
+  padding-right: 80px;
+  padding-left: 100px;
+}
+
+.notice ul li.info a {
+  color: #1e1d23;
+  transition: all linear 0.2s;
+  font-size: 16px;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+
+  &:hover {
+    color: $theme;
+  }
+}
+
+.notice ul li.pdf {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+}
+
+.notice ul li.pdf a {
+  width: 50px;
+  height: 50px;
+  background-color: #C7EAFC;
+  text-align: center;
+  line-height: 44px;
+  border-radius: 50%;
+  font-size: 25px;
+  color: #ffffff;
+}
 #counter {
   z-index: 9;
+  // padding-bottom: 100px;
 }
 
 .counter_area_wrapper {
@@ -12,12 +74,33 @@
     8px 12px 24px rgba(0, 0, 0, 0.08);
   border-radius: 8px;
   padding: 30px 20px;
-  margin-top: -100px;
+  // margin-top: -100px;
 }
 
 .counter_item {
   text-align: center;
   border-right: 1px solid #eeeeee;
+img {
+    height: 64px;
+  }
+
+  .count {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: $white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    top: 0;
+
+    p {
+      font-size: 22px;
+      color: $theme;
+      font-weight: 700;
+    }
+  }
 }
 
 .row .col-lg-3:last-child .counter_item {

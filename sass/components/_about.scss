@@ -1,6 +1,13 @@
 @import "../variable/variable";
 @import "../mixin/font";
 
+.about_area_img {
+  width: 100%;
+
+  img {
+    width: 100%;
+  }
+}
 .about_area_main_text {
   padding-top: 54px;
   padding-left: 20px;

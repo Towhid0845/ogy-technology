@@ -170,11 +170,13 @@ body {
   color: $para;
   font-weight: 400;
   margin-bottom: -30px;
+  text-transform: capitalize;
 }
 
 .section_heading h2 {
   padding-top: 20px;
   position: relative;
+  text-transform: capitalize;
 }
 
 .section_heading_two {
@@ -199,16 +201,6 @@ body {
 
 // heading part end
 
-
-
-.py-50 {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-.pb-50 {
-  padding-bottom: 50px;
-}
 // line limit part
 .line_limit_1 {
   @include line_limit(1)
@@ -276,4 +268,34 @@ section {
 
 .view-all-bg-dark {
   background-color: #0A0B0F;
+}
+// padding 
+
+#what_we_do {
+  padding: 60px 0;
+}
+
+#about {
+  padding: 40px 0 50px;
+}
+
+#events,
+#counter,
+#news {
+  padding: 50px 0 50px;
+}
+
+#partner {
+  padding: 50px 0 100px 0;
+}
+
+#footer {
+  padding: 50px 0 30px 0;
+}
+
+.sticky-top {
+  top: -143px;
+  transition: 0.5s;
+  z-index: 9999 !important;
+  background-color: #ffffff;
 }

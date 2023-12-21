@@ -2,7 +2,6 @@
 @import "../mixin/font";
 
 #partner {
-  padding: 100px 0 200px 0;
   .partner_logo {
       background-color: transparent;
     }
@@ -14,8 +13,8 @@
 
 #partner .owl-carousel .owl-item img {
   // width: auto !important;
-  width: 200px;
-  margin: 0 auto;
+  width: 230px;
+    padding: 0 20px;
 
 }
 

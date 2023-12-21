@@ -78,6 +78,7 @@
   color: $theme;
 }
 // navbar part start
+
 .navbar-expand-lg .navbar-nav .nav-link {
   padding: 0;
   text-transform: capitalize;
@@ -294,7 +295,7 @@ nav {
 
       &:hover {
         background-color: $theme;
-        color: $black;
+        color: $white;
       }
     }
   }

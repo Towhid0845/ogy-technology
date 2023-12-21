@@ -11,6 +11,18 @@ $(function () {
 
   });
 
+
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 350 && screen.width > 767) {
+      $('.sticky-top').addClass('shadow-lg').css('top', '0px');
+      // console.log(screen.width)
+    } else {
+      $('.sticky-top').removeClass('shadow-lg').css('top', '-143px');
+    }
+  });
+
+
+
   $("#banner").slick({
     dots: true,
     infinite: true,
@@ -36,6 +48,31 @@ $(function () {
     slidesToScroll: 1,
     prevArrow: false,
     nextArrow: false,
+    responsive: [{
+      breakpoint: 1200,
+      settings: {
+        slidesToShow: 3,
+      }
+      },
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 2,
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+        }
+      },
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 1,
+        }
+      }
+    ]
   }).slickAnimation();
 
   $('.owl-carousel').owlCarousel({
@@ -50,14 +87,14 @@ $(function () {
         0:{
             items:1
         },
-        600:{
+        576:{
             items:3
         },
-        1000:{
-            items:5
+        992:{
+            items:4
         },
-        1400:{
-            items:6
+        1200:{
+            items:5
         }
     }
 })

@@ -163,11 +163,13 @@ body {
   color: #818090;
   font-weight: 400;
   margin-bottom: -30px;
+  text-transform: capitalize;
 }
 
 .section_heading h2 {
   padding-top: 20px;
   position: relative;
+  text-transform: capitalize;
 }
 
 .section_heading_two {
@@ -188,15 +190,6 @@ body {
 
 .section_heading h2:before {
   content: url("http://localhost/ngo/images/shape2.png");
-}
-
-.py-50 {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-.pb-50 {
-  padding-bottom: 50px;
 }
 
 .line_limit_1 {
@@ -295,6 +288,35 @@ section {
 
 .view-all-bg-dark {
   background-color: #0A0B0F;
+}
+
+#what_we_do {
+  padding: 60px 0;
+}
+
+#about {
+  padding: 40px 0 50px;
+}
+
+#events,
+#counter,
+#news {
+  padding: 50px 0 50px;
+}
+
+#partner {
+  padding: 50px 0 100px 0;
+}
+
+#footer {
+  padding: 50px 0 30px 0;
+}
+
+.sticky-top {
+  top: -143px;
+  transition: 0.5s;
+  z-index: 9999 !important;
+  background-color: #ffffff;
 }
 
 .topbar {
@@ -553,7 +575,7 @@ nav .container .search .show-search-field {
 }
 .mobile-topbar .bars i:hover {
   background-color: #E03C33;
-  color: #2a283e;
+  color: #ffffff;
 }
 
 .mobile-menu {
@@ -725,20 +747,25 @@ nav .container .search .show-search-field {
 }
 
 #banner .banner-img {
-  padding: 60px 0;
+  padding: 0 0 0 100px;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 80vh;
 }
 #banner .banner-img .image {
   position: relative;
   text-align: right;
-  width: 620px;
-  height: 685px;
+  width: 100%;
+  height: 735px;
 }
 #banner .banner-img .image > img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+#banner .banner-img .image .banner_element .banner_text {
+  position: absolute;
+  top: 0;
 }
 #banner .banner-img .image .banner_element img {
   position: absolute;
@@ -800,10 +827,14 @@ nav .container .search .show-search-field {
   font-size: 18px;
   line-height: 30px;
 }
-#banner .banner-img .banner_text h1 {
+#banner .banner-img .banner_text a {
   text-transform: uppercase;
+  padding-top: 250px;
+  color: #006230;
+  font-size: 36px;
+  font-weight: 500;
 }
-#banner .banner-img .banner_text h1 > span {
+#banner .banner-img .banner_text a > span {
   font-weight: 700;
   text-transform: capitalize;
   padding-bottom: 30px;
@@ -830,7 +861,7 @@ nav .container .search .show-search-field {
   color: #ffffff;
   border-radius: 50%;
   position: absolute;
-  top: 50%;
+  top: 90%;
   transform: translateY(-50%);
   cursor: pointer;
   font-size: 18px;
@@ -839,11 +870,11 @@ nav .container .search .show-search-field {
   opacity: 1;
 }
 #banner .left {
-  left: 60px;
+  left: 50px;
   z-index: 9;
 }
 #banner .right {
-  right: 60px;
+  left: 39%;
 }
 #banner .icon:hover {
   opacity: 1;
@@ -870,6 +901,13 @@ nav .container .search .show-search-field {
 }
 #banner .slick-dots li.slick-active button {
   background-color: #E03C33;
+}
+
+.about_area_img {
+  width: 100%;
+}
+.about_area_img img {
+  width: 100%;
 }
 
 .about_area_main_text {
@@ -954,6 +992,66 @@ nav .container .search .show-search-field {
 }
 
 /* --Counter Area-- */
+.notice {
+  box-shadow: 0 0 25px rgba(33, 37, 41, 0.3);
+  padding: 30px 30px 10px;
+}
+
+.notice ul {
+  background-color: #f2f2f2;
+  margin-bottom: 14px;
+  position: relative;
+  height: 65px;
+}
+
+.notice ul li.date {
+  background-color: #9F89C0;
+  color: #ffffff;
+  width: 80px;
+  padding: 10px 0;
+  font-weight: 600;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.notice ul li.info {
+  padding: 14px;
+  padding-right: 80px;
+  padding-left: 100px;
+}
+
+.notice ul li.info a {
+  color: #1e1d23;
+  transition: all linear 0.2s;
+  font-size: 16px;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.notice ul li.info a:hover {
+  color: #E03C33;
+}
+
+.notice ul li.pdf {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+}
+
+.notice ul li.pdf a {
+  width: 50px;
+  height: 50px;
+  background-color: #C7EAFC;
+  text-align: center;
+  line-height: 44px;
+  border-radius: 50%;
+  font-size: 25px;
+  color: #ffffff;
+}
+
 #counter {
   z-index: 9;
 }
@@ -963,12 +1061,30 @@ nav .container .search .show-search-field {
   box-shadow: -4px -6px 24px rgba(0, 0, 0, 0.08), 8px 12px 24px rgba(0, 0, 0, 0.08);
   border-radius: 8px;
   padding: 30px 20px;
-  margin-top: -100px;
 }
 
 .counter_item {
   text-align: center;
   border-right: 1px solid #eeeeee;
+}
+.counter_item img {
+  height: 64px;
+}
+.counter_item .count {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 0;
+  top: 0;
+}
+.counter_item .count p {
+  font-size: 22px;
+  color: #E03C33;
+  font-weight: 700;
 }
 
 .row .col-lg-3:last-child .counter_item {
@@ -986,8 +1102,6 @@ nav .container .search .show-search-field {
 }
 
 #news {
-  padding: 200px 0 100px 0;
-  margin-top: -100px;
   background-color: #eef4f8;
 }
 
@@ -1006,7 +1120,6 @@ nav .container .search .show-search-field {
   height: 304px;
 }
 .blog_card_img a {
-  width: 100%;
   height: 100%;
 }
 .blog_card_img a img {
@@ -1189,6 +1302,10 @@ nav .container .search .show-search-field {
   background-color: #eef4f8;
 }
 
+.est {
+  font-size: 20px;
+}
+
 .event_left_side_wrapper {
   background: #ffffff;
   box-shadow: -4px 6px 24px rgba(0, 0, 0, 0.08), 6px 12px 24px rgba(0, 0, 0, 0.08);
@@ -1200,10 +1317,16 @@ nav .container .search .show-search-field {
   overflow: hidden;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
+  height: 430px;
 }
 
+.event_big_img a {
+  height: 100%;
+}
 .event_big_img a img {
   width: 100%;
+  object-fit: cover;
+  height: 100%;
   transition: 0.4s all ease-in-out;
 }
 
@@ -1325,16 +1448,13 @@ nav .container .search .show-search-field {
   width: 100%;
 }
 
-#partner {
-  padding: 100px 0 200px 0;
-}
 #partner .partner_logo {
   background-color: transparent;
 }
 
 #partner .owl-carousel .owl-item img {
-  width: 200px;
-  margin: 0 auto;
+  width: 230px;
+  padding: 0 20px;
 }
 
 .owl-theme .owl-nav {
@@ -1405,9 +1525,7 @@ nav .container .search .show-search-field {
 }
 
 #footer {
-  padding: 195px 0 30px 0;
   background-color: #eef4f8;
-  margin-top: -95px;
 }
 
 .amp img {
