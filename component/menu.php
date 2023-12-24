@@ -44,10 +44,10 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-4">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link active" aria-current="page" href="index.php">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="about.html">who we are <i class="fas fa-angle-down"></i></a>
+            <a class="nav-link active" aria-current="page" href="#">who we are <i class="fas fa-angle-down"></i></a>
             <ul class="list-unstyled sub-dropdown-menu">
               <li><a href="">Background</a></li>
               <li><a href="">board & governance</a></li>
@@ -56,17 +56,17 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="service-list.html">what we do <i class="fas fa-angle-down"></i></a>
+            <a class="nav-link" href="#">what we do <i class="fas fa-angle-down"></i></a>
             <ul class="list-unstyled sub-dropdown-menu">
-              <li><a href="">water justice</a></li>
-              <li><a href="">food security & agriculture</a></li>
-              <li><a href="">environment & climate change</a></li>
-              <li><a href="">sanitation & hygiene</a></li>
-              <li><a href="">disaster management</a></li>
+              <li><a href="water.php">water justice</a></li>
+              <li><a href="food.php">food security & agriculture</a></li>
+              <li><a href="environment.php">environment & climate change</a></li>
+              <li><a href="sanitation.php">sanitation & hygiene</a></li>
+              <li><a href="disaster.php">disaster management</a></li>
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="project-list.html">Gallery <i class="fas fa-angle-down"></i>
+            <a class="nav-link" href="#">Gallery <i class="fas fa-angle-down"></i>
             </a>
             <ul class="list-unstyled sub-dropdown-menu">
               <li><a href="">Photos</a></li>
@@ -74,14 +74,14 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="client-list.html">Publication <i class="fas fa-angle-down"></i>
+            <a class="nav-link" href="#">Publication <i class="fas fa-angle-down"></i>
             </a>
             <ul class="list-unstyled sub-dropdown-menu">
               <li><a href="">Newsletter</a></li>
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="partner-list.html">Project & program <i class="fas fa-angle-down"></i>
+            <a class="nav-link" href="#">Project & program <i class="fas fa-angle-down"></i>
             </a>
             <ul class="list-unstyled sub-dropdown-menu">
               <li><a href="">Ongoing Projects</a></li>
@@ -90,7 +90,7 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact-us.html">Contact Us</a>
+            <a class="nav-link" href="contact-us.php">Contact Us</a>
           </li>
         </ul>
         <div class="right-info d-flex align-items-center">
@@ -146,24 +146,44 @@
             <a href="index.html">Home</a>
           </li>
           <li class="sub-menu">
-            <a href="about.html">About Us</a>
-          </li>
-          <li class="sub-menu"><a href="#">Service <i class="fas fa-sort-down float-end"></i></a>
+            <a href="#">Who We Are <i class="fas fa-sort-down float-end"></i></a>
             <ul class="list-unstyled">
-              <li><a href="">Customized Mobile Apps Development</a></li>
-              <li><a href="">3-D Design and Modeling Services</a></li>
+              <li><a href="">Background</a></li>
+              <li><a href="">board and governance</a></li>
+              <li><a href="">our team</a></li>
+              <li><a href="">board</a></li>
+              <li><a href="">partners</a></li>
             </ul>
           </li>
-          <li class="sub-menu"><a href="product-list.html">Products
+          <li class="sub-menu"><a href="#">What We Do <i class="fas fa-sort-down float-end"></i></a>
+            <ul class="list-unstyled">
+              <li><a href="">water justic</a></li>
+              <li><a href="">food security & agriculture</a></li>
+              <li><a href="">environment & climate change</a></li>
+              <li><a href="">Sanitation & Hygiene</a></li>
+              <li><a href="">Disaster management</a></li>
+            </ul>
+          </li>
+          <li class="sub-menu"><a href="#">Gallery <i class="fas fa-sort-down float-end"></i>
             </a>
+            <ul class="list-unstyled">
+              <li><a href="">photos</a></li>
+              <li><a href="">videos</a></li>
+            </ul>
           </li>
-          <li class="sub-menu"><a href="project-list.html">Projects</a>
+          <li class="sub-menu"><a href="#">publication <i class="fas fa-sort-down float-end"></i></a>
+            <ul class="list-unstyled">
+              <li><a href="">Newsletter</a></li>
+            </ul>
           </li>
-          <li class="sub-menu"><a href="client-list.html">Clientele</a>
+          <li class="sub-menu"><a href="#">Project & Program <i class="fas fa-sort-down float-end"></i></a>
+            <ul class="list-unstyled">
+              <li><a href="">Ongoing Projects</a></li>
+              <li><a href="">Recent Past Projects</a></li>
+              <li><a href="">Success stories</a></li>
+            </ul>
           </li>
-          <li class="sub-menu"><a href="partner-list.html">Partnarship</a>
-          </li>
-          <li class="sub-menu"><a href="contact-us.html">Contact Us</a>
+          <li class="sub-menu"><a href="contact-us.php">Contact Us</a>
           </li>
         </ul>
       </div>

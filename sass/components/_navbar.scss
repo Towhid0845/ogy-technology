@@ -165,6 +165,7 @@ nav {
             li {
               a {
                 color: $black;
+                text-transform: capitalize;
                 
                   &::before {
                     content: "";
@@ -447,6 +448,7 @@ nav {
         ul {
           li {
             a {
+              text-transform: capitalize;
               font-size: 15px;
               font-weight: 400;
               color: #232F3E;

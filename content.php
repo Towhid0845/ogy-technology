@@ -1,166 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0, user-scalable=yes">
-    <title>Software Company</title>
-    <link rel="shortcut icon" href="" type="image/x-icon">
-    <!--all css link -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="fontawsome/css/all.min.css">
-    <link rel="stylesheet" href="fontawsome/css/fontawesome.min.css">
-    <link rel="stylesheet" href="css/nice-select.css">
-    <link rel="stylesheet" href="css/slick.css">
-    <link rel="stylesheet" href="css/animate.min.css">
-    <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/aos.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-  </head>
-
+<?php include("./component/head.php"); ?>
 
 <body>
 
-    <!-- navbar part start -->
-    <nav class="navbar navbar-expand-lg d-none d-xl-block">
-      <div class="container">
-        <a class="navbar-brand" href="index.html">
-          <img src="images/logo.png" alt="logo" width="140">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-4">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="about.html">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Service <i class="fas fa-angle-down"></i></a>
-              <ul class="list-unstyled sub-dropdown-menu">
-                <li><a href="service-detail.html">Customized Mobile Apps Development</a></li>
-                <li><a href="service-detail.html">3-D Design and Modeling Services</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="product-list.html">Products 
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="project-list.html">Projects
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="client-list.html">Clientele
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="partner-list.html">Partnership
-                <!-- <i class="fas fa-angle-down"></i> -->
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact-us.html">Contact Us</a>
-            </li>
-          </ul>
-          <div class="right-info d-flex align-items-center">
-            <div class="search">
-              <i class="fas fa-search main-icon"></i>
-              <div class="search-field">
-                <div class="container position-relative">
-                  <form action="#">
-                    <div class="input-groups">
-                      <input type="text" placeholder="Search...">
-                      <button type="submit" class="submit-btn">
-                        <i class="fas fa-search sub-icon"></i>
-                      </button>
-                    </div>
-                  </form>
-                  <button type="button" class="close-btn">
-                    <i class="fas fa-times"></i>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </nav>
-    <!-- navbar part end -->
-  
-    <!-- mobile navbar part start -->
-    <section class="mobile-menu d-block d-xl-none">
-      <div class="mobile-topbar">
-        <div class="container">
-          <div class="d-flex justify-content-between align-items-center">
-            <div class="logo">
-              <img src="images/logo.png" alt="logo" width="100">
-            </div>
-            <div class="bars">
-              <i class="fas fa-bars"></i>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="mobile-menu-overlay"></div>
-      <div class="mobile-menu-main">
-        <div class="close-m-menu"><i class="fas fa-times"></i></div>
-        <div class="menu-body">
-          <div class="menu-list">
-            <ul class="list-unstyled">
-              <li class="sub-menu">
-                <a href="index.html">Home</a>
-              </li>
-              <li class="sub-menu">
-                <a href="about.html">About Us</a>
-              </li>
-              <li class="sub-menu"><a href="#">Service <i class="fas fa-sort-down float-end"></i></a>
-                <ul class="list-unstyled">
-                  <li><a href="service-detail.html">Customized Mobile Apps Development</a></li>
-                  <li><a href="service-detail.html">3-D Design and Modeling Services</a></li>
-                </ul>
-              </li>
-              <li class="sub-menu"><a href="product-list.html">Products 
-              </a>
-              </li>
-              <li class="sub-menu"><a href="project-list.html">Projects</a>
-              </li>
-              <li class="sub-menu"><a href="client-list.html">Clientele</a>
-              </li>
-              <li class="sub-menu"><a href="partner-list.html">Partnarship</a>
-              </li>
-              <li class="sub-menu"><a href="contact-us.html">Contact Us</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- mobile navbar part end -->
-  
-    <!-- breadcrumb part start -->
-    <section class="bread-crumb" style="background: url(images/bread-crumb.jpg);">
-      <div class="overlay">
-        <div class="container">
-          <div class="text text-center">
-            <h3>Contact Us</h3>
-            <ul class="list-unstyled">
-              <li>
-                <a href="index.html"><i class="fas fa-home"></i> Home</a>
-              </li>
-              <li>Contact Us</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- breadcrumb part end -->
+  <!-- navbar part start -->
+  <?php include("./component/menu.php"); ?>
+  <!-- navbar part end -->
+
+  <!-- breadcrumb part start -->
+  <?php include("./component/breadcrumb.php"); ?>
+  <!-- breadcrumb part end -->
 
   <!-- content page start -->
   <section class="content-page">
@@ -196,10 +46,8 @@
 
             </div>
             <blockquote>
-              <!-- <i class="fas fa-quote-left"></i> -->
-              <h4>Masud Steel Design BD Ltd. is a member of the Bangladesh Steel Manufacturers Association (BSMA). The
-                company is also ISO 9001:2015 certified.
-              </h4>
+              <p>Masud Steel Design BD Ltd. is a member of the Bangladesh Steel Manufacturers Association (BSMA). The company is also ISO 9001:2015 certified.
+              </p>
             </blockquote>
 
             <div>
@@ -369,30 +217,6 @@
               <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem, odio!</li>
               <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem, odio!</li>
             </ul>
-            &nbsp;
-            &nbsp;
-            &nbsp;
-            &nbsp;
-            <div class="content-table table-responsive">
-              <table class="table table-bordered">
-                <thead class="bg-dark text-white">
-                  <tr>
-                    <th>#</th>
-                    <th>Title</th>
-                    <th>Action</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>01</td>
-                    <td>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut, temporibus.</td>
-                    <td>
-                      <button class="action"><i class="fas fa-file-pdf"></i></button>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
           </div>
         </div>
       </div>
@@ -401,7 +225,13 @@
   <!-- content page end -->
 
 
+  <!-- footer part start -->
+  <?php include("./component/footer.php"); ?>
+  <!-- footer part end -->
 
+
+  <!-- all js link -->
+  <?php include("./component/script.php"); ?>
 
 </body>
 

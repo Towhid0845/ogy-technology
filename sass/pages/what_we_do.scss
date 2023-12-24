@@ -1,0 +1,46 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+.what-we-do-page {
+  margin: 50px 0;
+
+  .image {
+    width: 100%;
+
+
+    &::before {
+      content: url(http://localhost/ngo/images/shape3.png);
+    }
+
+    &::after {
+      content: url(http://localhost/ngo/images/shape4.png);
+      rotate: 180deg;
+    }
+
+    img {
+      width: 100%;
+      margin-top: -140px;
+      margin-left: 16px;
+    }
+  }
+
+  .text {
+    margin-left: 50px;
+
+    h3 {
+      padding-bottom: 20px;
+
+      &::before {
+        content: url(http://localhost/ngo/images/shape2.png);
+      }
+    }
+
+    p {
+      padding: 30px;
+      background-color: $bg;
+      border-left: 5px solid $theme;
+    }
+
+
+  }
+}
