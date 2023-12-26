@@ -43,13 +43,14 @@
             <li><a href="#">About Us</a></li>
             <li><a href="#">Terms of Use</a></li>
             <li><a href="#">Privacy Policy</a></li>
+            <li><a href="contact-us.php">contact us</a></li>
           </ul>
         </div>
       </div>
       <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
         <div class="widget">
-          <h4 class="widget-title mb-3">Map</h4>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d117687.71976105255!2d89.556547!3d22.81205!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ff900276034217%3A0x5e6a8b064727e128!2sAOSED-An%20Organization%20for%20Socio-Economic%20Development!5e0!3m2!1sen!2sus!4v1703064631502!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <h4 class="widget-title mb-3">Follow Us</h4>
+          <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FAOSED.BD%3Fref%3Dembed_page&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
 
           <!-- <p class="mb-3">Subscribe to our newsletter to get our news &amp; deals delivered to you.</p>
           <div class="subscribe">

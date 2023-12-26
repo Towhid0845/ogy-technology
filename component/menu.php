@@ -46,10 +46,10 @@
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">About Us <i class="fas fa-angle-down"></i></a>
             <ul class="list-unstyled sub-dropdown-menu">
-              <li><a href="">Background</a></li>
-              <li><a href="">board & governance</a></li>
-              <li><a href="">our team</a></li>
-              <li><a href="">developemnt partners</a></li>
+              <li><a href="background.php">Background</a></li>
+              <li><a href="board.php">board & governance</a></li>
+              <li><a href="team.php">our team</a></li>
+              <li><a href="partner.php">developemnt partners</a></li>
             </ul>
           </li>
           <li class="nav-item">

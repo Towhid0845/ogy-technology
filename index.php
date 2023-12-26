@@ -79,7 +79,7 @@
               <div class="about_top_boxed_text">
                 <p>Donate for</p>
                 <h3>Water Justice</h3>
-                <a href="about.html">More details...</a>
+                <a href="water.php">More details...</a>
               </div>
               <div class="about_top_boxed_vector">
                 <img src="./images/round.png" alt="img">
@@ -92,7 +92,7 @@
               <div class="about_top_boxed_text">
                 <p>Donate for</p>
                 <h3>Food security & Agriculture</h3>
-                <a href="about.html">More details...</a>
+                <a href="food.php">More details...</a>
               </div>
               <div class="about_top_boxed_vector">
                 <img src="./images/round.png" alt="img">
@@ -105,7 +105,7 @@
               <div class="about_top_boxed_text">
                 <p>Donate for</p>
                 <h3>Environment & Climate Change</h3>
-                <a href="about.html">More details...</a>
+                <a href="environment.php">More details...</a>
               </div>
               <div class="about_top_boxed_vector">
                 <img src="./images/round.png" alt="img">
@@ -118,7 +118,7 @@
               <div class="about_top_boxed_text">
                 <p>Donate for</p>
                 <h3>Sanitation & Hygiene</h3>
-                <a href="about.html">More details...</a>
+                <a href="sanitation.php">More details...</a>
               </div>
               <div class="about_top_boxed_vector">
                 <img src="./images/round.png" alt="img">
@@ -131,7 +131,7 @@
               <div class="about_top_boxed_text">
                 <p>Donate for</p>
                 <h3>Disaster Management</h3>
-                <a href="about.html">More details...</a>
+                <a href="disaster.php">More details...</a>
               </div>
               <div class="about_top_boxed_vector">
                 <img src="./images/round.png" alt="img">
