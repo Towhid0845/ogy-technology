@@ -99,6 +99,37 @@ $(function () {
     }
 })
 
+  
+   // gallery popup js
+   $('.parent-container').magnificPopup({
+    delegate: 'a',
+    type: 'image',
+    gallery: {
+      enabled: true
+    },
+    removalDelay: 300,
+    mainClass: 'mfp-fade',
+  });
+
+
+  // video gallery popup js
+  $('.vidplay').magnificPopup({
+    type: 'iframe',
+    iframe: {
+      markup: '<div class="mfp-iframe-scaler">' +
+        '<div class="mfp-close"></div>' +
+        '<iframe class="mfp-iframe" frameborder="0" allowfullscreen></iframe>' +
+        '</div>',
+      patterns: {
+        youtube: {
+          index: 'youtube.com/',
+          id: 'v=',
+          src: 'https://www.youtube.com/embed/%id%?autoplay=1'
+        },
+      },
+      srcAction: 'iframe_src',
+    }
+  });
   // profile slider js
   // $(".profile-slider").slick({
   //   dots: false,
@@ -298,38 +329,7 @@ $(function () {
     time: 2000
   });
 
-  // why choose us text slider js
-  // $(".why--choose--text--slider").slick({
-  //   dots: false,
-  //   infinite: true,
-  //   autoplaySpeed: 0,
-  //   speed: 70000,
-  //   arrows: false,
-  //   slidesToShow: 1,
-  //   autoplay: true,
-  //   slidesToScroll: 1,
-  //   cssEase: "linear",
-  // })
 
-  let elt = document.querySelectorAll('.why--choose--text--slider > *')
-
-  anime({
-    targets: elt,
-    translateX: '-100%',
-    duration: 50000,
-    easing: 'linear',
-    loop: true
-  });
-
-  let elt1 = document.querySelectorAll('.pricing--plan--text--slider > *')
-
-  anime({
-    targets: elt1,
-    translateX: '-100%',
-    duration: 50000,
-    easing: 'linear',
-    loop: true
-  });
 
 
   // mobile menu js

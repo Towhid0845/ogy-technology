@@ -35,7 +35,7 @@
 <div class="sticky-top">
   <nav class="navbar navbar-expand-lg d-none d-xl-block">
     <div class="container">
-      <a class="navbar-brand" href="index.html">
+      <a class="navbar-brand" href="index.php">
         <img src="images/logo.webp" alt="logo" width="140">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,19 +44,16 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-4">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.php">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">who we are <i class="fas fa-angle-down"></i></a>
+            <a class="nav-link active" aria-current="page" href="#">About Us <i class="fas fa-angle-down"></i></a>
             <ul class="list-unstyled sub-dropdown-menu">
               <li><a href="">Background</a></li>
               <li><a href="">board & governance</a></li>
               <li><a href="">our team</a></li>
-              <li><a href="">partners</a></li>
+              <li><a href="">developemnt partners</a></li>
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">what we do <i class="fas fa-angle-down"></i></a>
+            <a class="nav-link" href="#">Thematic Areas <i class="fas fa-angle-down"></i></a>
             <ul class="list-unstyled sub-dropdown-menu">
               <li><a href="water.php">water justice</a></li>
               <li><a href="food.php">food security & agriculture</a></li>
@@ -69,8 +66,8 @@
             <a class="nav-link" href="#">Gallery <i class="fas fa-angle-down"></i>
             </a>
             <ul class="list-unstyled sub-dropdown-menu">
-              <li><a href="">Photos</a></li>
-              <li><a href="">Videos</a></li>
+              <li><a href="photo-gallery.php">Photos</a></li>
+              <li><a href="video-gallery.php">Videos</a></li>
             </ul>
           </li>
           <li class="nav-item">
@@ -78,6 +75,8 @@
             </a>
             <ul class="list-unstyled sub-dropdown-menu">
               <li><a href="">Newsletter</a></li>
+              <li><a href="">publications</a></li>
+              <li><a href="">reports</a></li>
             </ul>
           </li>
           <li class="nav-item">
@@ -143,19 +142,16 @@
       <div class="menu-list">
         <ul class="list-unstyled">
           <li class="sub-menu">
-            <a href="index.html">Home</a>
-          </li>
-          <li class="sub-menu">
-            <a href="#">Who We Are <i class="fas fa-sort-down float-end"></i></a>
+            <a href="#">About Us <i class="fas fa-sort-down float-end"></i></a>
             <ul class="list-unstyled">
               <li><a href="">Background</a></li>
               <li><a href="">board and governance</a></li>
               <li><a href="">our team</a></li>
               <li><a href="">board</a></li>
-              <li><a href="">partners</a></li>
+              <li><a href="">development partners</a></li>
             </ul>
           </li>
-          <li class="sub-menu"><a href="#">What We Do <i class="fas fa-sort-down float-end"></i></a>
+          <li class="sub-menu"><a href="#">Thematic Areas <i class="fas fa-sort-down float-end"></i></a>
             <ul class="list-unstyled">
               <li><a href="">water justic</a></li>
               <li><a href="">food security & agriculture</a></li>
@@ -167,13 +163,15 @@
           <li class="sub-menu"><a href="#">Gallery <i class="fas fa-sort-down float-end"></i>
             </a>
             <ul class="list-unstyled">
-              <li><a href="">photos</a></li>
+              <li><a href="photo-gallery.php">photos</a></li>
               <li><a href="">videos</a></li>
             </ul>
           </li>
           <li class="sub-menu"><a href="#">publication <i class="fas fa-sort-down float-end"></i></a>
             <ul class="list-unstyled">
               <li><a href="">Newsletter</a></li>
+              <li><a href="">publications</a></li>
+              <li><a href="">reports</a></li>
             </ul>
           </li>
           <li class="sub-menu"><a href="#">Project & Program <i class="fas fa-sort-down float-end"></i></a>

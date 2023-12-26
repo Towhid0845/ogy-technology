@@ -19,6 +19,9 @@
   }
 }
 @media (min-width: 1200px) and (max-width: 1399.98px) {
+  #banner .banner-img .banner_five_text a {
+    font-size: 80px;
+  }
   #what_we_do {
     padding: 50px 0;
   }
@@ -92,8 +95,15 @@
   #footer {
     padding: 40px 0 30px 0;
   }
-  #banner .right {
-    left: 31%;
+  #banner .banner-img .banner_five_text a {
+    font-size: 70px;
+    line-height: 80px;
+  }
+  #banner .banner-img {
+    padding: 230px 0;
+  }
+  .event_para {
+    padding-right: 0;
   }
   .about_top_boxed_icon img {
     width: 100px;
@@ -110,6 +120,9 @@
   }
   .event_big_img {
     height: 395px;
+  }
+  .event_date {
+    right: 20px;
   }
   .blog_card_heading h3 a {
     font-size: 25px;
@@ -136,20 +149,12 @@
   #footer {
     padding: 40px 0 30px 0;
   }
+  #banner .banner-img .banner_five_text a {
+    font-size: 60px;
+    line-height: 70px;
+  }
   #banner .banner-img {
-    padding: 0;
-    height: 70vh;
-  }
-  #banner .banner-img .banner_text a {
-    padding-left: 50px;
-    color: #ffffff;
-  }
-  #banner .right {
-    right: 6% !important;
-    left: unset;
-  }
-  #banner .icon {
-    background-color: rgba(224, 60, 51, 0.62);
+    padding: 210px 0;
   }
   .blog_card_wrapper {
     margin-bottom: 24px;
@@ -167,6 +172,12 @@
   }
   .event_para {
     padding-right: 0px;
+  }
+  .about_area_heading {
+    left: -75px;
+  }
+  .about_area_img img {
+    padding: 0;
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -187,20 +198,16 @@
   #footer {
     padding: 40px 0 30px 0;
   }
+  #banner .banner-img .banner_five_text a {
+    font-size: 50px;
+    line-height: 60px;
+  }
   #banner .banner-img {
-    padding: 0;
-    height: 66vh;
-  }
-  #banner .banner-img .banner_text a {
-    padding-left: 50px;
-    color: #ffffff;
-  }
-  #banner .right {
-    right: 6% !important;
-    left: unset;
+    padding: 210px 0;
   }
   #banner .icon {
-    background-color: rgba(224, 60, 51, 0.62);
+    top: unset;
+    bottom: 0%;
   }
   .blog_card_wrapper {
     margin-bottom: 24px;
@@ -244,6 +251,12 @@
   .blog_card_heading h3 a {
     font-size: 22px;
   }
+  .about_area_heading {
+    left: -75px;
+  }
+  .about_area_img img {
+    padding: 0;
+  }
 }
 @media (max-width: 575.98px) {
   #what_we_do {
@@ -263,20 +276,16 @@
   #footer {
     padding: 40px 0 30px 0;
   }
+  #banner .banner-img .banner_five_text a {
+    font-size: 40px;
+    line-height: 50px;
+  }
   #banner .banner-img {
-    padding: 0;
-    height: 66vh;
-  }
-  #banner .banner-img .banner_text a {
-    padding-left: 50px;
-    color: #ffffff;
-  }
-  #banner .right {
-    right: 6% !important;
-    left: unset;
+    padding: 190px 0;
   }
   #banner .icon {
-    background-color: rgba(224, 60, 51, 0.62);
+    top: unset;
+    bottom: 0%;
   }
   .blog_card_wrapper {
     margin-bottom: 24px;
@@ -321,9 +330,10 @@
     font-size: 22px;
   }
   #banner .icon {
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
   }
   .mobile-topbar .bars i {
     width: 40px;
@@ -345,6 +355,12 @@
   }
   #partner .owl-carousel .owl-item img {
     margin-left: 55px;
+  }
+  .about_area_heading {
+    left: -75px;
+  }
+  .about_area_img img {
+    padding: 0;
   }
 }
 

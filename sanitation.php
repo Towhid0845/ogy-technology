@@ -18,7 +18,13 @@
       <div class="row">
         <div class="col-lg-5">
           <div class="image">
+            <div class="frame1">
+              <img src="./images/shape3.png" alt="not found">
+            </div>
             <img src="./images/sanitation.webp" alt="not found">
+            <div class="frame2">
+              <img src="./images/shape4.png" alt="not found">
+            </div>
           </div>
         </div>
         <div class="col-lg-7">

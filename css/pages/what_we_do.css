@@ -2,19 +2,26 @@
   margin: 50px 0;
 }
 .what-we-do-page .image {
+  width: 576px;
+  height: 432px;
+  text-align: center;
+  position: relative;
+}
+.what-we-do-page .image .frame1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.what-we-do-page .image .frame2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.what-we-do-page .image > img {
   width: 100%;
-}
-.what-we-do-page .image::before {
-  content: url(http://localhost/ngo/images/shape3.png);
-}
-.what-we-do-page .image::after {
-  content: url(http://localhost/ngo/images/shape4.png);
-  rotate: 180deg;
-}
-.what-we-do-page .image img {
-  width: 100%;
-  margin-top: -140px;
-  margin-left: 16px;
+  height: 100%;
+  object-fit: cover;
+  padding: 15px;
 }
 .what-we-do-page .text {
   margin-left: 50px;
@@ -23,7 +30,7 @@
   padding-bottom: 20px;
 }
 .what-we-do-page .text h3::before {
-  content: url(http://localhost/ngo/images/shape2.png);
+  content: url("http://localhost/ngo/images/shape2.png");
 }
 .what-we-do-page .text p {
   padding: 30px;

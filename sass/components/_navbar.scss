@@ -43,15 +43,16 @@
 }
 
 .topbar-list li a {
-  color: $black;
+  color: $green;
 }
 
 .topbar-list li a:hover {
   color: $theme;
 }
 
-.topbar-list li i {
-  color: $black;
+.topbar-list li i,
+.topbar-list-right li i {
+  color: $green;
   padding-right: 7px;
 }
 

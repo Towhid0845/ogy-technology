@@ -1,4 +1,4 @@
-<section class="bread-crumb" style="background: url(images/banner05.jpg);">
+<section class="bread-crumb" style="background: url(images/xxl1.jpg);">
   <div class="overlay">
     <div class="container">
       <div class="text text-center">

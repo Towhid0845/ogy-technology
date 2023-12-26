@@ -18,8 +18,9 @@
     <div class="main">
       <!-- banner part start -->
       <section id="banner">
-        <div class="banner-img" style="background-image: url(./images/banner05.jpg);">
-          <div class="">
+        <!-- <div class="banner-img" style="background-image: url(./images/home-banner-bg.png);"> -->
+        <div class="banner-img" style="background-image: url(./images/banner-bg1.webp);">
+          <!-- <div class="">
             <div class="row">
               <div class="d-none d-lg-block col-lg-4 col-xl-5">
                 <div class="banner_text">
@@ -33,76 +34,34 @@
                     <div class="banner_text d-block d-lg-none">
                       <a href="#"><span>Food Security & Agriculture</span></a>
                     </div>
-                    <!-- <img src="images/element-1.png" alt="icon" class="element_1 shape-1"> -->
-                    <!-- <img src="images/element-2.png" alt="icon" class="element_2 shape-2"> -->
-                    <!-- <img src="images/element-3.png" alt="icon" class="element_3 shape-3"> -->
                   </div>
                 </div>
               </div>
             </div>
+          </div> -->
+          <div class="banner_five_text">
+            <h6>Welcome to <span>AOSED</span></h6>
+            <a href="#">Food Security & Agriculture</a>
           </div>
         </div>
-        <div class="banner-img" style="background-image: url(./images/banner05.jpg);">
-          <div class="">
-            <div class="row">
-              <div class="d-none d-lg-block col-lg-4 col-xl-5">
-                <div class="banner_text">
-                  <a href="#"><span>Water Justice </span></a>
-                </div>
-              </div>
-              <div class="col-12 col-lg-8 col-xl-7">
-                <div class="image">
-                  <img src="images/banner2.jpg" alt="img">
-                  <div class="banner_element">
-                    <div class="banner_text d-block d-lg-none">
-                      <a href="#"><span>Water Justice</span></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+        <div class="banner-img" style="background-image: url(./images/banner-bg2.webp);">
+          <div class="banner_five_text">
+            <h6>Welcome to <span>AOSED</span></h6>
+            <a href="#">Water Justice</a>
           </div>
         </div>
-        <div class="banner-img" style="background-image: url(./images/banner05.jpg);">
-          <div class="">
-            <div class="row">
-              <div class="d-none d-lg-block col-lg-4 col-xl-5">
-                <div class="banner_text">
-                  <a href="#"><span>Develope Planning & Impliment Projects </span></a>
-                </div>
-              </div>
-              <div class="col-12 col-lg-8 col-xl-7">
-                <div class="image">
-                  <img src="images/banner.webp" alt="img">
-                  <div class="banner_element">
-                    <div class="banner_text d-block d-lg-none">
-                      <a href="#"><span>Develope Planning & Impliment Projects</span></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+
+        <div class="banner-img" style="background-image: url(./images/banner-bg3.webp);">
+          <div class="banner_five_text">
+            <h6>Welcome to <span>AOSED</span></h6>
+            <a href="#">Develope Planning & Impliment Projects</a>
           </div>
         </div>
-        <div class="banner-img" style="background-image: url(./images/banner05.jpg);">
-          <div class="">
-            <div class="row">
-              <div class="d-none d-lg-block col-lg-4 col-xl-5">
-                <div class="banner_text">
-                  <a href="#"><span>Disester management </span></a>
-                </div>
-              </div>
-              <div class="col-12 col-lg-8 col-xl-7">
-                <div class="image">
-                  <img src="images/banner3.webp" alt="img">
-                  <div class="banner_element">
-                    <div class="banner_text d-block d-lg-none">
-                      <a href="#"><span>Disester management </span></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+
+        <div class="banner-img" style="background-image: url(./images/banner-bg4.webp);">
+          <div class="banner_five_text">
+            <h6>Welcome to <span>AOSED</span></h6>
+            <a href="#">Disester management</a>
           </div>
         </div>
 
@@ -190,24 +149,24 @@
           <div class="row">
             <div class="col-lg-6 col-md-12 col-sm-12 col-12">
               <div class="about_area_img">
-                <img src="./images/about.png" alt="img">
+                <img src="./images/about.jpg" alt="img">
               </div>
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12 col-12">
               <div class="about_area_main_text">
                 <div class="about_area_heading">
                   <img src="./images/about-icon.png" alt="img">
-                  <h3>Welcome to AOSED</h3>
+                  <h3>About Us</h3>
                 </div>
-                <div class="about_area_heading_two">
+                <!-- <div class="about_area_heading_two">
                   <h2>A world where poverty<br />
                     will not exists</h2>
                   <h3>We are the largest crowdfunding</h3>
-                </div>
+                </div> -->
                 <div class="about_area_para">
                   <h5>পরিবেশ-প্রতিবেশ ও জীববৈচিত্র্য সংরক্ষণ, জলবায়ু পরিবর্তনজনিত ক্ষতিকারক প্রতিক্রিয়া মোকাবেলা এবং প্রাকৃতিক সম্পদে স্থানীয় জনগণের অধিকার প্রতিষ্ঠার মাধ্যমে বিপদাপন্ন তৃণমূল জনগোষ্ঠির জীবন-জীবিকার মান উন্নয়নে এ্যাওসেড প্রতিশ্রুতিবদ্ধ।</h5>
-                  <p>AOSED is committed to the development of the grassroots population by tackling the environment-friendly ecosystem of Southwestern Bangladesh and tackling the harmful effects of climate change and establishing the rights of local people in natural resources.</p>
-                  <p>Our vision is to develop a just, prosperous and environment-friendly Society in which there will be no discrimination on the basis of race, caste, creed, gender or occupation whatsoever.</p>
+                  <p>AOSED is committed to the improvement of the quality of life of the affected vulnerable communities through the establishment of the rights of local people in natural resources, combating climate-induced damages, and addressing climate change impacts.</p>
+                  <!-- <p>Our vision is to develop a just, prosperous and environment-friendly Society in which there will be no discrimination on the basis of race, caste, creed, gender or occupation whatsoever.</p> -->
                 </div>
                 <div class="about_vedio_area">
                   <a href="about.html" class="btn btn_theme btn_md">Learn more</a>
@@ -226,7 +185,7 @@
           <div class="row">
             <div class="col-lg-6 offset-lg-3 col-md-12 col-sm-12 col-12">
               <div class="section_heading">
-                <h3>Our events</h3>
+                <h3>events</h3>
                 <h2>Visit our events for contribution
                 </h2>
               </div>
@@ -433,8 +392,8 @@
       <section id="counter">
         <div class="container">
           <div class="section_heading">
+            <img src="./images/notice.png" alt="not found">
             <h3>Notice</h3>
-            <h2>Let's See Recent Notice</h2>
           </div>
           <div class="notice">
             <div class="row">
@@ -565,9 +524,8 @@
           <div class="row">
             <div class="col-lg-6 offset-lg-3 col-md-12 col-sm-12 col-12">
               <div class="section_heading">
-                <h3>Our success stories</h3>
-                <h2>Take a look on our successful achievements
-                </h2>
+                <h3> our Stories</h3>
+                <h2>There is a story of hard work, perseverance, and sacrifice behind every story</h2>
               </div>
             </div>
           </div>
@@ -584,6 +542,7 @@
                   <div class="blog_card_heading">
                     <h3><a href="news-details.html" class="line_limit_2">ToT Of Local Level Strategy of Reducing Climate induced Loss and Damage of Seagoing Traditional Fishers of Bangladesh</a></h3>
                     <p class="line_limit_2">Three-daylong Training of the Trainers on ‘Local Level Strategy of Reducing Climate induced Loss and Damage of Seagoing Traditional Fishers of Bangladesh’ has been held at CSS Ava Center Khulna. Honorable Mayor of Khulna City Corporation Mr. Talukder Abdul Khaleque was present as the Chief Guest during the occasion. Chief trainer Capt. M Shafiqul Alam</p>
+                    <a href="about.html" class="btn btn_theme btn_sm mt-4">Read more</a>
                   </div>
                   <!-- <div class="blog_boxed_bottom_wrapper">
                     <div class="row">
@@ -626,6 +585,7 @@
                   <div class="blog_card_heading">
                     <h3><a href="news-details.html" class="line_limit_2">Arsenic-free Safe Drinking Water for Schools and Hospitals in Climate vulnerable Khulna areas</a></h3>
                     <p class="line_limit_2">Funded by Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH Project budget Project duration 2017 – 2019 Project area 4 Upazilas from Khulna, Meherpur and Pirojpur District PROJECT BACKGROUND Bangladesh is one of the most vulnerable countries in the world due to its geographical location and natural calamities. According to the estimate of Asian development </p>
+                    <a href="about.html" class="btn btn_theme btn_sm mt-4">Read more</a>
                   </div>
 
                 </div>
@@ -643,6 +603,7 @@
                   <div class="blog_card_heading">
                     <h3><a href="news-details.html" class="line_limit_2">Sundarbans Adjacent Fishers Enabling to Resilience Building (SAFER) Project</a></h3>
                     <p class="line_limit_2">Title of the project: Sundarbans Adjacent Fishers Enabling to Resilience Building (SAFER) Project’ Project area: Paikgachha Upazila of Khulna District Project Duration: 2015 to 2019 Beneficiaries: 300 fishermen from 44 seagoing traditional fishing boats and their 191 families which make a total 897 direct beneficiaries. Short description of Project: The southwest coastal region of Bangladesh</p>
+                    <a href="about.html" class="btn btn_theme btn_sm mt-4">Read more</a>
                   </div>
 
                 </div>

@@ -5,22 +5,30 @@
   margin: 50px 0;
 
   .image {
-    width: 100%;
+    // width: 100%;
+      width: 576px;
+      height: 432px;
+      text-align: center;
+      position: relative;
 
-
-    &::before {
-      content: url(http://localhost/ngo/images/shape3.png);
+      .frame1 {
+          position: absolute;
+          top: 0;
+          left: 0;
     }
+.frame2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
 
-    &::after {
-      content: url(http://localhost/ngo/images/shape4.png);
-      rotate: 180deg;
-    }
-
-    img {
+&>img {
       width: 100%;
-      margin-top: -140px;
-      margin-left: 16px;
+      height: 100%;
+        object-fit: cover;
+        padding: 15px;
+        // margin-top: -140px;
+        // margin-left: 16px;
     }
   }
 
@@ -31,7 +39,7 @@
       padding-bottom: 20px;
 
       &::before {
-        content: url(http://localhost/ngo/images/shape2.png);
+        content: url("http://localhost/ngo/images/shape2.png");
       }
     }
 
