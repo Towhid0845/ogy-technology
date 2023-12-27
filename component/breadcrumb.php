@@ -1,4 +1,5 @@
-<section class="bread-crumb" style="background: url(images/xxl1.jpg);">
+<!-- <section class="bread-crumb" style="background: url(images/xxl1.jpg);"> -->
+<section class="bread-crumb">
   <div class="overlay">
     <div class="container">
       <div class="text text-center">

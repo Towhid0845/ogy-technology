@@ -111,7 +111,7 @@ body {
 
 .btn_theme {
   color: $white;
-  background-color: $theme;
+  background-color: $logo3;
   transition: $transition;
   box-shadow: none;
   overflow: hidden;
@@ -137,7 +137,7 @@ body {
 
 .btn_navber {
   color: $black;
-  border: 2px solid $theme;
+  border: 2px solid $logo3;
   padding: 7px 20px;
   transition: $transition;
   box-shadow: none;
@@ -148,7 +148,7 @@ body {
 }
 
 .btn_navber:hover {
-  background: $theme;
+  background: $logo3;
 }
 
 .is-sticky .btn_navber {
@@ -276,13 +276,14 @@ section {
 }
 
 #about {
-  padding: 40px 0 50px;
+  padding: 0 0 50px;
 }
 
 #events,
 #counter,
 #news,
-#contact_us {
+#contact_us,
+.publication {
   padding: 50px 0 50px;
 }
 

@@ -51,7 +51,7 @@ body {
   font-size: 32px;
   font-weight: 500;
   border-radius: 70px 0px;
-  background-color: #E03C33;
+  background-color: #a48fc5;
   padding: 10px 40px;
   text-transform: uppercase;
   margin-bottom: 10px;
@@ -66,7 +66,7 @@ body {
 .common--button {
   font-size: 16px;
   font-weight: 600;
-  background-color: #E03C33;
+  background-color: #a48fc5;
   padding: 13px 36px;
   color: #2a283e;
   border-radius: 50px;
@@ -110,7 +110,7 @@ body {
 
 .btn_theme {
   color: #ffffff;
-  background-color: #E03C33;
+  background-color: #AACC41;
   transition: 0.4s all ease-in-out;
   box-shadow: none;
   overflow: hidden;
@@ -136,7 +136,7 @@ body {
 
 .btn_navber {
   color: #2a283e;
-  border: 2px solid #E03C33;
+  border: 2px solid #AACC41;
   padding: 7px 20px;
   transition: 0.4s all ease-in-out;
   box-shadow: none;
@@ -147,11 +147,11 @@ body {
 }
 
 .btn_navber:hover {
-  background: #E03C33;
+  background: #AACC41;
 }
 
 .is-sticky .btn_navber {
-  border: 1px solid #E03C33;
+  border: 1px solid #a48fc5;
 }
 
 .section_heading {
@@ -283,7 +283,7 @@ section {
   width: fit-content;
 }
 .view-all-btn:hover {
-  background-color: #E03C33;
+  background-color: #a48fc5;
 }
 
 .view-all-bg-dark {
@@ -295,13 +295,14 @@ section {
 }
 
 #about {
-  padding: 40px 0 50px;
+  padding: 0 0 50px;
 }
 
 #events,
 #counter,
 #news,
-#contact_us {
+#contact_us,
+.publication {
   padding: 50px 0 50px;
 }
 
@@ -368,7 +369,7 @@ section {
 }
 
 .topbar-list li a:hover {
-  color: #E03C33;
+  color: #a48fc5;
 }
 
 .topbar-list li i,
@@ -397,7 +398,7 @@ section {
 }
 
 .topbar-list-right li a:hover {
-  color: #E03C33;
+  color: #a48fc5;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -459,7 +460,7 @@ nav .container .navbar-nav li .sub-dropdown-menu li a i {
   line-height: 44px;
 }
 nav .container .navbar-nav li .sub-dropdown-menu li:hover a {
-  color: #E03C33 !important;
+  color: #AACC41 !important;
 }
 nav .container .navbar-nav li .sub-dropdown-menu li .sub-dropdown-menu {
   left: 100%;
@@ -540,7 +541,7 @@ nav .container .search .search-field .close-btn {
   transition: all 0.3s ease 0s;
 }
 nav .container .search .search-field .close-btn:hover {
-  background-color: #E03C33;
+  background-color: #a48fc5;
   color: #2a283e;
 }
 nav .container .search .show-search-field {
@@ -566,7 +567,7 @@ nav .container .search .show-search-field {
   transition: all linear 0.2s;
 }
 .mobile-topbar .bars i:hover {
-  background-color: #E03C33;
+  background-color: #a48fc5;
   color: #ffffff;
 }
 
@@ -589,9 +590,9 @@ nav .container .search .show-search-field {
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
 }
 .mobile-menu .mobile-topbar .icon i:hover {
-  background-color: #E03C33;
+  background-color: #a48fc5;
   color: #ffffff;
-  border-color: #E03C33;
+  border-color: #a48fc5;
 }
 .mobile-menu .mobile-menu-overlay {
   width: 100%;
@@ -625,7 +626,7 @@ nav .container .search .show-search-field {
   transition: all linear 0.2s;
 }
 .mobile-menu .mobile-menu-main .close-m-menu i:hover {
-  background-color: #E03C33;
+  background-color: #a48fc5;
 }
 .mobile-menu .mobile-menu-main .menu-body {
   padding: 20px;
@@ -652,7 +653,7 @@ nav .container .search .show-search-field {
 .mobile-menu .mobile-menu-main .menu-body .action ul li sup {
   width: 25px;
   height: 25px;
-  background-color: #E03C33;
+  background-color: #a48fc5;
   border-radius: 50%;
   text-align: center;
   line-height: 25px;
@@ -676,7 +677,7 @@ nav .container .search .show-search-field {
   transition: all linear 0.2s;
 }
 .mobile-menu .mobile-menu-main .menu-body .search input:focus {
-  border-color: #E03C33;
+  border-color: #a48fc5;
 }
 .mobile-menu .mobile-menu-main .menu-body .search button {
   top: 50%;
@@ -700,7 +701,7 @@ nav .container .search .show-search-field {
   transition: all linear 0.2s;
 }
 .mobile-menu .mobile-menu-main .menu-body .menu-list ul li a:hover {
-  color: #E03C33;
+  color: #a48fc5;
 }
 .mobile-menu .mobile-menu-main .menu-body .menu-list ul li a i {
   width: 40px;
@@ -711,7 +712,7 @@ nav .container .search .show-search-field {
   transition: all linear 0.2s;
 }
 .mobile-menu .mobile-menu-main .menu-body .menu-list ul li a:hover i {
-  background-color: #E03C33;
+  background-color: #a48fc5;
   color: #ffffff;
 }
 .mobile-menu .mobile-menu-main .menu-body .menu-list ul li ul {
@@ -743,16 +744,17 @@ nav .container .search .show-search-field {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 250px 0;
+  padding: 550px 0 100px;
 }
 #banner .banner-img .banner_five_text {
   width: 70%;
-  margin: auto;
-  text-align: center;
   display: flex;
-  align-items: center;
+  align-items: start;
   flex-direction: column;
   justify-content: center;
+  padding-left: 20px;
+  margin-left: 80px;
+  border-left: 5px solid #a48fc5;
 }
 #banner .banner-img .banner_five_text h6 {
   color: #ffffff;
@@ -760,14 +762,13 @@ nav .container .search .show-search-field {
   padding-bottom: 12px;
 }
 #banner .banner-img .banner_five_text h6 span {
-  color: #E03C33;
+  color: #a48fc5;
 }
 #banner .banner-img .banner_five_text a {
   color: #ffffff;
-  font-size: 90px;
+  font-size: 50px;
   font-weight: 600;
-  line-height: 100px;
-  height: 200px;
+  line-height: 80px;
 }
 #banner .banner-img .image {
   position: relative;
@@ -888,8 +889,8 @@ nav .container .search .show-search-field {
   opacity: 1;
 }
 #banner .icon:hover {
-  color: #E03C33;
-  border-color: #E03C33;
+  color: #a48fc5;
+  border-color: #a48fc5;
 }
 #banner .left {
   left: 50px;
@@ -922,7 +923,7 @@ nav .container .search .show-search-field {
   background-color: #BABABB;
 }
 #banner .slick-dots li.slick-active button {
-  background-color: #E03C33;
+  background-color: #a48fc5;
 }
 
 .about_area_img {
@@ -1010,7 +1011,7 @@ nav .container .search .show-search-field {
   border-radius: 50%;
   font-size: 24px;
   margin-right: 14px;
-  color: #E03C33;
+  color: #AACC41;
 }
 
 /* --Counter Area-- */
@@ -1053,7 +1054,7 @@ nav .container .search .show-search-field {
   overflow: hidden;
 }
 .notice ul li.info a:hover {
-  color: #E03C33;
+  color: #a48fc5;
 }
 
 .notice ul li.pdf {
@@ -1105,7 +1106,7 @@ nav .container .search .show-search-field {
 }
 .counter_item .count p {
   font-size: 22px;
-  color: #E03C33;
+  color: #a48fc5;
   font-weight: 700;
 }
 
@@ -1172,7 +1173,7 @@ nav .container .search .show-search-field {
 }
 
 .blog_card_heading h3 a:hover {
-  color: #E03C33;
+  color: #a48fc5;
 }
 
 .blog_card_heading p {
@@ -1228,7 +1229,7 @@ nav .container .search .show-search-field {
   border-radius: 20px;
   padding: 40px 30px 20px 30px;
   transition: 0.4s all ease-in-out;
-  margin: 70px 12px 0;
+  margin: 70px 12px 30px;
   height: 295px;
 }
 
@@ -1288,7 +1289,7 @@ nav .container .search .show-search-field {
 .about_top_boxed_text a {
   font-size: 16px;
   font-weight: 500;
-  color: #E03C33;
+  color: #a48fc5;
 }
 
 .about_top_boxed_vector {
@@ -1310,7 +1311,7 @@ nav .container .search .show-search-field {
 }
 
 #subscribe_form .form-control {
-  border: 1px solid #E03C33;
+  border: 1px solid #a48fc5;
   height: 60px;
   background: #ffffff;
 }
@@ -1401,7 +1402,7 @@ nav .container .search .show-search-field {
 }
 
 .event_heading h3 a:hover {
-  color: #E03C33;
+  color: #a48fc5;
 }
 
 .event_date {
@@ -1706,23 +1707,20 @@ nav .container .search .show-search-field {
 }
 
 .bread-crumb {
-  background-repeat: no-repeat !important;
-  background-size: cover !important;
-  background-position: center !important;
+  background-color: #a48fc5;
 }
 .bread-crumb .overlay {
-  background-color: rgba(10, 11, 15, 0.6);
-  padding: 80px 0;
+  padding: 50px 0;
 }
 .bread-crumb .overlay .text h3 {
-  font-size: 56px;
+  font-size: 40px;
   font-weight: 700;
   color: #ffffff;
   margin-bottom: 10px;
 }
 .bread-crumb .overlay .text ul li {
   display: inline-block;
-  color: #E03C33;
+  color: #2a283e;
   font-weight: 500;
   position: relative;
   padding: 0 20px;
@@ -1765,7 +1763,7 @@ nav .container .search .show-search-field {
 .about--page .about--company .show--two--service .service--item .service--icon i {
   width: 65px;
   height: 60px;
-  background-color: #E03C33;
+  background-color: #a48fc5;
   border-radius: 5px;
   text-align: center;
   line-height: 60px;
@@ -1821,7 +1819,7 @@ nav .container .search .show-search-field {
   margin-top: 30px;
   width: 50px;
   height: 50px;
-  background-color: #E03C33;
+  background-color: #a48fc5;
   border-radius: 50%;
   text-align: center;
   line-height: 50px;
@@ -1957,7 +1955,7 @@ nav .container .search .show-search-field {
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
-  color: #E03C33;
+  color: #a48fc5;
 }
 
 .partner-list .news--item {
@@ -2076,7 +2074,7 @@ nav .container .search .show-search-field {
 }
 .content-page .content-main .background p {
   padding-left: 10px;
-  border-left: 5px solid #E03C33;
+  border-left: 5px solid #a48fc5;
 }
 .content-page .content-main ul li {
   list-style: none;
@@ -2086,7 +2084,7 @@ nav .container .search .show-search-field {
 .content-page .content-main ul li::before {
   font-family: "Font Awesome 5 Free";
   content: "\f058";
-  color: #E03C33;
+  color: #a48fc5;
   display: inline-block;
   padding-right: 15px;
   vertical-align: middle;
@@ -2096,18 +2094,12 @@ nav .container .search .show-search-field {
 .content-page .content-main ol li {
   margin-left: 30px;
 }
-.content-page .content-main table {
-  margin-left: 30px;
-}
 .content-page .content-main table tr th {
   min-width: 150px;
   text-align: start;
 }
 .content-page .content-main table tr td {
   padding: 5px 10px;
-}
-.content-page .content-main .content-table {
-  margin-left: 30px;
 }
 .content-page .content-main .content-table table thead tr th span {
   display: flex;
@@ -2223,7 +2215,7 @@ nav .container .search .show-search-field {
 .news-details-page .product-list .nav-pills .nav-link.active,
 .news-details-page .product-list .nav-pills .show > .nav-link {
   color: #2a283e;
-  background-color: #E03C33;
+  background-color: #a48fc5;
 }
 .news-details-page .product-list .nav-pills .nav-link {
   text-align: start;
@@ -2248,7 +2240,7 @@ nav .container .search .show-search-field {
   line-height: normal;
 }
 .news-details-page .product-list .nav-pills .nav-link:hover {
-  background-color: #E03C33;
+  background-color: #a48fc5;
 }
 .news-details-page .news-left {
   background-color: #f2f2f2;
@@ -2275,7 +2267,7 @@ nav .container .search .show-search-field {
   padding: 5px 20px;
   border-radius: 5px;
   display: inline-block;
-  background-color: #E03C33;
+  background-color: #a48fc5;
   color: #2a283e;
 }
 .news-details-page .news-left .text .dates ul li {
@@ -2485,7 +2477,7 @@ nav .container .search .show-search-field {
   transition: all 0.3s ease-in-out;
 }
 .portfolio-single .project-detail .project-info-box .info .list li .social-list i:hover {
-  background-color: #E03C33;
+  background-color: #a48fc5;
   color: #2a283e;
 }
 .portfolio-single .projects--item .projects--image {
@@ -2534,7 +2526,7 @@ nav .container .search .show-search-field {
   transition: all 0.3s ease 0s;
   opacity: 1;
   border-radius: 5px;
-  background-color: #E03C33;
+  background-color: #a48fc5;
 }
 .portfolio-single .projects--item .projects--image:hover .projects--title {
   opacity: 1 !important;
@@ -2687,7 +2679,7 @@ nav .container .search .show-search-field {
   padding-bottom: 30px;
 }
 .call-expert a .call {
-  background-color: #E03C33;
+  background-color: #a48fc5;
   color: #2a283e;
   width: 228px;
   padding: 20px 30px;
@@ -2703,7 +2695,7 @@ nav .container .search .show-search-field {
   width: 98px;
 }
 .rl-service .image i {
-  background-color: #E03C33;
+  background-color: #a48fc5;
   margin-right: 20px;
   border-radius: 10px;
   padding: 20px;
@@ -2762,7 +2754,7 @@ nav .container .search .show-search-field {
 .form-control:focus {
   color: #ffffff;
   background-color: #fff;
-  border: 1px solid #E03C33;
+  border: 1px solid #a48fc5;
   outline: none;
   box-shadow: none;
 }
@@ -2814,7 +2806,7 @@ nav .container .search .show-search-field {
 .what-we-do-page .text p {
   padding: 30px;
   background-color: #eef4f8;
-  border-left: 5px solid #E03C33;
+  border-left: 5px solid #a48fc5;
 }
 
 .gallery-item {
@@ -2879,7 +2871,7 @@ nav .container .search .show-search-field {
 .team-page .title {
   font-size: 32px;
   padding-bottom: 8px;
-  border-bottom: 3px solid #E03C33;
+  border-bottom: 3px solid #a48fc5;
   margin: 15px 0 30px;
 }
 .team-page .team-item {
@@ -2887,6 +2879,7 @@ nav .container .search .show-search-field {
   margin-bottom: 24px;
   border-radius: 10px;
   border: 1px solid #8E75B5;
+  transition: 0.4s all ease-in-out;
 }
 .team-page .team-item .image {
   width: 210px;
@@ -2927,6 +2920,76 @@ nav .container .search .show-search-field {
 .team-page .team-item:hover .text .social {
   opacity: 1;
   margin-top: -20px;
+}
+.team-page .team-item:hover {
+  box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.25);
+}
+
+.publication_category {
+  background-color: #F2F2F2;
+  position: sticky;
+  top: 80px;
+}
+.publication_category .nav-pills .nav-link.active,
+.publication_category .nav-pills .show > .nav-link {
+  color: #ffffff;
+  background-color: #AACC41;
+}
+.publication_category .nav-pills .nav-link {
+  text-align: start;
+  color: #2a283e;
+  background-color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+}
+.publication_category .nav-pills .nav-link span {
+  position: relative;
+  width: 100%;
+}
+.publication_category .nav-pills .nav-link span:before {
+  content: "\f054";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 700;
+  font-size: 12px;
+  right: 0;
+  top: 5px;
+  position: absolute;
+  color: inherit;
+  line-height: normal;
+}
+.publication_category .nav-pills .nav-link:hover {
+  background-color: #AACC41;
+  color: white;
+}
+
+.publication .list .item {
+  border-radius: 6px;
+  border: 1px solid #a48fc5;
+  margin-bottom: 24px;
+}
+.publication .list .item .image {
+  width: 100%;
+  height: 250px;
+}
+.publication .list .item .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.publication .list .item .text {
+  height: 100px;
+}
+.publication .list .item .text a {
+  color: #2a283e;
+}
+.publication .list .item .text a h4 {
+  padding-left: 24px;
+  font-size: 22px;
+  padding-top: 30px;
+  font-weight: 500;
+}
+.publication .list .item:hover .text h4 {
+  color: #AACC41;
 }
 
 /*# sourceMappingURL=style.css.map */

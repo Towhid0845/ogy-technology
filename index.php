@@ -40,28 +40,29 @@
             </div>
           </div> -->
           <div class="banner_five_text">
-            <h6>Welcome to <span>AOSED</span></h6>
-            <a href="#">Food Security & Agriculture</a>
+            <a href="food.php">Food Security & Agriculture</a>
           </div>
         </div>
         <div class="banner-img" style="background-image: url(./images/banner-bg2.webp);">
           <div class="banner_five_text">
-            <h6>Welcome to <span>AOSED</span></h6>
-            <a href="#">Water Justice</a>
+            <a href="water.php">Water Justice</a>
           </div>
         </div>
 
         <div class="banner-img" style="background-image: url(./images/banner-bg3.webp);">
           <div class="banner_five_text">
-            <h6>Welcome to <span>AOSED</span></h6>
-            <a href="#">Develope Planning & Impliment Projects</a>
+            <a href="sanitation.php">Sanitation and Hygiene</a>
           </div>
         </div>
 
         <div class="banner-img" style="background-image: url(./images/banner-bg4.webp);">
           <div class="banner_five_text">
-            <h6>Welcome to <span>AOSED</span></h6>
-            <a href="#">Disester management</a>
+            <a href="disaster.php">Disester management</a>
+          </div>
+        </div>
+        <div class="banner-img" style="background-image: url(./images/banner-bg4.webp);">
+          <div class="banner_five_text">
+            <a href="environment.php">Environment and Climate Change</a>
           </div>
         </div>
 

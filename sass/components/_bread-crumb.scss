@@ -2,17 +2,18 @@
 @import "../mixin/font";
 
 .bread-crumb {
-  background-repeat: no-repeat !important;
-  background-size: cover !important;
-  background-position: center !important;
+  // background-repeat: no-repeat !important;
+    // background-size: cover !important;
+    // background-position: center !important;
+    background-color: $theme;
 
   .overlay {
-    background-color: rgba(10, 11, 15, 0.6);
-    padding: 80px 0;
+    // background-color: rgba(10, 11, 15, 0.6);
+      padding: 50px 0;
 
     .text {
       h3 {
-        @include font(56px, 700);
+        @include font(40px, 700);
         color: $white;
         margin-bottom: 10px;
       }
@@ -20,7 +21,7 @@
       ul {
         li {
           display: inline-block;
-          color: $theme;
+          color: $black;
           font-weight: 500;
           position: relative;
           padding: 0 20px;

@@ -10,15 +10,16 @@
       background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 250px 0;
+    padding: 550px 0 100px;
       .banner_five_text {
           width: 70%;
-          margin: auto;
-          text-align: center;
           display: flex;
-          align-items: center;
+          align-items: start;
           flex-direction: column;
           justify-content: center;
+          padding-left: 20px;
+            margin-left: 80px;
+            border-left: 5px solid $theme;
       
           h6 {
             color: $white;
@@ -32,10 +33,9 @@
       
           a {
             color: $white;
-            font-size: 90px;
+            font-size: 50px;
             font-weight: 600;
-            line-height: 100px;
-            height: 200px;
+            line-height: 80px;
           }
         }
 .image {

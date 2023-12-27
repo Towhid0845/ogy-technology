@@ -74,18 +74,18 @@
             <a class="nav-link" href="#">Publication <i class="fas fa-angle-down"></i>
             </a>
             <ul class="list-unstyled sub-dropdown-menu">
-              <li><a href="">Newsletter</a></li>
-              <li><a href="">publications</a></li>
-              <li><a href="">reports</a></li>
+              <li><a href="newsletter.php">Newsletter</a></li>
+              <li><a href="publication.php">publications</a></li>
+              <li><a href="report.php">reports</a></li>
             </ul>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Project & program <i class="fas fa-angle-down"></i>
             </a>
             <ul class="list-unstyled sub-dropdown-menu">
-              <li><a href="">Ongoing Projects</a></li>
-              <li><a href="">Recent Past Projects</a></li>
-              <li><a href="">Success Stories</a></li>
+              <li><a href="current_project.php">Ongoing Projects</a></li>
+              <li><a href="past_project.php">Recent Past Projects</a></li>
+              <li><a href="story.php">Success Stories</a></li>
             </ul>
           </li>
           <li class="nav-item">
