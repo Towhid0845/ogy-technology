@@ -186,9 +186,8 @@
           <div class="row">
             <div class="col-lg-6 offset-lg-3 col-md-12 col-sm-12 col-12">
               <div class="section_heading">
-                <h3>events</h3>
-                <h2>Visit our events for contribution
-                </h2>
+                <h2>events</h2>
+                <!-- <h2>Visit our events for contribution</h2> -->
               </div>
             </div>
           </div>
@@ -390,7 +389,7 @@
 
 
       <!-- counter part satrt -->
-      <section id="counter">
+      <!-- <section id="counter">
         <div class="container">
           <div class="section_heading">
             <img src="./images/notice.png" alt="not found">
@@ -470,7 +469,13 @@
                   </li>
                 </ul>
               </div>
-              <!-- <div class="col-lg-12">
+              
+            </div>
+          </div>
+
+        </div>
+      </section> -->
+      <!-- <div class="col-lg-12">
               <div class="counter_area_wrapper">
                 <div class="row">
                   <div class="col-lg-3 col-md-6 col-sm-6 col-12">
@@ -511,11 +516,6 @@
                 </div>
               </div>
             </div> -->
-            </div>
-          </div>
-
-        </div>
-      </section>
       <!-- counter part end -->
 
 
@@ -525,7 +525,7 @@
           <div class="row">
             <div class="col-lg-6 offset-lg-3 col-md-12 col-sm-12 col-12">
               <div class="section_heading">
-                <h3> our Stories</h3>
+                <h3>Stories</h3>
                 <h2>There is a story of hard work, perseverance, and sacrifice behind every story</h2>
               </div>
             </div>

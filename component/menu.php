@@ -66,8 +66,8 @@
             <a class="nav-link" href="#">Gallery <i class="fas fa-angle-down"></i>
             </a>
             <ul class="list-unstyled sub-dropdown-menu">
-              <li><a href="photo-gallery.php">Photos</a></li>
-              <li><a href="video-gallery.php">Videos</a></li>
+              <li><a href="photo-list.php">Photos</a></li>
+              <li><a href="video-list.php">Videos</a></li>
             </ul>
           </li>
           <li class="nav-item">
@@ -83,9 +83,9 @@
             <a class="nav-link" href="#">Project & program <i class="fas fa-angle-down"></i>
             </a>
             <ul class="list-unstyled sub-dropdown-menu">
-              <li><a href="current_project.php">Ongoing Projects</a></li>
-              <li><a href="past_project.php">Recent Past Projects</a></li>
-              <li><a href="story.php">Success Stories</a></li>
+              <li><a href="ongoing-project-list.php">Ongoing Projects</a></li>
+              <li><a href="past-project-list.php">Recent Past Projects</a></li>
+              <li><a href="story-list.php">Success Stories</a></li>
             </ul>
           </li>
           <li class="nav-item">

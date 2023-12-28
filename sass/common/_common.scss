@@ -110,7 +110,7 @@ body {
 }
 
 .btn_theme {
-  color: $white;
+  color: $black;
   background-color: $logo3;
   transition: $transition;
   box-shadow: none;
@@ -120,9 +120,26 @@ body {
   z-index: 0;
   border: none;
 }
+.btn_story {
+  color: $logo3;
+  background-color: $white;
+  transition: $transition;
+  box-shadow: none;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  z-index: 0;
+  border: 2px solid $logo3;
+}
 
 .btn_theme:hover {
   background-color: $black;
+  color: $white;
+  }
+  
+  .btn_story:hover {
+    background-color: $logo3;
+    color: $white;
 }
 
 .btn_md {
@@ -131,7 +148,7 @@ body {
 }
 
 .btn_sm {
-  font-size: 14px;
+  font-size: 16px;
   padding: 5px 18px;
 }
 
@@ -149,6 +166,7 @@ body {
 
 .btn_navber:hover {
   background: $logo3;
+  color: $black;
 }
 
 .is-sticky .btn_navber {
@@ -296,7 +314,9 @@ section {
 }
 
 // inner page
-.team-page {
+.team-page,
+.story-list,
+.gallery-list {
   padding: 80px 0;
 }
 .sticky-top {

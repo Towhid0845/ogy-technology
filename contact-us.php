@@ -87,7 +87,7 @@
 
   <!-- Contact Map Area -->
   <section id="contact_full_map" class="section_padding_bottom">
-    <div class="contact_content_boxed">
+    <!-- <div class="contact_content_boxed">
       <div class="container">
         <div class="row">
           <div class="col-lg-4 col-md-6 col-sm-12 col-12">
@@ -137,8 +137,8 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="container-fluid" style="margin-top: -100px;">
+    </div> -->
+    <div class="container-fluid">
       <div class="row">
         <div class="col-lg-12 px-0">
           <div class="contact_map_area">
