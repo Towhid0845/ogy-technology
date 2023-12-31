@@ -5,8 +5,8 @@
 
   .nav-pills .nav-link.active,
   .nav-pills .show>.nav-link {
-    color: $white;
-    background-color: $logo3;
+    color: $black;
+      background-color: $theme;
   }
 
   .nav-pills .nav-link {
@@ -33,8 +33,8 @@
     }
 
     &:hover {
-      background-color: $logo3;
-      color: white;
+      background-color: $theme;
+        color: $purple;
     }
   }
 }
@@ -58,15 +58,15 @@
       }
 
       .text {
-        height: 100px;
+        height: 80px;
 
         a {
           color: $black;
 
           h4 {
-            padding-left: 24px;
+            padding: 20px 15px 0 15px;
             font-size: 22px;
-            padding-top: 30px;
+            // padding-top: 30px;
             font-weight: 500;
           }
         }
@@ -74,7 +74,7 @@
 
       &:hover {
         .text h4 {
-          color: $logo3;
+          color: $purple;
         }
       }
     }

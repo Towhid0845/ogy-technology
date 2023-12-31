@@ -23,7 +23,7 @@ p {
 p {
   @include font(16px, 400);
   line-height: 28px;
-  color: $para;
+  color: $text;
 }
 
 span {
@@ -111,7 +111,7 @@ body {
 
 .btn_theme {
   color: $black;
-  background-color: $logo3;
+  background-color: $theme;
   transition: $transition;
   box-shadow: none;
   overflow: hidden;
@@ -121,7 +121,7 @@ body {
   border: none;
 }
 .btn_story {
-  color: $logo3;
+  color: $theme;
   background-color: $white;
   transition: $transition;
   box-shadow: none;
@@ -129,7 +129,7 @@ body {
   white-space: nowrap;
   position: relative;
   z-index: 0;
-  border: 2px solid $logo3;
+  border: 2px solid $theme;
 }
 
 .btn_theme:hover {
@@ -138,7 +138,7 @@ body {
   }
   
   .btn_story:hover {
-    background-color: $logo3;
+    background-color: $theme;
     color: $white;
 }
 
@@ -154,7 +154,7 @@ body {
 
 .btn_navber {
   color: $black;
-  border: 2px solid $logo3;
+  border: 2px solid $theme;
   padding: 7px 20px;
   transition: $transition;
   box-shadow: none;
@@ -165,7 +165,7 @@ body {
 }
 
 .btn_navber:hover {
-  background: $logo3;
+  background: $theme;
   color: $black;
 }
 
@@ -185,16 +185,19 @@ body {
 }
 
 .section_heading h3 {
-  color: $para;
+  font-size: 22px;
+    color: $black;
   font-weight: 400;
-  margin-bottom: -30px;
+  margin-top: 15px;
   text-transform: capitalize;
 }
 
 .section_heading h2 {
+  font-size: 32px;
   padding-top: 20px;
   position: relative;
   text-transform: capitalize;
+  color: $black;
 }
 
 .section_heading_two {
@@ -203,7 +206,7 @@ body {
 }
 
 .section_heading_two h3 {
-  color: $para;
+  color: $text;
   font-weight: 400;
   margin-bottom: -30px;
 }
@@ -324,4 +327,18 @@ section {
   transition: 0.5s;
   z-index: 9999 !important;
   background-color: #ffffff;
+}
+.print-btn {
+  text-align: center;
+  background-color: $white;
+  width: 35px;
+  height: 35px;
+  border: 1px solid $black;
+  border-radius: 3px;
+
+
+  i {
+    font-size: 20px;
+    line-height: 32px;
+  }
 }

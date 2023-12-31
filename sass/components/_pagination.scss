@@ -33,7 +33,7 @@
 }
 
 .pagination ul li.arrow a:hover {
-  background-color: $logo1;
+  background-color: $theme;
     color: $black;
 }
 
@@ -57,7 +57,7 @@
 .pagination ul li.mid-pagi a.active {
   width: 25px;
   height: 25px;
-  background-color: $logo1;
+  background-color: $theme;
   border-radius: 50%;
   text-align: center;
   line-height: 25px;

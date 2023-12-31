@@ -47,7 +47,7 @@
 
       .dates {
         ul li a {
-          background-color: $theme;
+          background-color: $purple;
         }
       }
 
@@ -66,7 +66,7 @@
           -webkit-box-orient: vertical;
 
           &:hover {
-            color: $logo3;
+            color: $purple;
           }
         }
 
@@ -116,7 +116,7 @@
     margin-bottom: 24px;
     // padding: 25px;
     border-radius: 3px;
-    border: 2px solid $logo2;
+    border: 2px solid $purple;
     transition: $transition;
 
     .image {
@@ -130,8 +130,8 @@
         bottom: 0;
         left: 0;
         right: 0;
-        top: 0;
-        background: #ff000036;
+        top: 183px;
+          background: rgb(130 104 171 / 44%);
         display: flex;
 
         .title {
@@ -171,13 +171,14 @@
       }
 
       .berif {
-        border-left: 4px solid $theme;
+        border-left: 4px solid $purple;
         padding-left: 16px;
       }
 
       a {
         // margin-top: 0;
         margin-left: 16px;
+        color: $black;
       }
 
 
@@ -232,7 +233,7 @@
         border-radius: 6px;
         text-align: center;
         line-height: 45px;
-        color: $logo3;
+        color: $purple;
         font-size: 20px;
         -webkit-text-stroke: 1px;
       }

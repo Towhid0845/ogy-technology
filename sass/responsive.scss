@@ -27,9 +27,45 @@
 @media (min-width:1400px) and (max-width:1599.98px) {}
 
 @media (min-width:1200px) and (max-width:1399.98px) {
+  .team-page .team_wrapper .volunteer_img {
+      height: 262px;
+    }
+  
+    .team-page .team_wrapper .volunteer_icon {
+      left: 41%;
+    }
+  
+    .team-page .team_wrapper .volunteer_text {
+      padding: 20px 15px;
+    }
+  
+    .team-page .team_wrapper .volunteer_text h3 a {
+      font-size: 24px;
+    }
+  
+    .what-we-do-page .image {
+      height: 347px;
+    }
+  
+    .what-we-do-page .text {
+      margin-left: 30px;
+    }
+  
+    .what-we-do-page h3 {
+      padding-left: 30px;
+    }
+  
+    #banner .banner-img .banner_five_text {
+      height: 100px;
+    }
   #banner .banner-img .banner_five_text a {
-    font-size: 80px;
-}
+    font-size: 40px;
+      line-height: 60px;
+    }
+    
+    #banner .banner-img {
+      padding: 470px 0 100px;
+    }
 
 #what_we_do {
   padding: 50px 0;
@@ -39,6 +75,9 @@
   padding: 30px 0 40px;
 }
 
+.event_para {
+  padding-right: 0px;
+}
 #events,
 #counter,
 #news {
@@ -104,6 +143,38 @@ nav .container .navbar-nav li a {
 }
 
 @media (min-width:992px) and (max-width:1199.98px) {
+  .publication .list .item .text a h4 {
+      font-size: 20px;
+    }
+  
+    .team-page .team_wrapper .volunteer_img {
+      height: 296px;
+    }
+  
+    .what-we-do-page .image {
+      height: 262px;
+    }
+  
+    .what-we-do-page .text {
+      margin-left: 10px;
+    }
+  
+    .what-we-do-page h3 {
+      padding-left: 10px;
+    }
+  
+    #banner .banner-img .banner_five_text {
+      height: 100px;
+    }
+  
+    #banner .banner-img .banner_five_text a {
+      font-size: 35px;
+      line-height: 60px;
+    }
+  
+    #banner .banner-img {
+      padding: 430px 0 70px;
+    }
 #what_we_do {
     padding: 50px 0;
   }
@@ -126,14 +197,6 @@ nav .container .navbar-nav li a {
   padding: 40px 0 30px 0;
 }
 
-#banner .banner-img .banner_five_text a {
-  font-size: 70px;
-  line-height: 80px;
-}
-
-#banner .banner-img {
-  padding: 230px 0;
-}
 
 .event_para {
   padding-right: 0;
@@ -176,6 +239,38 @@ nav .container .navbar-nav li a {
 }
 
 @media (min-width:768px) and (max-width:991.98px) {
+  .team-page .team_wrapper .volunteer_img {
+      height: 336px;
+    }
+  
+    .what-we-do-page .image {
+      height: 475px;
+    }
+  
+    .what-we-do-page h3 {
+      padding: 20px 0;
+      padding-left: 0;
+    }
+  
+    .what-we-do-page .text {
+      margin-left: 0px;
+    }
+  
+    #banner .banner-img .banner_five_text {
+      height: 100px;
+      padding-left: 20px;
+      margin-left: 50px;
+  
+    }
+  
+    #banner .banner-img .banner_five_text a {
+      font-size: 32px;
+      line-height: 50px;
+    }
+  
+    #banner .banner-img {
+      padding: 380px 0 80px;
+    }
 #what_we_do {
     padding: 40px 0;
   }
@@ -198,14 +293,7 @@ nav .container .navbar-nav li a {
   padding: 40px 0 30px 0;
 }
 
-#banner .banner-img .banner_five_text a {
-  font-size: 60px;
-  line-height: 70px;
-}
 
-#banner .banner-img {
-  padding: 210px 0;
-}
 
 .blog_card_wrapper {
   margin-bottom: 24px;
@@ -238,6 +326,38 @@ nav .container .navbar-nav li a {
 }
 
 @media (min-width:576px) and (max-width:767.98px) {
+  .team-page .team_wrapper .volunteer_img {
+      height: 246px;
+    }
+  
+    .what-we-do-page .image {
+      height: 355px;
+    }
+  
+    .what-we-do-page h3 {
+      padding: 20px 0;
+      padding-left: 0;
+    }
+  
+    .what-we-do-page .text {
+      margin-left: 0px;
+    }
+  
+    #banner .banner-img .banner_five_text {
+      height: 70px;
+      padding-left: 20px;
+      margin-left: 50px;
+  
+    }
+  
+    #banner .banner-img .banner_five_text a {
+      font-size: 30px;
+      line-height: 40px;
+    }
+  
+    #banner .banner-img {
+      padding: 350px 0 80px;
+    }
 #what_we_do {
     padding: 40px 0;
   }
@@ -278,14 +398,7 @@ nav .container .navbar-nav li a {
 // #banner .icon {
 //   background-color: rgba(224, 60, 51, 0.62);
 // }
-#banner .banner-img .banner_five_text a {
-  font-size: 50px;
-  line-height: 60px;
-}
 
-#banner .banner-img {
-  padding: 210px 0;
-}
 
 #banner .icon {
 top: unset;
@@ -356,6 +469,38 @@ top: unset;
 }
 
 @media (max-width:575.98px) {
+  .team-page .team_wrapper .volunteer_img {
+      height: 350px;
+    }
+  
+    .what-we-do-page .image {
+      height: 255px;
+    }
+  
+    .what-we-do-page h3 {
+      padding: 20px 0;
+      padding-left: 0;
+    }
+  
+    .what-we-do-page .text {
+      margin-left: 0px;
+    }
+  
+    #banner .banner-img .banner_five_text {
+      height: 100px;
+      padding-left: 20px;
+      margin-left: 30px;
+  
+    }
+  
+    #banner .banner-img .banner_five_text a {
+      font-size: 28px;
+      line-height: 30px;
+    }
+  
+    #banner .banner-img {
+      padding: 350px 0 80px;
+    }
 #what_we_do {
     padding: 40px 0;
   }
@@ -397,14 +542,6 @@ top: unset;
 //   background-color: rgba(224, 60, 51, 0.62);
 // }
 
-#banner .banner-img .banner_five_text a {
-  font-size: 40px;
-  line-height: 50px;
-}
-
-#banner .banner-img {
-  padding: 190px 0;
-}
 
 #banner .icon {
 top: unset;

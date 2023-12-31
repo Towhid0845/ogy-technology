@@ -11,7 +11,21 @@
 
 
   <!-- breadcrumb part start -->
-  <?php include("./component/breadcrumb.php"); ?>
+  <section class="bread-crumb">
+    <div class="overlay">
+      <div class="container">
+        <div class="text text-center">
+          <h3>Contact Us</h3>
+          <ul class="list-unstyled">
+            <li>
+              <a href="index.html"><i class="fas fa-home"></i> Home</a>
+            </li>
+            <li>Contact Us</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
   <!-- breadcrumb part end -->
 
 

@@ -9,7 +9,21 @@
   <!-- navbar part end -->
 
   <!-- breadcrumb part start -->
-  <?php include("./component/breadcrumb.php"); ?>
+  <section class="bread-crumb">
+    <div class="overlay">
+      <div class="container">
+        <div class="text text-center">
+          <h3>Background</h3>
+          <ul class="list-unstyled">
+            <li>
+              <a href="index.html"><i class="fas fa-home"></i> Home</a>
+            </li>
+            <li>Background</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
   <!-- breadcrumb part end -->
 
   <!-- content page start -->
@@ -36,13 +50,13 @@
       <div class="content-main">
         <div class="row">
           <div class="col-lg-12">
-            <h5>Vision</h5>
+            <h5>Vision:</h5>
             <p>Develop a just, prosperous and environment-friendly Society in which there will be no discrimination on the basis of race, caste, creed, gender or occupation whatsoever.</p>
 
-            <h5>Mission</h5>
+            <h5>Mission:</h5>
             <p>Conserve environment, ecology and biodiversity. Ensure people’s rights of access to natural resource towards alleviation of poverty, upholding human rights and democratic governance.</p>
 
-            <h5>Objectives</h5>
+            <h5>Objectives:</h5>
             <ul>
               <li>Conservation of environment, ecology and biodiversity to address the challenge of climate change related vulnerabilities to improve people’s livelihood.</li>
               <li>Extension of Eco-friendly and diversified agriculture to ensure food security.</li>
@@ -59,10 +73,10 @@
       <div class="content-main">
         <div class="row">
           <div class="col-lg-12">
-            <h5>Experiences and Expertise</h5>
-            <p class="content-border-dash-style">AOSED working at the climate vulnerable southwest Bangladesh which is the poverty pocket of the country. Organization is addressing in Integrated Water Resources Management (IWRM), Safe water rights, provide drinking supply facilities and proper health hygiene practices. Community based mangrove eco-system (Sundarbans) conservation and management. Disaster preparedness and ICT based early warning response mechanism, local level adaptation and mitigation considering adverse impact of climate change. Eco-friendly agriculture extension for increasing agro production to ensure food security through social mobilization, skill and capacity development, participatory research and technology transfer, service delivery, local resource mobilization, media and awareness campaign and advocacy. AOSED constantly consider vulnerable communities, human rights especially women and children, socio-economic-political and ecological changing context.</p>
+            <h5>Experiences and Expertise:</h5>
+            <p>AOSED working at the climate vulnerable southwest Bangladesh which is the poverty pocket of the country. Organization is addressing in Integrated Water Resources Management (IWRM), Safe water rights, provide drinking supply facilities and proper health hygiene practices. Community based mangrove eco-system (Sundarbans) conservation and management. Disaster preparedness and ICT based early warning response mechanism, local level adaptation and mitigation considering adverse impact of climate change. Eco-friendly agriculture extension for increasing agro production to ensure food security through social mobilization, skill and capacity development, participatory research and technology transfer, service delivery, local resource mobilization, media and awareness campaign and advocacy. AOSED constantly consider vulnerable communities, human rights especially women and children, socio-economic-political and ecological changing context.</p>
 
-            <p class="content-border-dash-style">Besides, enhanced capability of organization and achieve significant experiences and expertise through implementing various approaches projects and programs. These are; grassroots organization development, educational materials development, strategy of effective awareness and media campaign, develop training modules and guideline to conduct trainings, strengthen community based management and maintenance mechanism, local resources mobilization, local knowledge and information management, participatory action research, technology transfer considering ICT and renewable energy, policy review, implementation and recommendation.</p>
+            <p>Besides, enhanced capability of organization and achieve significant experiences and expertise through implementing various approaches projects and programs. These are; grassroots organization development, educational materials development, strategy of effective awareness and media campaign, develop training modules and guideline to conduct trainings, strengthen community based management and maintenance mechanism, local resources mobilization, local knowledge and information management, participatory action research, technology transfer considering ICT and renewable energy, policy review, implementation and recommendation.</p>
           </div>
         </div>
       </div>

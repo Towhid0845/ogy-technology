@@ -78,7 +78,7 @@
                 <img src="./images/water.png" alt="img">
               </div>
               <div class="about_top_boxed_text">
-                <p>Donate for</p>
+
                 <h3>Water Justice</h3>
                 <a href="water.php">More details...</a>
               </div>
@@ -91,7 +91,7 @@
                 <img src="./images/food.png" alt="img">
               </div>
               <div class="about_top_boxed_text">
-                <p>Donate for</p>
+
                 <h3>Food security & Agriculture</h3>
                 <a href="food.php">More details...</a>
               </div>
@@ -104,7 +104,7 @@
                 <img src="./images/environment.png" alt="img">
               </div>
               <div class="about_top_boxed_text">
-                <p>Donate for</p>
+
                 <h3>Environment & Climate Change</h3>
                 <a href="environment.php">More details...</a>
               </div>
@@ -117,7 +117,7 @@
                 <img src="./images/sanitation.png" alt="img">
               </div>
               <div class="about_top_boxed_text">
-                <p>Donate for</p>
+
                 <h3>Sanitation & Hygiene</h3>
                 <a href="sanitation.php">More details...</a>
               </div>
@@ -130,7 +130,7 @@
                 <img src="./images/flooded.png" alt="img">
               </div>
               <div class="about_top_boxed_text">
-                <p>Donate for</p>
+
                 <h3>Disaster Management</h3>
                 <a href="disaster.php">More details...</a>
               </div>
@@ -150,14 +150,15 @@
           <div class="row">
             <div class="col-lg-6 col-md-12 col-sm-12 col-12">
               <div class="about_area_img">
-                <img src="./images/about.jpg" alt="img">
+                <img src="./images/about-us.jpg" alt="img">
               </div>
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12 col-12">
               <div class="about_area_main_text">
                 <div class="about_area_heading">
                   <img src="./images/about-icon.png" alt="img">
-                  <h3>About Us</h3>
+                  <h2>About Us</h2>
+
                 </div>
                 <!-- <div class="about_area_heading_two">
                   <h2>A world where poverty<br />
@@ -165,12 +166,11 @@
                   <h3>We are the largest crowdfunding</h3>
                 </div> -->
                 <div class="about_area_para">
-                  <h5>পরিবেশ-প্রতিবেশ ও জীববৈচিত্র্য সংরক্ষণ, জলবায়ু পরিবর্তনজনিত ক্ষতিকারক প্রতিক্রিয়া মোকাবেলা এবং প্রাকৃতিক সম্পদে স্থানীয় জনগণের অধিকার প্রতিষ্ঠার মাধ্যমে বিপদাপন্ন তৃণমূল জনগোষ্ঠির জীবন-জীবিকার মান উন্নয়নে এ্যাওসেড প্রতিশ্রুতিবদ্ধ।</h5>
-                  <p>AOSED is committed to the improvement of the quality of life of the affected vulnerable communities through the establishment of the rights of local people in natural resources, combating climate-induced damages, and addressing climate change impacts.</p>
-                  <!-- <p>Our vision is to develop a just, prosperous and environment-friendly Society in which there will be no discrimination on the basis of race, caste, creed, gender or occupation whatsoever.</p> -->
+                  <h5>পরিবেশ-প্রতিবেশ ও জীববৈচিত্র্য সংরক্ষণ, জলবায়ু পরিবর্তনজনিত ক্ষতিকারক প্রতিক্রিয়া মোকাবেলা, দক্ষতা ও সক্ষমতা বৃদ্ধি এবং প্রাকৃতিক সম্পদের দায়িত্বশীল ব্যবহার নিশ্চিতের মাধ্যমে বিপদাপন্ন জনগোষ্ঠির জীবন-জীবিকার মান উন্নয়নে অ্যাওসেড প্রতিশ্রুতিবদ্ধ।</h5>
+                  <p>AOSED is committed to improving the quality of life of vulnerable communities by conserving the environment and biodiversity, addressing adverse impacts of climate change, developing skills and capacity, and ensuring responsible use of natural resources.</p>
                 </div>
                 <div class="about_vedio_area">
-                  <a href="about.html" class="btn btn_theme btn_md">Learn more</a>
+                  <a href="background.php" class="btn btn_theme btn_md">Learn more</a>
                   <a href="https://vimeo.com/45830194" class="vedio_btn popup-vimeo"><i class="fa fa-play"></i>How we work</a>
                 </div>
               </div>
@@ -195,11 +195,11 @@
             <div class="col-lg-6">
               <div class="event_left_side_wrapper">
                 <div class="event_big_img">
-                  <a href="event-detail.html"><img src="./images/event.webp" alt="img"></a>
+                  <a href="#"><img src="./images/event.webp" alt="img"></a>
                 </div>
                 <div class="event_content_area big_content_padding">
                   <div class="event_tag_area">
-                    <a href="event.html">#FoodCamp</a>
+                    <a href="event.html">#COP28</a>
                   </div>
                   <div class="event_heading_area">
                     <div class="event_heading">
@@ -249,7 +249,7 @@
               <div class="event_left_side_wrapper">
                 <div class="event_content_area small_content_padding">
                   <div class="event_tag_area">
-                    <a href="event.html">#FoodCamp</a>
+                    <a href="#">#COP28</a>
                   </div>
                   <div class="event_heading_area">
                     <div class="event_heading">
@@ -294,7 +294,7 @@
               <div class="event_left_side_wrapper">
                 <div class="event_content_area small_content_padding">
                   <div class="event_tag_area">
-                    <a href="event.html">#FoodCamp</a>
+                    <a href="#">#COP28</a>
                   </div>
                   <div class="event_heading_area">
                     <div class="event_heading">
@@ -339,7 +339,7 @@
               <div class="event_left_side_wrapper">
                 <div class="event_content_area small_content_padding">
                   <div class="event_tag_area">
-                    <a href="event.html">#FoodCamp</a>
+                    <a href="#">#COP28</a>
                   </div>
                   <div class="event_heading_area">
                     <div class="event_heading">
@@ -523,10 +523,10 @@
       <section id="news" class="section_after">
         <div class="container">
           <div class="row">
-            <div class="col-lg-6 offset-lg-3 col-md-12 col-sm-12 col-12">
+            <div class="col-md-12 col-sm-12 col-12">
               <div class="section_heading">
-                <h3>Stories</h3>
-                <h2>There is a story of hard work, perseverance, and sacrifice behind every story</h2>
+                <h2>Stories</h2>
+                <h3>There is a story of hard work, perseverance, and sacrifice behind every story</h3>
               </div>
             </div>
           </div>
@@ -534,16 +534,16 @@
             <div class="col-lg-4">
               <div class="blog_card_wrapper">
                 <div class="blog_card_img">
-                  <a href="news-details.html"><img src="./images/news1.webp" alt="img"></a>
+                  <a href="news-details.html"><img src="./images/story2.jpg" alt="img"></a>
                 </div>
                 <div class="blog_card_text">
                   <div class="blog_card_tags">
-                    <a href="news.html">#Nutrition</a>
+                    <a href="news.html">#story</a>
                   </div>
                   <div class="blog_card_heading">
-                    <h3><a href="news-details.html" class="line_limit_2">ToT Of Local Level Strategy of Reducing Climate induced Loss and Damage of Seagoing Traditional Fishers of Bangladesh</a></h3>
-                    <p class="line_limit_2">Three-daylong Training of the Trainers on ‘Local Level Strategy of Reducing Climate induced Loss and Damage of Seagoing Traditional Fishers of Bangladesh’ has been held at CSS Ava Center Khulna. Honorable Mayor of Khulna City Corporation Mr. Talukder Abdul Khaleque was present as the Chief Guest during the occasion. Chief trainer Capt. M Shafiqul Alam</p>
-                    <a href="about.html" class="btn btn_theme btn_sm mt-4">Read more</a>
+                    <h3><a href="news-details.html" class="line_limit_2">Climate Education for Secondary School Students in Southwest Bangladesh</a></h3>
+                    <p class="line_limit_2">In an unprecedented move, AOSED has pioneered a global first: a comprehensive educational initiative targeting the nuanced challenges of climate change in the heart of southwest Bangladesh. From 2003 to 2005, AOSED strategically engaged 65 educational institutions across pivotal regions like Khulna and Jessore, meticulously crafting a curriculum that transcended traditional boundaries under Reducing Vulnerability to Climate Change (RVCC) project with collaboration of CARE Bangladesh.</p>
+                    <a href="story1-details.php" class="btn btn_theme btn_sm mt-4">Read more</a>
                   </div>
                   <!-- <div class="blog_boxed_bottom_wrapper">
                     <div class="row">
@@ -577,16 +577,16 @@
             <div class="col-lg-4">
               <div class="blog_card_wrapper">
                 <div class="blog_card_img">
-                  <a href="news-details.html"><img src="./images/news2.webp" alt="img"></a>
+                  <a href="news-details.html"><img src="./images/story1.jpg" alt="img"></a>
                 </div>
                 <div class="blog_card_text">
                   <div class="blog_card_tags">
-                    <a href="news.html">#Education</a>
+                    <a href="news.html">#story</a>
                   </div>
                   <div class="blog_card_heading">
-                    <h3><a href="news-details.html" class="line_limit_2">Arsenic-free Safe Drinking Water for Schools and Hospitals in Climate vulnerable Khulna areas</a></h3>
-                    <p class="line_limit_2">Funded by Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH Project budget Project duration 2017 – 2019 Project area 4 Upazilas from Khulna, Meherpur and Pirojpur District PROJECT BACKGROUND Bangladesh is one of the most vulnerable countries in the world due to its geographical location and natural calamities. According to the estimate of Asian development </p>
-                    <a href="about.html" class="btn btn_theme btn_sm mt-4">Read more</a>
+                    <h3><a href="news-details.html" class="line_limit_2">Smart Bangladesh Award 2023 for ICT-based Early Warning Response Mechanism</a></h3>
+                    <p class="line_limit_2">AOSED received the prestigious "Smart Bangladesh Award-2023" in recognition of its exceptional role as a leading organization in fostering resilience and expertise among coastal districts through an ICT-based Early Warning Response Mechanism. The award was presented during the Sheikh Russel Day 2023 ceremony held at the Bangabandhu International Conference Center on October 18, 2023.</p>
+                    <a href="story2-details.php" class="btn btn_theme btn_sm mt-4">Read more</a>
                   </div>
 
                 </div>
@@ -595,16 +595,16 @@
             <div class="col-lg-4">
               <div class="blog_card_wrapper">
                 <div class="blog_card_img">
-                  <a href="news-details.html"><img src="./images/news3.webp" alt="img"></a>
+                  <a href="news-details.html"><img src="./images/story3.jpg" alt="img"></a>
                 </div>
                 <div class="blog_card_text">
                   <div class="blog_card_tags">
                     <a href="news.html">#Water</a>
                   </div>
                   <div class="blog_card_heading">
-                    <h3><a href="news-details.html" class="line_limit_2">Sundarbans Adjacent Fishers Enabling to Resilience Building (SAFER) Project</a></h3>
-                    <p class="line_limit_2">Title of the project: Sundarbans Adjacent Fishers Enabling to Resilience Building (SAFER) Project’ Project area: Paikgachha Upazila of Khulna District Project Duration: 2015 to 2019 Beneficiaries: 300 fishermen from 44 seagoing traditional fishing boats and their 191 families which make a total 897 direct beneficiaries. Short description of Project: The southwest coastal region of Bangladesh</p>
-                    <a href="about.html" class="btn btn_theme btn_sm mt-4">Read more</a>
+                    <h3><a href="news-details.html" class="line_limit_2">ICT-based Early Warning Response Mechanism:</a></h3>
+                    <p class="line_limit_2">The picturesque Southwest Coastal Region of Bangladesh, embraced by the Bay of Bengal, is a haven for seagoing fisherfolks who rely on the vast marine resources for their livelihoods. Despite the region's natural beauty, the lives of these fisherfolks are marred by a relentless cycle of challenges that threaten their well-being. Foremost among these challenges is the constant peril they face when venturing into the sea, often ill-prepared for unpredictable weather conditions.</p>
+                    <a href="story3-details.php" class="btn btn_theme btn_sm mt-4">Read more</a>
                   </div>
 
                 </div>

@@ -36,7 +36,7 @@ ul {
 padding: 5px 20px;
 border-radius: 5px;
   display: inline-block;
-background-color: $theme;
+background-color: $purple;
   color: $white;
 
 li {
@@ -73,7 +73,11 @@ margin-left: 30px;
 .details {
 p {
     margin-bottom: 20px;
+    color: $black;
 text-align: justify;
+}
+h5 {
+  padding-top: 20px;
 }
 }
 
@@ -205,7 +209,7 @@ button {
       transition: all linear .2s;
 
 &:hover {
-    color: $theme;
+    color: $purple;
   }
 }
 

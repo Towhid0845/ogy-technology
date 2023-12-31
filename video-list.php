@@ -21,7 +21,7 @@
   <section class="gallery-list">
     <div class="container">
       <div class="row">
-        <div class="col-lg-3 col-sm-6">
+        <div class="col-xl-3 col-lg-4 col-sm-6">
           <a href="video-gallery.php" class="w-100">
             <div class="gallery-list-item">
               <div class="image">
@@ -34,7 +34,7 @@
             </div>
           </a>
         </div>
-        <div class="col-lg-3 col-sm-6">
+        <div class="col-xl-3 col-lg-4 col-sm-6">
           <a href="video-gallery.php" class="w-100">
             <div class="gallery-list-item">
               <div class="image">
@@ -47,7 +47,7 @@
             </div>
           </a>
         </div>
-        <div class="col-lg-3 col-sm-6">
+        <div class="col-xl-3 col-lg-4 col-sm-6">
           <a href="video-gallery.php" class="w-100">
             <div class="gallery-list-item">
               <div class="image">
@@ -60,7 +60,7 @@
             </div>
           </a>
         </div>
-        <div class="col-lg-3 col-sm-6">
+        <div class="col-xl-3 col-lg-4 col-sm-6">
           <a href="video-gallery.php" class="w-100">
             <div class="gallery-list-item">
               <div class="image">
@@ -73,7 +73,7 @@
             </div>
           </a>
         </div>
-        <div class="col-lg-3 col-sm-6">
+        <div class="col-xl-3 col-lg-4 col-sm-6">
           <a href="video-gallery.php" class="w-100">
             <div class="gallery-list-item">
               <div class="image">
@@ -86,7 +86,7 @@
             </div>
           </a>
         </div>
-        <div class="col-lg-3 col-sm-6">
+        <div class="col-xl-3 col-lg-4 col-sm-6">
           <a href="video-gallery.php" class="w-100">
             <div class="gallery-list-item">
               <div class="image">
@@ -99,7 +99,7 @@
             </div>
           </a>
         </div>
-        <div class="col-lg-3 col-sm-6">
+        <div class="col-xl-3 col-lg-4 col-sm-6">
           <a href="video-gallery.php" class="w-100">
             <div class="gallery-list-item">
               <div class="image">
@@ -112,7 +112,7 @@
             </div>
           </a>
         </div>
-        <div class="col-lg-3 col-sm-6">
+        <div class="col-xl-3 col-lg-4 col-sm-6">
           <a href="video-gallery.php" class="w-100">
             <div class="gallery-list-item">
               <div class="image">

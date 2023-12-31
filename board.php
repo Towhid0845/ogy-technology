@@ -9,7 +9,21 @@
   <!-- navbar part end -->
 
   <!-- breadcrumb part start -->
-  <?php include("./component/breadcrumb.php"); ?>
+  <section class="bread-crumb">
+    <div class="overlay">
+      <div class="container">
+        <div class="text text-center">
+          <h3>Board & Governance</h3>
+          <ul class="list-unstyled">
+            <li>
+              <a href="index.html"><i class="fas fa-home"></i> Home</a>
+            </li>
+            <li>Board & Governance</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
   <!-- breadcrumb part end -->
 
   <!-- content page start -->
@@ -19,8 +33,8 @@
         <div class="row">
           <div class="col-lg-6 offset-lg-3 col-md-12 col-sm-12 col-12">
             <div class="section_heading">
-              <h3>Executive Members of</h3>
-              <h2>An Organization for Socio-Economic Development –AOSED</h2>
+              <h2>Executive Members of</h2>
+              <h3>An Organization for Socio-Economic Development –AOSED</h3>
             </div>
           </div>
         </div>
@@ -29,7 +43,7 @@
             <div class="content-table table-responsive">
               <table class="table table-bordered">
                 <thead class="bg-dark text-white ">
-                  <tr>
+                  <!-- <tr>
                     <th class="text-center"><span>SL</span></th>
                     <th class="text-center"><span>Image</span></th>
                     <th class="text-center"><span>Name</span></th>
@@ -37,71 +51,76 @@
                     <th class="text-center"><span>Profession</span></th>
                     <th class="text-center"><span>Nationality</span></th>
                     <th class="text-center"><span>Involvement with the organization</span></th>
-                  </tr>
+                  </tr> -->
+                  <div class="d-flex justify-content-end">
+                    <a href="table.php" class="print-btn">
+                      <i class="fa-solid fa-print"></i>
+                    </a>
+                  </div>
                 </thead>
                 <tbody>
                   <tr>
-                    <td>01</td>
+                    <!-- <td>01</td> -->
                     <td class="text-center"><img src="./images/xs.png" alt=""></td>
                     <td>Rafiqul Islam Khokan</td>
                     <td>Chairman</td>
-                    <td>Development Activist, Executive Director, RUPANTAR</td>
+                    <!-- <td>Development Activist, Executive Director, RUPANTAR</td>
                     <td>Bangladeshi</td>
-                    <td>Since 1999</td>
+                    <td>Since 1999</td> -->
                   </tr>
                   <tr>
-                    <td>02</td>
+                    <!-- <td>02</td> -->
                     <td class="text-center"><img src="./images/xs.png" alt=""></td>
                     <td>Shamim Arfeen</td>
                     <td>General Secretary and Executive Director</td>
-                    <td>Development Activist</td>
+                    <!-- <td>Development Activist</td>
                     <td>Bangladeshi</td>
-                    <td>Since 1999</td>
+                    <td>Since 1999</td> -->
                   </tr>
                   <tr>
-                    <td>03</td>
+                    <!-- <td>03</td> -->
                     <td class="text-center"><img src="./images/xs.png" alt=""></td>
                     <td>Nurul Imam Khan</td>
                     <td>Treasurer</td>
-                    <td>Private Service</td>
+                    <!-- <td>Private Service</td>
                     <td>Bangladeshi</td>
-                    <td>Since 2000</td>
+                    <td>Since 2000</td> -->
                   </tr>
                   <tr>
-                    <td>04</td>
+                    <!-- <td>04</td> -->
                     <td class="text-center"><img src="./images/xs.png" alt=""></td>
                     <td>Sheikh Abdul Halim Mia</td>
                     <td>Executive Member</td>
-                    <td>Freelance Development Activist</td>
+                    <!-- <td>Freelance Development Activist</td>
                     <td>Bangladeshi</td>
-                    <td>Since 1999</td>
+                    <td>Since 1999</td> -->
                   </tr>
                   <tr>
-                    <td>05</td>
+                    <!-- <td>05</td> -->
                     <td class="text-center"><img src="./images/xs.png" alt=""></td>
                     <td>Mrs. Delwara Begum</td>
                     <td>Executive Member</td>
-                    <td>Principal, Hazi Malek College, Khulna</td>
+                    <!-- <td>Principal, Hazi Malek College, Khulna</td>
                     <td>Bangladeshi</td>
-                    <td>Since 2010</td>
+                    <td>Since 2010</td> -->
                   </tr>
                   <tr>
-                    <td>06</td>
+                    <!-- <td>06</td> -->
                     <td class="text-center"><img src="./images/xs.png" alt=""></td>
                     <td>Dr. Dilip Kumar Datta</td>
                     <td>Executive Member</td>
-                    <td>Professor, Environment Science Discipline, Khulna University</td>
+                    <!-- <td>Professor, Environment Science Discipline, Khulna University</td>
                     <td>Bangladeshi</td>
-                    <td>Since 2007</td>
+                    <td>Since 2007</td> -->
                   </tr>
                   <tr>
-                    <td>07</td>
+                    <!-- <td>07</td> -->
                     <td class="text-center"><img src="./images/xs.png" alt=""></td>
                     <td>Mrs. Rejina Akhter</td>
                     <td>Executive Member</td>
-                    <td>Associate Professor, Ahsanullah College, Khulna</td>
+                    <!-- <td>Associate Professor, Ahsanullah College, Khulna</td>
                     <td>Bangladeshi</td>
-                    <td>Since 2007</td>
+                    <td>Since 2007</td> -->
                   </tr>
                 </tbody>
               </table>

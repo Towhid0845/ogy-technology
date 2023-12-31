@@ -4,7 +4,7 @@
 <footer id="footer">
   <div class="container">
     <div class="row">
-      <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+      <div class="col-xl-3 col-md-6 mb-4 mb-lg-0">
         <div class="widget">
           <img class="mb-4" src="images/logo.webp" alt="logo" width="220">
           <p class="mb-4">
@@ -12,14 +12,14 @@
           </p>
           <div class="nav social">
             <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.facebook.com/AOSED.BD"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/aosed_khulna/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/aosed/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="http://www.youtube.com/@aosed"><i class="fab fa-youtube"></i></a>
           </div>
         </div>
       </div>
-      <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+      <div class="col-xl-3 col-md-6 mb-4 mb-lg-0">
         <div class="widget amp">
           <h4 class="widget-title  mb-3">Get in Touch</h4>
           <address class="d-flex align-items-center">
@@ -36,7 +36,7 @@
           </a>
         </div>
       </div>
-      <div class="col-lg-3 col-md-6 mb-4 mb-lg-0 ps-lg-5">
+      <div class="col-xl-3 col-md-6 mb-4 mb-lg-0 ps-lg-5">
         <div class="widget">
           <h4 class="widget-title  mb-3">Learn More</h4>
           <ul class="list-unstyled">
@@ -47,7 +47,7 @@
           </ul>
         </div>
       </div>
-      <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+      <div class="col-xl-3 col-md-6 mb-4 mb-lg-0">
         <div class="widget">
           <h4 class="widget-title mb-3">Follow Us</h4>
           <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FAOSED.BD%3Fref%3Dembed_page&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>

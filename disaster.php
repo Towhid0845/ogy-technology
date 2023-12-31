@@ -9,7 +9,21 @@
   <!-- navbar part end -->
 
   <!-- breadcrumb part start -->
-  <?php include("./component/breadcrumb.php"); ?>
+  <section class="bread-crumb">
+    <div class="overlay">
+      <div class="container">
+        <div class="text text-center">
+          <h3>Disaster Management</h3>
+          <ul class="list-unstyled">
+            <li>
+              <a href="index.html"><i class="fas fa-home"></i> Home</a>
+            </li>
+            <li>Disaster Management</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
   <!-- breadcrumb part end -->
 
   <!-- content page start -->
@@ -21,18 +35,21 @@
             <div class="frame1">
               <img src="./images/shape3.png" alt="not found">
             </div>
-            <img src="./images/disaster.webp" alt="not found">
+            <img src="./images/disaster.jpg" alt="not found">
             <div class="frame2">
               <img src="./images/shape4.png" alt="not found">
             </div>
           </div>
         </div>
         <div class="col-lg-7">
+          <h3>Disaster Management</h3>
           <div class="text">
-            <h3>Disaster Management</h3>
-            <p>Promoting support to develop disaster resilient community in the climate vulnerable southwest region to reduce loss and damages through strengthening capacity of community, occupational groups, youth, students and specially focus on women groups, LGIs, CSOs on risk mapping, community based DRR planning and management, knowledge and skills to use safety gear, resources management.</p>
+            <p>In the lush deltas and sprawling urban centers of Bangladesh, the shadow of natural disasters looms large, casting a perpetual threat to life, livelihood, and progress. With a staggering 10% of its population affected by floods, cyclones, and other calamities annually, Bangladesh stands at the forefront of nations grappling with the grim realities of a changing climate. This predicament underscores an urgent call to action, prompting global organizations to recalibrate their strategies for program implementation in the region.</p>
 
-            <p>Besides, introduce early warning response mechanism and comprehensive safety management, and Formation trend Volunteer group ‘Humanitarian Endow Assist and Recovery Team-(HEART) to emergency response and provide material relief assistance and services (shelter, clothes, food, safe water, sanitation, medicines etc).</p>
+            <p>The motivation for addressing disaster management in Bangladesh transcends mere humanitarian concern. Economically, the recurrent devastation hampers the nation's growth trajectory, destabilizing key sectors like agriculture, infrastructure, and tourism. Socially, the cyclical nature of these disasters erodes community resilience, perpetuating a cycle of vulnerability and dependency. Against this backdrop, the imperative to institute robust disaster management mechanisms becomes not just an ethical obligation but a strategic imperative for sustainable development.</p>
+            <p>To this end, a multi-faceted approach is paramount. First, harnessing data-driven insights can pave the way for predictive modeling, enabling early warning systems and proactive interventions.</p>
+            <p>Concurrently, bolstering infrastructure resilience through innovative engineering solutions can mitigate the impact of natural calamities, ensuring continuity in essential services and minimizing human casualties. Equally crucial is fostering community engagement and capacity-building, empowering local stakeholders with the knowledge and resources to navigate and recover from disasters effectively.</p>
+            <p>As Bangladesh stands at a crossroads, the convergence of strategic foresight, technological innovation, and community resilience holds the promise of turning the tide against the relentless march of disasters. In this endeavor, the stakes are not just national but global, as the lessons learned and solutions forged in Bangladesh could illuminate the path for other vulnerable regions worldwide.</p>
           </div>
         </div>
       </div>

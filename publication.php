@@ -9,7 +9,21 @@
   <!-- navbar part end -->
 
   <!-- breadcrumb part start -->
-  <?php include("./component/breadcrumb.php"); ?>
+  <section class="bread-crumb">
+    <div class="overlay">
+      <div class="container">
+        <div class="text text-center">
+          <h3>Publications</h3>
+          <ul class="list-unstyled">
+            <li>
+              <a href="index.html"><i class="fas fa-home"></i> Home</a>
+            </li>
+            <li>Publications</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
   <!-- breadcrumb part end -->
 
   <!-- content page start -->
@@ -23,8 +37,6 @@
                 <button class="nav-link active py-3 mb-3 d-flex align-items-center" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true"><span>Category 01</span></button>
                 <button class="nav-link py-3 mb-3 d-flex align-items-center" id="v-pills-tab01-tab" data-bs-toggle="pill" data-bs-target="#v-pills-tab01" type="button" role="tab" aria-controls="v-pills-tab01" aria-selected="false"><span>Category 02</span></button>
                 <button class="nav-link py-3 mb-3 d-flex align-items-center" id="v-pills-tab02-tab" data-bs-toggle="pill" data-bs-target="#v-pills-tab02" type="button" role="tab" aria-controls="v-pills-tab02" aria-selected="false"><span>Category 03</span></button>
-                <button class="nav-link py-3 mb-3 d-flex align-items-center" id="v-pills-tab03-tab" data-bs-toggle="pill" data-bs-target="#v-pills-tab03" type="button" role="tab" aria-controls="v-pills-tab03" aria-selected="false"><span>Category 04</span></button>
-                <button class="nav-link py-3 mb-3 d-flex align-items-center" id="v-pills-tab04-tab" data-bs-toggle="pill" data-bs-target="#v-pills-tab04" type="button" role="tab" aria-controls="v-pills-tab04" aria-selected="false"><span>Category 05</span></button>
               </div>
             </div>
           </div>
@@ -34,7 +46,7 @@
             <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">
               <div class="list">
                 <div class="row">
-                  <div class="col-lg-3">
+                  <div class="col-sm-6 col-lg-4 col-xxl-3">
                     <div class="item">
                       <div class="image">
                         <img src="./images/sm3.jpg" alt="aosed">
@@ -46,7 +58,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-3">
+                  <div class="col-sm-6 col-lg-4 col-xxl-3">
                     <div class="item">
                       <div class="image">
                         <img src="./images/sm3.jpg" alt="aosed">
@@ -58,7 +70,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-3">
+                  <div class="col-sm-6 col-lg-4 col-xxl-3">
                     <div class="item">
                       <div class="image">
                         <img src="./images/sm3.jpg" alt="aosed">
@@ -70,7 +82,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-3">
+                  <div class="col-sm-6 col-lg-4 col-xxl-3">
                     <div class="item">
                       <div class="image">
                         <img src="./images/sm3.jpg" alt="aosed">
@@ -82,7 +94,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-3">
+                  <div class="col-sm-6 col-lg-4 col-xxl-3">
                     <div class="item">
                       <div class="image">
                         <img src="./images/sm3.jpg" alt="aosed">
@@ -94,7 +106,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-3">
+                  <div class="col-sm-6 col-lg-4 col-xxl-3">
                     <div class="item">
                       <div class="image">
                         <img src="./images/sm3.jpg" alt="aosed">
@@ -112,7 +124,7 @@
             <div class="tab-pane fade" id="v-pills-tab01" role="tabpanel" aria-labelledby="v-pills-tab01-tab" tabindex="0">
               <div class="list">
                 <div class="row">
-                  <div class="col-lg-3">
+                  <div class="col-sm-6 col-lg-4 col-xxl-3">
                     <div class="item">
                       <div class="image">
                         <img src="./images/sm2.jpg" alt="aosed">
@@ -124,7 +136,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-3">
+                  <div class="col-sm-6 col-lg-4 col-xxl-3">
                     <div class="item">
                       <div class="image">
                         <img src="./images/sm2.jpg" alt="aosed">
@@ -136,7 +148,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-3">
+                  <div class="col-sm-6 col-lg-4 col-xxl-3">
                     <div class="item">
                       <div class="image">
                         <img src="./images/sm2.jpg" alt="aosed">
@@ -148,7 +160,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-3">
+                  <div class="col-sm-6 col-lg-4 col-xxl-3">
                     <div class="item">
                       <div class="image">
                         <img src="./images/sm2.jpg" alt="aosed">
@@ -160,7 +172,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-3">
+                  <div class="col-sm-6 col-lg-4 col-xxl-3">
                     <div class="item">
                       <div class="image">
                         <img src="./images/sm2.jpg" alt="aosed">
@@ -172,7 +184,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-3">
+                  <div class="col-sm-6 col-lg-4 col-xxl-3">
                     <div class="item">
                       <div class="image">
                         <img src="./images/sm2.jpg" alt="aosed">
@@ -190,7 +202,7 @@
             <div class="tab-pane fade" id="v-pills-tab02" role="tabpanel" aria-labelledby="v-pills-tab02-tab" tabindex="0">
               <div class="list">
                 <div class="row">
-                  <div class="col-lg-3">
+                  <div class="col-sm-6 col-lg-4 col-xxl-3">
                     <div class="item">
                       <div class="image">
                         <img src="./images/sm1.jpg" alt="aosed">
@@ -202,7 +214,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-3">
+                  <div class="col-sm-6 col-lg-4 col-xxl-3">
                     <div class="item">
                       <div class="image">
                         <img src="./images/sm1.jpg" alt="aosed">
@@ -214,7 +226,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-3">
+                  <div class="col-sm-6 col-lg-4 col-xxl-3">
                     <div class="item">
                       <div class="image">
                         <img src="./images/sm1.jpg" alt="aosed">
@@ -226,7 +238,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-3">
+                  <div class="col-sm-6 col-lg-4 col-xxl-3">
                     <div class="item">
                       <div class="image">
                         <img src="./images/sm1.jpg" alt="aosed">
@@ -238,7 +250,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-3">
+                  <div class="col-sm-6 col-lg-4 col-xxl-3">
                     <div class="item">
                       <div class="image">
                         <img src="./images/sm1.jpg" alt="aosed">
@@ -250,7 +262,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-lg-3">
+                  <div class="col-sm-6 col-lg-4 col-xxl-3">
                     <div class="item">
                       <div class="image">
                         <img src="./images/sm1.jpg" alt="aosed">
@@ -265,162 +277,7 @@
                 </div>
               </div>
             </div>
-            <div class="tab-pane fade" id="v-pills-tab03" role="tabpanel" aria-labelledby="v-pills-tab03-tab" tabindex="0">
-              <div class="list">
-                <div class="row">
-                  <div class="col-lg-3">
-                    <div class="item">
-                      <div class="image">
-                        <img src="./images/sm4.jpg" alt="aosed">
-                      </div>
-                      <div class="text">
-                        <a href="#">
-                          <h4>AOSED Publication 2024</h4>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-3">
-                    <div class="item">
-                      <div class="image">
-                        <img src="./images/sm4.jpg" alt="aosed">
-                      </div>
-                      <div class="text">
-                        <a href="#">
-                          <h4>AOSED Publication 2024</h4>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-3">
-                    <div class="item">
-                      <div class="image">
-                        <img src="./images/sm4.jpg" alt="aosed">
-                      </div>
-                      <div class="text">
-                        <a href="#">
-                          <h4>AOSED Publication 2024</h4>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-3">
-                    <div class="item">
-                      <div class="image">
-                        <img src="./images/sm4.jpg" alt="aosed">
-                      </div>
-                      <div class="text">
-                        <a href="#">
-                          <h4>AOSED Publication 2024</h4>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-3">
-                    <div class="item">
-                      <div class="image">
-                        <img src="./images/sm4.jpg" alt="aosed">
-                      </div>
-                      <div class="text">
-                        <a href="#">
-                          <h4>AOSED Publication 2024</h4>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-3">
-                    <div class="item">
-                      <div class="image">
-                        <img src="./images/sm14jpg" alt="aosed">
-                      </div>
-                      <div class="text">
-                        <a href="#">
-                          <h4>AOSED Publication 2024</h4>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="tab-pane fade" id="v-pills-tab04" role="tabpanel" aria-labelledby="v-pills-tab04-tab" tabindex="0">
-              <div class="list">
-                <div class="row">
-                  <div class="col-lg-3">
-                    <div class="item">
-                      <div class="image">
-                        <img src="./images/sm5.jpg" alt="aosed">
-                      </div>
-                      <div class="text">
-                        <a href="#">
-                          <h4>AOSED Publication 2024</h4>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-3">
-                    <div class="item">
-                      <div class="image">
-                        <img src="./images/sm5.jpg" alt="aosed">
-                      </div>
-                      <div class="text">
-                        <a href="#">
-                          <h4>AOSED Publication 2024</h4>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-3">
-                    <div class="item">
-                      <div class="image">
-                        <img src="./images/sm5.jpg" alt="aosed">
-                      </div>
-                      <div class="text">
-                        <a href="#">
-                          <h4>AOSED Publication 2024</h4>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-3">
-                    <div class="item">
-                      <div class="image">
-                        <img src="./images/sm5.jpg" alt="aosed">
-                      </div>
-                      <div class="text">
-                        <a href="#">
-                          <h4>AOSED Publication 2024</h4>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-3">
-                    <div class="item">
-                      <div class="image">
-                        <img src="./images/sm5.jpg" alt="aosed">
-                      </div>
-                      <div class="text">
-                        <a href="#">
-                          <h4>AOSED Publication 2024</h4>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-3">
-                    <div class="item">
-                      <div class="image">
-                        <img src="./images/sm5.jpg" alt="aosed">
-                      </div>
-                      <div class="text">
-                        <a href="#">
-                          <h4>AOSED Publication 2024</h4>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+
           </div>
         </div>
       </div>

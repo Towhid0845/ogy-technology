@@ -54,9 +54,12 @@
 .blog_card_heading h3 a {
   color: $black;
 }
+.blog_card_tags a {
+  color: $purple;
+}
 
 .blog_card_heading h3 a:hover {
-  color: $logo3;
+  color: $purple;
 }
 
 .blog_card_heading p {

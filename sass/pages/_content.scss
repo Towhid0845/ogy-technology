@@ -8,7 +8,7 @@ margin-bottom: 60px;
 .content-main {
 background-color: $bg;
   padding: 40px;
-margin-bottom: 70px;
+margin-bottom: 30px;
 
   .image {
       float: left;
@@ -32,18 +32,19 @@ margin-bottom: 70px;
       color: $black;
     }
   
-    h5 {
-      text-decoration: underline;
-    }
+// h5 {
+//   text-decoration: underline;
+// }
   
     ul,
     ol {
       padding-top: 12px
     }
   
-    ul,
+ ul>li::marker,
     ol>li::marker {
       font-weight: bold;
+      font-size: 24px;
     }
   
     table {
@@ -78,26 +79,26 @@ text-align: justify;
 .background {
   p {
     padding-left: 10px;
-    border-left: 5px solid $theme;
+    border-left: 5px solid $purple;
   }
 }
 
 ul {
 li {
-    list-style: none;
+    // list-style: none;
 margin-left: 30px;
   font-weight: bold;
 
-&::before {
-font-family: "Font Awesome 5 Free";
-  content: "\f058";
-color: $theme;
-  display: inline-block;
-  padding-right: 15px;
-  vertical-align: middle;
-  font-weight: 900;
-  font-size: 20px;
-}
+// &::before {
+  // font-family: "Font Awesome 5 Free";
+  //   content: "\f058";
+  // color: $theme;
+  //   display: inline-block;
+  //   padding-right: 15px;
+  //   vertical-align: middle;
+  //   font-weight: 900;
+  //   font-size: 20px;
+  // }
 }
 }
 
@@ -109,6 +110,9 @@ ol {
 table {
 // margin-left: 30px;
 
+thead {
+    background-color: $black;
+  }
 tr {
     th {
       min-width: 150px;
@@ -116,7 +120,8 @@ text-align: start;
 }
 
 td {
-  padding: 5px 10px;
+  padding: 15px 10px;
+    vertical-align: middle;
 }
 }
 }

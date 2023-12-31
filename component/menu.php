@@ -13,16 +13,16 @@
       <div class="col-lg-6 col-4">
         <ul class="topbar-list-right">
           <li>
-            <a href="#!"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.facebook.com/AOSED.BD"><i class="fab fa-facebook"></i></a>
           </li>
           <li>
-            <a href="#!"><i class="fab fa-twitter-square"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
           </li>
           <li>
-            <a href="#!"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.instagram.com/aosed_khulna/"><i class="fab fa-instagram"></i></a>
           </li>
           <li>
-            <a href="#!"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.linkedin.com/company/aosed/"><i class="fab fa-linkedin"></i></a>
           </li>
         </ul>
       </div>
@@ -66,26 +66,26 @@
             <a class="nav-link" href="#">Gallery <i class="fas fa-angle-down"></i>
             </a>
             <ul class="list-unstyled sub-dropdown-menu">
-              <li><a href="photo-list.php">Photos</a></li>
-              <li><a href="video-list.php">Videos</a></li>
+              <li><a href="coming-soon.php">Photos</a></li>
+              <li><a href="coming-soon.php">Videos</a></li>
             </ul>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Publication <i class="fas fa-angle-down"></i>
             </a>
             <ul class="list-unstyled sub-dropdown-menu">
-              <li><a href="newsletter.php">Newsletter</a></li>
+              <li><a href="coming-soon.php">Newsletter</a></li>
               <li><a href="publication.php">publications</a></li>
-              <li><a href="report.php">reports</a></li>
+              <li><a href="coming-soon.php">reports</a></li>
             </ul>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Project & program <i class="fas fa-angle-down"></i>
             </a>
             <ul class="list-unstyled sub-dropdown-menu">
-              <li><a href="ongoing-project-list.php">Ongoing Projects</a></li>
-              <li><a href="past-project-list.php">Recent Past Projects</a></li>
-              <li><a href="story-list.php">Success Stories</a></li>
+              <li><a href="coming-soon.php">Ongoing Projects</a></li>
+              <li><a href="coming-soon.php">Past Projects</a></li>
+              <li><a href="story-list.php">Stories</a></li>
             </ul>
           </li>
           <li class="nav-item">
@@ -112,7 +112,7 @@
             </div>
           </div>
           <div class="donate-div">
-            <a href="make-donation.html" class="btn btn_navber">Donate now</a>
+            <a href="contact-us.php" class="btn btn_navber">Donate now</a>
           </div>
         </div>
       </div>

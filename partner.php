@@ -9,7 +9,21 @@
   <!-- navbar part end -->
 
   <!-- breadcrumb part start -->
-  <?php include("./component/breadcrumb.php"); ?>
+  <section class="bread-crumb">
+    <div class="overlay">
+      <div class="container">
+        <div class="text text-center">
+          <h3>Partners</h3>
+          <ul class="list-unstyled">
+            <li>
+              <a href="index.html"><i class="fas fa-home"></i> Home</a>
+            </li>
+            <li>Partners</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
   <!-- breadcrumb part end -->
 
   <!-- content page start -->
@@ -19,8 +33,8 @@
         <div class="row">
           <div class="col-lg-6 offset-lg-3 col-md-12 col-sm-12 col-12">
             <div class="section_heading">
-              <h3>our</h3>
-              <h2>partners</h2>
+              <h2>our</h2>
+              <h3>partners</h3>
             </div>
           </div>
         </div>
@@ -28,7 +42,12 @@
           <div class="col-lg-12">
             <div class="content-table table-responsive">
               <table class="table table-bordered">
-                <thead class="bg-dark text-white ">
+                <thead class="text-white ">
+                  <div class="d-flex justify-content-end">
+                    <a href="table-partner.php" class="print-btn">
+                      <i class="fa-solid fa-print"></i>
+                    </a>
+                  </div>
                   <tr>
                     <th class="text-center"><span>logo</span></th>
                     <th class="text-center"><span>Name</span></th>
@@ -36,11 +55,6 @@
                   </tr>
                 </thead>
                 <tbody>
-                  <tr>
-                    <td><img src="./images/jaica.png" alt="not found"></td>
-                    <td>Japan International Cooperation Agency – JICA</td>
-                    <td><a href="https://www.jica.go.jp/">https://www.jica.go.jp/</a></td>
-                  </tr>
                   <tr>
                     <td><img src="./images/give2asia.webp" alt="not found"></td>
                     <td>Give2Asia- USA</td>

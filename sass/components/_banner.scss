@@ -12,14 +12,15 @@
     background-size: cover;
     padding: 550px 0 100px;
       .banner_five_text {
-          width: 70%;
+          width: 80%;
+            height: 80px;
           display: flex;
           align-items: start;
           flex-direction: column;
           justify-content: center;
           padding-left: 20px;
             margin-left: 80px;
-            border-left: 5px solid $theme;
+            border-left: 12px solid $theme;
       
           h6 {
             color: $white;
@@ -204,7 +205,7 @@ padding-bottom: 30px;
   bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
-  display: none !important;
+  display: block !important;
 
 li {
     list-style: none;

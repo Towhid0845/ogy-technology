@@ -32,9 +32,9 @@ $(function () {
     fade: false,
     autoplay: false,
     slidesToScroll: 1,
-    // arrows: false,
-    prevArrow: '<i class="fas left icon fa-chevron-left"></i>',
-    nextArrow: '<i class="fas right icon fa-chevron-right"></i>',
+    arrows: false,
+    // prevArrow: '<i class="fas left icon fa-chevron-left"></i>',
+    // nextArrow: '<i class="fas right icon fa-chevron-right"></i>',
   }).slickAnimation();
 
   $(".wwd").slick({

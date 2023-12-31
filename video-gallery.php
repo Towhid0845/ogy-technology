@@ -21,7 +21,7 @@
   <section class="video-gallery-view">
     <div class="container">
       <div class="row">
-        <div class="col-lg-3 col-sm-6">
+        <div class="col-xl-3 col-lg-4 col-sm-6">
           <a class="vidplay" href="https://www.youtube.com/watch?v=PkkV1vLHUvQ">
             <div class="gallery-item">
               <div class="image">
@@ -35,7 +35,7 @@
             </div>
           </a>
         </div>
-        <div class="col-lg-3 col-sm-6">
+        <div class="col-xl-3 col-lg-4 col-sm-6">
           <a class="vidplay" href="https://www.youtube.com/watch?v=PkkV1vLHUvQ">
             <div class="gallery-item">
               <div class="image">
@@ -49,7 +49,7 @@
             </div>
           </a>
         </div>
-        <div class="col-lg-3 col-sm-6">
+        <div class="col-xl-3 col-lg-4 col-sm-6">
           <a class="vidplay" href="https://www.youtube.com/watch?v=PkkV1vLHUvQ">
             <div class="gallery-item">
               <div class="image">
@@ -63,7 +63,7 @@
             </div>
           </a>
         </div>
-        <div class="col-lg-3 col-sm-6">
+        <div class="col-xl-3 col-lg-4 col-sm-6">
           <a class="vidplay" href="https://www.youtube.com/watch?v=PkkV1vLHUvQ">
             <div class="gallery-item">
               <div class="image">
@@ -77,7 +77,7 @@
             </div>
           </a>
         </div>
-        <div class="col-lg-3 col-sm-6">
+        <div class="col-xl-3 col-lg-4 col-sm-6">
           <a class="vidplay" href="https://www.youtube.com/watch?v=PkkV1vLHUvQ">
             <div class="gallery-item">
               <div class="image">
@@ -91,7 +91,7 @@
             </div>
           </a>
         </div>
-        <div class="col-lg-3 col-sm-6">
+        <div class="col-xl-3 col-lg-4 col-sm-6">
           <a class="vidplay" href="https://www.youtube.com/watch?v=PkkV1vLHUvQ">
             <div class="gallery-item">
               <div class="image">
@@ -105,7 +105,7 @@
             </div>
           </a>
         </div>
-        <div class="col-lg-3 col-sm-6">
+        <div class="col-xl-3 col-lg-4 col-sm-6">
           <a class="vidplay" href="https://www.youtube.com/watch?v=PkkV1vLHUvQ">
             <div class="gallery-item">
               <div class="image">
@@ -119,7 +119,7 @@
             </div>
           </a>
         </div>
-        <div class="col-lg-3 col-sm-6">
+        <div class="col-xl-3 col-lg-4 col-sm-6">
           <a class="vidplay" href="https://www.youtube.com/watch?v=PkkV1vLHUvQ">
             <div class="gallery-item">
               <div class="image">
